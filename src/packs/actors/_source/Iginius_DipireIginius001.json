@@ -1,0 +1,218 @@
+{
+  "_id": "DipireIginius001",
+  "name": "Iginius",
+  "type": "npc",
+  "img": "modules/historia-dipire/img/iginius.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 4,
+        "max": 4,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "1d8"
+      },
+      "movement": {
+        "walk": 9,
+        "units": "m",
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "\n<p><strong>Sovrintendente di Brunascio.</strong> Istrice di mezza età dal pelo brizzolato, vesti di buona qualità e una collana di metallo brunito dal tempo. Pragmatico ma visibilmente fuori dalla sua portata: opportunista e terrorizzato dalla situazione, cerca di mantenere un contegno autoritario che la sua scorta sgangherata tradisce.</p>\n<p><strong>Suggerimento di ruolo:</strong> parlate in modo frettoloso e guardatevi spesso alle spalle. Siate puntigliosi sulle piccole cose, come la pronuncia del nome (<em>\"Ighinius, con la 'g' dura. Qui si dice così\"</em>), per mascherare il terrore per quelle grandi.</p>\n<p>Specie: @UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngIginius0000]{Iginius}.</p>\n<p><em>Nota per il GM:</em> il testo originale non dà a Iginius alcun blocco statistiche. Questo attore esiste solo per avere un token in scena: caratteristiche 10, CA 10, 4 PF sono <strong>valori neutri segnaposto</strong>, non dati dell'avventura.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "istrice",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 0,
+      "spellLevel": 0,
+      "source": {
+        "custom": "",
+        "book": "DiPire",
+        "page": "",
+        "license": "",
+        "rules": "2014"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0
+      },
+      "ani": {
+        "value": 0
+      },
+      "arc": {
+        "value": 0
+      },
+      "ath": {
+        "value": 0
+      },
+      "dec": {
+        "value": 0
+      },
+      "his": {
+        "value": 0
+      },
+      "ins": {
+        "value": 0
+      },
+      "itm": {
+        "value": 0
+      },
+      "inv": {
+        "value": 0
+      },
+      "med": {
+        "value": 0
+      },
+      "nat": {
+        "value": 0
+      },
+      "prc": {
+        "value": 0
+      },
+      "prf": {
+        "value": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "rel": {
+        "value": 0
+      },
+      "slt": {
+        "value": 0
+      },
+      "ste": {
+        "value": 0
+      },
+      "sur": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Iginius",
+    "displayName": 30,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/historia-dipire/img/tokens/iginius.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic"
+    },
+    "flags": {},
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": "DipireFoldActor1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

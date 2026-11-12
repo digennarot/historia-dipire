@@ -1,0 +1,225 @@
+{
+  "_id": "DipireAtti000001",
+  "name": "Atti",
+  "folder": "DipireFoldJourn1",
+  "sort": 200000,
+  "pages": [
+    {
+      "_id": "DpAttoI000000000",
+      "name": "Atto I - L'Arrivo a Brunascio",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScPiazza01]{Piazza di Brunascio}. Luoghi: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoPiazza000]{La piazza e la pira}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCasaIgi00]{Casa di Iginius}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoOsteria00]{Osteria}.</p>\n<blockquote><p>Arrivate a Brunascio e subito le vostre narici sono pervase da un pungente odore di fumo. Poco distante, nella piazza centrale del piccolo villaggio, si palesa un mesto spettacolo. Sui resti di una pira, ormai del tutto spenta, si innalza un palo su cui pochi giorni prima è stata arsa <strong>Cerere</strong>. Da sopra il palo, un teschio di gallina bruciacchiato vi guarda con orbite vuote.</p></blockquote>\n<p>La gente evita la piazza e cammina rasente i muri, abbassando lo sguardo. Gli abitanti sono schivi e spaventati, e cambiano strada se incrociano i personaggi, specialmente se questi sfoggiano simboli della @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbChiesaOssa0]{Chiesa delle Ossa}.</p>\n<p>L'unica persona ad avvicinarsi è @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius}, il sovrintendente: un istrice di mezza età con il pelo brizzolato, vesti di buona qualità e una collana di metallo brunito dal tempo, scortato da un mal assortito e mal armato gruppo di abitanti.</p>\n<blockquote><p><em>\"Stranieri, non so se sia la fortuna che vi ha portati a Brunascio, ma abbiamo urgente bisogno di voi. Seguitemi.\"</em></p></blockquote>\n<p>Iginius è spaventato: evita ogni domanda in strada e conduce i PG a casa sua.</p>\n<h2>L'Incontro con Iginius</h2>\n<p>La @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCasaIgi00]{casa del sovrintendente} è chiusa e buia, illuminata solo dal fuoco del camino e dalle candele. Iginius precisa subito: <em>\"Il mio nome si pronuncia Ighinius, con la 'g' dura. Qui si dice così\"</em>. Rivela le seguenti informazioni chiave:</p>\n<ul>\n<li><strong>L'arrivo di Arianna:</strong> la Cercatora ha preso il comando in nome dell'autorità di @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbNochemburg0]{Nochemburgo}. Ha fatto bruciare Cerere, una vecchia e strana gallina erborista legata ad antiche superstizioni (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngCerere00000]{Cerere}).</li>\n<li><strong>La minaccia di Enrico:</strong> molti \"eretici\" si stanno radunando al castello di @UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}. Si teme un attacco punitivo contro il villaggio.</li>\n<li><strong>L'offerta:</strong> Iginius chiede ai PG di risolvere il problema, convincendo o uccidendo Enrico, pur di evitare spargimenti di sangue nel villaggio. Offre tutto ciò che il villaggio ha risparmiato: una somma considerevole, equivalente a <strong>1 Conio per ogni personaggio</strong> (@UUID[Compendium.historia-it.rules-it.JournalEntry.RicchezzaRegola1]{Ricchezza & Influenza}).</li>\n</ul>\n<h2>La Voce degli Abitanti</h2>\n<p>Esplorando Brunascio (per esempio all'@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoOsteria00]{osteria}), i personaggi notano una spaccatura tra la popolazione:</p>\n<ul>\n<li><strong>Sostenitori di Arianna:</strong> minoranza fedele alla Chiesa delle Ossa. Ritengono che le eresie di Cerere non potessero più essere tollerate.</li>\n<li><strong>Sostenitori di Enrico:</strong> sconvolti dal clima di terrore portato dalla \"Cercatora\". Ritengono che Arianna abbia oltrepassato il limite uccidendo Cerere per dei semplici segreti tradizionali.</li>\n<li><strong>I Preoccupati (maggioranza):</strong> non prendono posizione, ma temono di finire in mezzo al fuoco incrociato tra la vendetta di Enrico e l'Inquisizione di Arianna.</li>\n</ul>\n<p class=\"dipire-gm\"><em>GM:</em> Nessuna prova è fissata per raccogliere queste voci: la spaccatura emerge dalle conversazioni.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpAttoII00000000",
+      "name": "Atto II - Arianna la Cercatora",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScChiesa01]{Chiesetta di Brunascio}. Luogo: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoChiesa000]{Chiesetta e sagrestia}.</p>\n<p>Se i PG non la cercano, è @UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora} a mandarli a chiamare tramite la sua milizia, capitanata dalla levriera @UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}. I soldati (@UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Miliziano della Croce d'Ossa}) sono canidi ben equipaggiati, con armature recanti la Croce d'Ossa. I modi di Yrmengard sono decisi ma non violenti.</p>\n<h2>Se i personaggi resistono</h2>\n<p>Prova di gruppo con <strong>CD 15</strong>. Le prove dipendono dalla descrizione delle azioni dei PG (il GM sceglie caratteristica e abilità): è un'ottima occasione per assegnare @UUID[Compendium.historia-it.rules-it.JournalEntry.IspirazioneReg01]{Ispirazione}.</p>\n<p>A prescindere dal risultato, i PG <strong>perdono 2 PF</strong> e vengono portati da Arianna. In caso di successo ottengono <strong>vantaggio</strong> alle future prove di Persuasione/Intimidire verso l'Inquisizione, per aver dimostrato il loro valore.</p>\n<h2>L'Udienza</h2>\n<p>Arianna si è insediata nella chiesetta umida e spoglia di Brunascio. Accoglie i PG nella sagrestia. È cortese ma minacciosa, e sa già del loro colloquio con Iginius.</p>\n<ul>\n<li>Crede che Brunascio sia stata finalmente \"ripulita\" dall'eresia.</li>\n<li>Ritiene Enrico De Fredier l'incarnazione di un male antico che rifiuta la Chiesa delle Ossa; il cerchio va chiuso.</li>\n<li>Offre la <strong>gratitudine del Tempio</strong> se i PG uccideranno Enrico.</li>\n</ul>\n<p class=\"dipire-gm\"><em>GM:</em> La gratitudine del Tempio non è quantificata nel testo. Per il ruolo di Arianna vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngArianna0000]{la sua scheda}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpAttoSequenza00",
+      "name": "Sequenza - L'infiltrazione al Castello De Fredier",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Se i PG decidono di intrufolarsi furtivamente nel castello, gestite l'azione come una <strong>Sequenza</strong> di Historia (@UUID[Compendium.historia-it.rules-it.JournalEntry.AvventureRegol01]{Avventure e Sequenze}). La regola base prevede che ogni giocatore, a turno, descriva un'azione, spenda 1 PF e superi una prova con CD 12; questa infiltrazione è più dura:</p>\n<table>\n<thead><tr><th>Parametro</th><th>Infiltrazione</th><th>Regola base</th></tr></thead>\n<tbody>\n<tr><td>Durata standard (CD)</td><td><strong>CD 14</strong></td><td>CD 12 (minimo consentito: 12)</td></tr>\n<tr><td>PF spesi per azione</td><td><strong>3</strong></td><td>1 (minimo consentito: 1)</td></tr>\n</tbody>\n</table>\n<p class=\"dipire-gm\"><em>GM:</em> Il testo scrive \"CD 14 (min 12) | PF per azione: 3 (min 1)\": i minimi tra parentesi sono i valori della regola base, cioè quanto il GM può abbassare la difficoltà.</p>\n<ul>\n<li><strong>Successo:</strong> il gruppo entra senza farsi notare.</li>\n<li><strong>Fallimento:</strong> messi spalle al muro. Se si arrendono, sono portati da Enrico. Se combattono, subiscono [[/damage 1d6]] danni iniziali a testa prima che Enrico intervenga gridando: <em>\"Fermate questa follia, scimuniti!\"</em> (ma perderà fiducia in loro).</li>\n</ul>\n<p><strong>Complicazioni possibili</strong> (a scelta del GM): pattuglie improvvise, porte bloccate o cigolanti, muri da scalare, inservienti in pausa fumo sulla traiettoria.</p>\n<p>Le guardie incontrate sono @UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpAttoIII0000000",
+      "name": "Atto III - L'Arrivo al Mastio",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScMastio01]{Mastio De Fredier - Cancelli e cortile}. Luoghi: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoMastio000]{Il mastio}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCancell00]{I cancelli}.</p>\n<blockquote><p>Dopo mezza giornata di cammino, al tramonto, giungete al mastio di Enrico. È un maniero antico, parzialmente crollato, divorato dall'edera e illuminato da fuochi flebili.</p></blockquote>\n<p>Se non si infiltrano segretamente (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoSequenza00]{Sequenza}), i PG devono parlamentare ai cancelli.</p>\n<ul>\n<li><strong>Le guardie</strong> (@UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier}) sembrano più boscaioli che soldati.</li>\n<li><strong>Convincerle:</strong> prova di gruppo [[/check skill=per/itm dc=18]] (Persuasione o Intimidire, CD 18). <strong>Svantaggio</strong> se i PG sono aggressivi: se falliscono, si scatena una rissa. Se falliscono diplomaticamente, vengono scacciati.</li>\n</ul>\n<p class=\"dipire-gm\"><em>GM:</em> Dopo essere stati scacciati, il testo non indica un'alternativa: i PG possono ritentare con l'infiltrazione o tornare a Brunascio.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpAttoIV00000000",
+      "name": "Atto IV - Il Branco e la Cerimonia",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scene: @UUID[Scene.DipireScMastio01]{Cortile del mastio}, @UUID[Scene.DipireScSala0001]{Sala del Lupo}. Luoghi: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCortile00]{Il cortile}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoSalaLup00]{La Sala del Lupo}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoStanze000]{Le stanze private}.</p>\n<h2>Il Cortile e gli Indizi</h2>\n<p>Il cortile pullula di tende e bracieri circondati da lance rituali con preghiere scritte su lembi di stoffa. I PG possono fare <strong>una prova di competenza a testa</strong> (abilità e CD a scelta del GM) per dedurre informazioni sull'accampamento:</p>\n<ul>\n<li>Le armi sono vecchie, inadatte alla guerra (solo uso rituale).</li>\n<li>Non c'è disciplina militare.</li>\n<li>La natura del gruppo è religiosa, non ortodossa alla Chiesa delle Ossa.</li>\n<li>Ci sono molti anziani e pochi giovani.</li>\n<li>Sguardi torvi colpiscono chi indossa i simboli della Chiesa delle Ossa.</li>\n</ul>\n<h2>La Sala del Lupo</h2>\n<p>Nel mastio scuro, adornato da teschi e pelli di lupo, macabri ornamenti ossei sulle pareti fungono da mappe stellari e albero genealogico della casata De Fredier: prova di [[/check skill=his]] (Storia) per intuirlo, con <strong>vantaggio</strong> se hanno già indagato in cortile.</p>\n<p>@UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier} accoglie i PG dal suo trono di quercia:</p>\n<blockquote><p><em>\"Mio padre e mia madre mi sussurrarono in sonno che qualcuno avrebbe battuto sulle nostre porte. Che fosse stato col pugno o l'ariete v'aspettavo. E dunque, chi siete voi?\"</em></p></blockquote>\n<p>Enrico propone varie soluzioni (a discrezione del GM):</p>\n<ol>\n<li>Uccidere Arianna e far sembrare un incidente.</li>\n<li>Mentire ad Arianna, convincendola che Enrico è morto, spingendola a lasciare la valle.</li>\n<li>Convincere Arianna a lasciare in pace i De Fredier con la diplomazia.</li>\n</ol>\n<h2>La Cerimonia</h2>\n<p>Enrico invita i PG alla veglia per Cerere (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbVeglia00000]{Cerere e la veglia}).</p>\n<blockquote><p>A mezzanotte, il cortile si riempie. Canti armonici e incomprensibili risuonano nell'aria. Enrico, con indosso un'armatura e una corona di rami, guida il rito funebre per il fantoccio di Cerere. Una cerbiatta dà fuoco alla pira, seguita dall'ululato straziante di Enrico e dal grido di addio di tutto il branco.</p></blockquote>\n<p class=\"dipire-gm\"><em>GM:</em> Questo momento (o subito dopo) è il migliore per assassinare Enrico nelle sue @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoStanze000]{stanze private}: è l'unico in cui sarà vulnerabile o poco protetto. Se ucciso, i PG possono scappare saltando dalla finestra su un albero: prova di [[/check skill=acr/ath]] (Acrobazia o Atletica), CD non indicata.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpAttoV000000000",
+      "name": "Atto V - La Morte o la Fuga",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scene: @UUID[Scene.DipireScChiesa01]{Chiesetta di Brunascio}, @UUID[Scene.DipireScPiazza01]{Piazza di Brunascio}. Tabella completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaBivi00000]{Bivi e finali}.</p>\n<p>Al ritorno a Brunascio, le guardie di Arianna (@UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Miliziano della Croce d'Ossa}) portano i PG nella chiesa.</p>\n<h2>Se Enrico è morto</h2>\n<p>I PG vengono ricompensati da @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius} e ottengono <strong>+2 Reputazione con la Chiesa delle Ossa</strong> (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaConseg000]{Conseguenze e ricompense}).</p>\n<h2>Se Enrico è vivo, o i PG hanno mentito e vengono scoperti</h2>\n<p>@UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora} ordina il loro arresto. In caso di scontro palese, i PG saranno soverchiati. Vengono messi in catene per essere arsi vivi all'alba.</p>\n<h3>Il Salvataggio</h3>\n<p>Mentre le fiamme stanno per essere accese, <strong>Enrico e il suo branco assaltano la piazza</strong>. I lupi (@UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier}) ingaggiano la milizia (@UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}, @UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Miliziano della Croce d'Ossa}), mentre @UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier} libera i PG. Si apre lo scontro finale contro Arianna, che Enrico vuole morta per non far arrivare notizie a Nochemburgo.</p>\n<p><strong>La fuga di Arianna:</strong> l'Inquisitrice ha un'abilità apposita (<em>Ci rivedremo</em>) per scappare ed essere usata in trame future, ma il GM può decidere di farla combattere fino alla morte.</p>\n<p>A fine scontro, Iginius implora pietà. I PG ottengono la ricompensa monetaria ma perdono <strong>−2 Reputazione con la Chiesa delle Ossa</strong>. Da oggi, la Casata De Fredier è loro alleata (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbDeFredier00]{Casata De Fredier}).</p>\n<p class=\"dipire-gm\"><em>GM:</em> Nella scena della piazza i token della milizia, di Enrico e del branco sono già piazzati ma nascosti: rivelateli al momento del salvataggio.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

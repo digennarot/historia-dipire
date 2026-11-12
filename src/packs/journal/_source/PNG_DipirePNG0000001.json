@@ -1,0 +1,400 @@
+{
+  "_id": "DipirePNG0000001",
+  "name": "PNG",
+  "folder": "DipireFoldJourn1",
+  "sort": 400000,
+  "pages": [
+    {
+      "_id": "DpPngIginius0000",
+      "name": "Iginius",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius}. Specie: @UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}.</p>\n<p><strong>Sovrintendente di Brunascio.</strong> Un istrice di mezza età dall'aria pragmatica ma visibilmente fuori dalla sua portata. È opportunista e terrorizzato dalla situazione. Cerca di mantenere un contegno autoritario, ma la sua scorta sgangherata lo tradisce. Pelo brizzolato, vesti di buona qualità, una collana di metallo brunito dal tempo.</p>\n<p><strong>Suggerimento di ruolo:</strong> parlate in modo frettoloso e guardatevi spesso alle spalle. Siate puntigliosi sulle piccole cose (come la pronuncia del suo nome: <em>\"Ighinius, con la 'g' dura. Qui si dice così\"</em>) per mascherare il terrore che prova per quelle grandi.</p>\n<p><strong>Ruolo nella trama:</strong> assolda i PG (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoI000000000]{Atto I}), li ricompensa se Enrico muore, implora pietà alla fine dello scontro nel finale del salvataggio (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}).</p>\n<p class=\"dipire-gm\"><em>GM:</em> Nessun blocco statistiche nel testo: l'attore ha valori neutri segnaposto.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngIginiusImg0",
+      "name": "Ritratto: Iginius",
+      "type": "image",
+      "sort": 150000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "image": {
+        "caption": "Iginius, sovrintendente di Brunascio."
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/historia-dipire/img/iginius.webp",
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngArianna0000",
+      "name": "Arianna \"La Cercatora\"",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora}. Specie: felide @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}. Fazione: @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}.</p>\n<p><strong>Inquisitrice.</strong> Fredda, scarna, calcolatrice e autoritaria. Non alza mai la voce, perché non ne ha bisogno: la sua autorità incute già terrore.</p>\n<p><strong>Suggerimento di ruolo:</strong> non rispondete mai alle domande dirette sul suo passato. Studiate i personaggi con sguardo giudicante. Se i PG insistono con le domande, fate lampeggiare i suoi occhi di rabbia repressa e tagliate corto: le domande le fa lei, non loro. Nascondete i suoi veri motivi personali dietro un incrollabile zelo religioso contro le eresie.</p>\n<p><strong>Ruolo nella trama:</strong> ha fatto bruciare Cerere; convoca e ingaggia i PG (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoII00000000]{Atto II}); giudica i PG al ritorno (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}). Vuole Enrico morto. Può fuggire con <em>Ci rivedremo</em>.</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Felide puma - Sfida 1 (200 PE)</em><br>CA 16 (armatura magica) | PF 27 (5d6+5) | Velocità 9 m<br>FOR 12 (+1) DES 16 (+3) COS 12 (+1) INT 16 (+3) SAG 8 (−1) CAR 10 (+0)<br>Abilità: Arcano +5, Acrobazia +5, Furtività +5, Indagare +5, Intimidire +2, Religione +5, Storia +5<br>Sensi: Percezione passiva 15 (calcolata: 9), Scurovisione 18 m</p>\n<ul>\n<li><strong>Tutti per uno:</strong> finché ha alleati che combattono per lei, ha resistenza ai danni.</li>\n<li><strong>Raggio di gelo</strong> (incantesimo): +5 a colpire, a distanza, 9 (2d8) da freddo.</li>\n<li><strong>Artigli migliorati</strong> (mischia): +5 a colpire, 5 (1d4+3) taglienti.</li>\n<li><strong>Arma spirituale</strong> (azione bonus, incantesimo): +5 a colpire, a distanza, 7 (1d8+3) radiosi.</li>\n<li><strong>Combatti per me</strong> (reazione): se colpita, reindirizza l'attacco su un alleato entro 3 m.</li>\n<li><strong>Ci rivedremo</strong> (reazione): se scende a 0 PF, reindirizza l'attacco a un alleato e svanisce alla vista, fuggendo.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngAriannaImg0",
+      "name": "Ritratto: Arianna",
+      "type": "image",
+      "sort": 250000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "image": {
+        "caption": "Arianna la Cercatora, inquisitrice della Chiesa delle Ossa."
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/historia-dipire/img/arianna.webp",
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngEnrico00000",
+      "name": "Enrico De Fredier",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}. Specie: licaio @UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}. Casata: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbDeFredier00]{De Fredier}.</p>\n<p><strong>Erede decaduto.</strong> Fiero, brusco, ma avvolto da una costante e rassegnata tristezza. È un leader antico, legato a tradizioni dimenticate.</p>\n<p><strong>Suggerimento di ruolo:</strong> mantenete un tono di voce asciutto e perentorio, accompagnato da un leggero ringhio gutturale, ma senza mai sfociare in un'aggressività cieca. Sorridete a mezza bocca mostrando le zanne ingiallite. Enrico è intelligente: valuterà le capacità dei PG per capire come sfruttarli a vantaggio del suo branco senza scatenare l'ira di Nochemburgo.</p>\n<p><strong>Ruolo nella trama:</strong> riceve i PG nella Sala del Lupo e propone le sue soluzioni (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIV00000000]{Atto IV}); guida la veglia per Cerere; nel finale del salvataggio assalta la piazza e libera i PG (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}).</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Licai lupo - Sfida 1 (200 PE)</em><br>CA 16 (maglia di ferro, scudo) | PF 32 (5d8+10) | Velocità 9 m<br>FOR 16 (+3) DES 12 (+1) COS 14 (+2) INT 12 (+1) SAG 8 (−1) CAR 12 (+1)<br>Abilità: Indagare +3, Intimidire +3, Religione +3, Sopravvivenza +1, Storia +3<br>Sensi: Percezione passiva 15 (calcolata: 9), Scurovisione 18 m</p>\n<ul>\n<li><strong>Uno per tutti:</strong> finché ha alleati vicini ha resistenza ai danni. Può scegliere di perdere PF al posto loro se colpiti (applicando la resistenza).</li>\n<li><strong>Alabarda:</strong> +5 a colpire, 6 (1d10+1) taglienti.</li>\n<li><strong>Morso:</strong> +5 a colpire, 5 (1d4+3) perforanti.</li>\n<li><strong>Balestra pesante:</strong> +2 a colpire, 5 (1d10) perforanti.</li>\n<li><strong>Spirito di branco</strong> (reazione): impone svantaggio a un attacco contro un alleato entro 3 m.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngEnricoImg00",
+      "name": "Ritratto: Enrico De Fredier",
+      "type": "image",
+      "sort": 350000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "image": {
+        "caption": "Enrico De Fredier."
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/historia-dipire/img/enrico.webp",
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngYrmengard00",
+      "name": "Yrmengard da Nochemburgo",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}. Specie: canide @UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}. Fazione: @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}.</p>\n<p><strong>Capitano della milizia.</strong> Austera e disciplinata, ma con un forte senso dell'onore.</p>\n<p><strong>Suggerimento di ruolo:</strong> mantenete una postura rigida e modi fermi, ma lasciate trasparire la sua volontà di evitare spargimenti di sangue inutili. Attaccherà solo se costretta o se i PG si dimostrano apertamente ostili e irrispettosi.</p>\n<p><strong>Ruolo nella trama:</strong> convoca i PG per conto di Arianna (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoII00000000]{Atto II}); comanda la milizia nello scontro finale (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}).</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Canide levri - Sfida 1/2 (100 PE)</em><br>CA 16 (cotta d'arme, scudo) | PF 22 (3d10+6) | Velocità 9 m<br>FOR 14 (+2) DES 11 (+0) COS 14 (+2) INT 8 (−1) SAG 10 (+0) CAR 13 (+1)<br>Sensi: Percezione passiva 15 (calcolata: 10), Scurovisione 18 m</p>\n<ul>\n<li><strong>Coraggioso:</strong> vantaggio ai TS contro la paura.</li>\n<li><strong>Alabarda:</strong> +5 a colpire, 6 (1d10+1) taglienti.</li>\n<li><strong>Morso:</strong> +5 a colpire, 5 (1d4+3) perforanti.</li>\n<li><strong>Balestra pesante:</strong> +2 a colpire, 5 (1d10) perforanti.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngYrmengImg00",
+      "name": "Ritratto: Yrmengard",
+      "type": "image",
+      "sort": 450000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "image": {
+        "caption": "Yrmengard da Nochemburgo."
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/historia-dipire/img/yrmengard.webp",
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngGuardie0000",
+      "name": "Milizia e guardie",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Il testo ha un solo blocco \"Guardia\" (canide dogo, Sfida 1/2) ma descrive due gruppi diversi, per cui il modulo offre due attori:</p>\n<ul>\n<li>@UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Miliziano della Croce d'Ossa}: i soldati di Yrmengard, \"canidi ben equipaggiati con armature recanti la Croce d'Ossa\". Danni pieni.</li>\n<li>@UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier}: le guardie del mastio di Enrico, \"più boscaioli che soldati\", con armi vecchie in cattivo stato. <strong>−2 a tutti i danni</strong>, già applicato alle formule.</li>\n</ul>\n<p>Specie: @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}.</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Canide dogo - Sfida 1/2 (100 PE)</em><br>CA 11 (brigantina) | PF: \"(Vedi sotto)\", non indicati nel testo, fissati a 13 (2d8+4) | Velocità 9 m<br>FOR 14 (+2) DES 11 (+0) COS 14 (+2) INT 8 (−1) SAG 10 (+0) CAR 13 (+1)<br>Sensi: Percezione passiva 15 (calcolata: 10), Scurovisione 18 m</p>\n<ul>\n<li><strong>Coraggioso:</strong> vantaggio ai TS contro la paura.</li>\n<li><strong>Equipaggiamento scadente</strong> (specialmente le guardie di Enrico): riducono di 2 tutti i danni inflitti.</li>\n<li><strong>Alabarda:</strong> +5 a colpire, danni base 6 (1d10+1) taglienti.</li>\n<li><strong>Morso:</strong> +5 a colpire, danni base 5 (1d4+3) perforanti.</li>\n<li><strong>Balestra pesante:</strong> +2 a colpire, danni base 5 (1d10) perforanti.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngGuardieImg0",
+      "name": "Ritratto: Milizia e guardie",
+      "type": "image",
+      "sort": 550000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1
+      },
+      "image": {
+        "caption": "Una guardia in armatura (miliziano della Croce d'Ossa o guardia del branco De Fredier)."
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/historia-dipire/img/guardia.webp",
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpPngCerere00000",
+      "name": "Cerere",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Specie: @UUID[Compendium.historia-it.species-it.Item.yE4ICtbPWPUWK355]{Polli}. Nessun attore: è già morta quando inizia l'avventura.</p>\n<p>Una vecchia e strana gallina erborista, legata ad antiche superstizioni e a \"semplici segreti tradizionali\". Arianna l'ha fatta bruciare sulla pira nella piazza di Brunascio pochi giorni prima dell'arrivo dei PG; il suo teschio bruciacchiato è ancora in cima al palo.</p>\n<p>La sua morte divide il villaggio e spinge il branco di Enrico a radunarsi al mastio, dove a mezzanotte le viene dedicata una @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbVeglia00000]{veglia funebre} con un fantoccio.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

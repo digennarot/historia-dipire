@@ -1,0 +1,106 @@
+{
+  "_id": "DipireScStanze01",
+  "name": "Stanze private di Enrico",
+  "navName": "Stanze di Enrico",
+  "navigation": true,
+  "navOrder": 7,
+  "width": 1800,
+  "height": 1200,
+  "padding": 0.25,
+  "thumb": null,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 1.5,
+    "units": "m"
+  },
+  "tokenVision": false,
+  "fog": {
+    "mode": 0
+  },
+  "environment": {
+    "darknessLevel": 0.6,
+    "globalLight": {
+      "enabled": true
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Livello 1",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#2c2f3a",
+        "src": null
+      },
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "tokens": [],
+  "notes": [
+    {
+      "_id": "DpNt002300000000",
+      "entryId": "DipireLuoghi0001",
+      "pageId": "DpLuogoStanze000",
+      "x": 900,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "Stanze private di Enrico",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    }
+  ],
+  "drawings": [],
+  "lights": [],
+  "sounds": [],
+  "regions": [],
+  "tiles": [],
+  "walls": [],
+  "journal": "DipireLuoghi0001",
+  "journalEntryPage": "DpLuogoStanze000",
+  "playlist": null,
+  "playlistSound": null,
+  "weather": "",
+  "folder": "DipireFoldScene1",
+  "sort": 7,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

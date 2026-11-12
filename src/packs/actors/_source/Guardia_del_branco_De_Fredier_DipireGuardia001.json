@@ -1,0 +1,680 @@
+{
+  "_id": "DipireGuardia001",
+  "name": "Guardia del branco De Fredier",
+  "type": "npc",
+  "img": "modules/historia-dipire/img/guardia.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 8,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 11,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 13,
+        "max": 13,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "2d8 + 4"
+      },
+      "movement": {
+        "walk": 9,
+        "units": "m",
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 18,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "\n<p><strong>Guardia del mastio di Enrico, canide @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}.</strong> Sembrano più boscaioli che soldati: armi vecchie, in cattivo stato, più adatte al rito che alla guerra. Nessuna disciplina militare.</p>\n<p>Blocco \"Guardia\" del testo originale <strong>con</strong> la riduzione di 2 ai danni per equipaggiamento scadente: vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngGuardie0000]{Milizia e guardie}.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 11 (brigantina), velocità 9 m, scurovisione 18 m.</p>\n<p><em>Dato mancante (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> PF non indicati nel testo, fissati a <strong>13 (2d8+4)</strong>.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "canide dogo",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 0.5,
+      "spellLevel": 0,
+      "source": {
+        "custom": "",
+        "book": "DiPire",
+        "page": "",
+        "license": "",
+        "rules": "2014"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0
+      },
+      "ani": {
+        "value": 0
+      },
+      "arc": {
+        "value": 0
+      },
+      "ath": {
+        "value": 0
+      },
+      "dec": {
+        "value": 0
+      },
+      "his": {
+        "value": 0
+      },
+      "ins": {
+        "value": 0
+      },
+      "itm": {
+        "value": 0
+      },
+      "inv": {
+        "value": 0
+      },
+      "med": {
+        "value": 0
+      },
+      "nat": {
+        "value": 0
+      },
+      "prc": {
+        "value": 0
+      },
+      "prf": {
+        "value": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "rel": {
+        "value": 0
+      },
+      "slt": {
+        "value": 0
+      },
+      "ste": {
+        "value": 0
+      },
+      "sur": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Guardia del branco De Fredier",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/historia-dipire/img/tokens/guardia.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic"
+    },
+    "flags": {},
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "DpIt002000000000",
+      "name": "Coraggioso",
+      "type": "feat",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ha vantaggio ai tiri salvezza contro la paura.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt002100000000",
+      "name": "Equipaggiamento scadente",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>A causa delle armi in cattivo stato, riduce di 2 tutti i danni inflitti. La riduzione è già applicata alle formule di danno delle armi di questo attore.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt002200000000",
+      "name": "Alabarda",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/halberd-crescent-stone-worn.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Danni base stampati:</em> 6 (1d10+1) taglienti, ridotti di 2.</p><p><em>Equipaggiamento scadente:</em> −2 ai danni già applicato alla formula.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "martialM",
+          "baseItem": "halberd"
+        },
+        "properties": [
+          "hvy",
+          "rch",
+          "two"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "-2",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": 3
+        },
+        "activities": {
+          "DpAc001600000000": {
+            "_id": "DpAc001600000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt002300000000",
+      "name": "Morso",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Danni base stampati:</em> 5 (1d4+3) perforanti, ridotti di 2.</p><p><em>Equipaggiamento scadente:</em> −2 ai danni già applicato alla formula.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "-2",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc001700000000": {
+            "_id": "DpAc001700000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt002400000000",
+      "name": "Balestra pesante",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-heavy.webp",
+      "system": {
+        "description": {
+          "value": "<p>+2 a colpire. <em>Danni base:</em> 5 (1d10) perforanti, ridotti di 2.</p><p><em>Equipaggiamento scadente:</em> −2 ai danni già applicato alla formula.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "martialR",
+          "baseItem": "heavycrossbow"
+        },
+        "properties": [
+          "amm",
+          "hvy",
+          "lod",
+          "two"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "-2",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc001800000000": {
+            "_id": "DpAc001800000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": "DipireFoldActor1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

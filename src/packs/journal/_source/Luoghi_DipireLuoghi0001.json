@@ -1,0 +1,361 @@
+{
+  "_id": "DipireLuoghi0001",
+  "name": "Luoghi",
+  "folder": "DipireFoldJourn1",
+  "sort": 300000,
+  "pages": [
+    {
+      "_id": "DpLuogoBrunasc00",
+      "name": "Brunascio",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Piccolo villaggio nella valle, sotto l'autorità di @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbNochemburg0]{Nochemburgo}. Sovrintendente: @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius}. Da pochi giorni vi si è insediata l'inquisitrice @UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora} con la sua milizia. L'odore di fumo della pira di Cerere pervade ancora l'aria.</p>\n<p>Gli abitanti sono schivi e spaventati: evitano la piazza, camminano rasente i muri, cambiano strada davanti agli stranieri e soprattutto davanti ai simboli della Chiesa delle Ossa. La popolazione è divisa in sostenitori di Arianna (minoranza), sostenitori di Enrico e una maggioranza di preoccupati che non prende posizione (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoI000000000]{Atto I}).</p>\n<p>Luoghi: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoPiazza000]{La piazza e la pira}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCasaIgi00]{Casa di Iginius}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoOsteria00]{Osteria}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoChiesa000]{Chiesetta e sagrestia}. Il @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoMastio000]{mastio De Fredier} dista mezza giornata di cammino.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoPiazza000",
+      "name": "La piazza e la pira",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScPiazza01]{Piazza di Brunascio}.</p>\n<p>La piazza centrale del villaggio. Sui resti di una pira ormai spenta si innalza il palo su cui pochi giorni prima è stata arsa Cerere; in cima, un teschio di gallina bruciacchiato dalle orbite vuote. La gente la evita.</p>\n<ul>\n<li><strong>Atto I:</strong> qui Iginius avvicina i PG con la sua scorta sgangherata.</li>\n<li><strong>Atto V:</strong> qui i PG in catene dovrebbero essere arsi all'alba, e qui Enrico e il branco assaltano la milizia. Scontro finale contro Arianna.</li>\n</ul>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoCasaIgi00",
+      "name": "Casa di Iginius",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScCasa0001]{Casa di Iginius}.</p>\n<p>La casa del sovrintendente è chiusa e buia, illuminata solo dal fuoco del camino e dalle candele. Iginius vi conduce i PG per parlare lontano da orecchie indiscrete e vi fa la sua offerta (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoI000000000]{Atto I}). La scena è un segnaposto senza mappa.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoOsteria00",
+      "name": "Osteria",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScOsteria1]{Osteria di Brunascio}.</p>\n<p>Luogo suggerito dal testo per raccogliere la <strong>voce degli abitanti</strong> e scoprire la spaccatura tra sostenitori di Arianna, sostenitori di Enrico e preoccupati (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoI000000000]{Atto I}). Il testo non descrive l'aspetto dell'osteria; la scena è un segnaposto senza mappa.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoChiesa000",
+      "name": "Chiesetta e sagrestia",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScChiesa01]{Chiesetta di Brunascio}.</p>\n<p>La chiesetta di Brunascio è umida e spoglia. Arianna vi si è insediata e riceve nella <strong>sagrestia</strong>, cortese ma minacciosa (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoII00000000]{Atto II}). Presidiata da Yrmengard e dalla milizia della Croce d'Ossa.</p>\n<p>Nell'@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V} le guardie di Arianna riportano qui i PG per il giudizio: ricompensa se Enrico è morto, arresto e catene altrimenti.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoMastio000",
+      "name": "Il mastio De Fredier",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A mezza giornata di cammino da Brunascio. Un maniero antico, parzialmente crollato, divorato dall'edera e illuminato da fuochi flebili; i PG vi arrivano al tramonto (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIII0000000]{Atto III}). Vi si radunano gli \"eretici\" della valle: il branco di Enrico.</p>\n<p>Luoghi: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCancell00]{I cancelli}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoCortile00]{Il cortile}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoSalaLup00]{La Sala del Lupo}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001.JournalEntryPage.DpLuogoStanze000]{Le stanze private di Enrico}. Scene: @UUID[Scene.DipireScMastio01]{Cancelli e cortile}, @UUID[Scene.DipireScSala0001]{Sala del Lupo}, @UUID[Scene.DipireScStanze01]{Stanze private di Enrico}.</p>\n<p>Entrare: parlamentando ai cancelli o con la @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoSequenza00]{Sequenza di infiltrazione}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoCancell00",
+      "name": "I cancelli",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScMastio01]{Mastio De Fredier - Cancelli e cortile}.</p>\n<p>Le guardie ai cancelli (@UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier}) sembrano più boscaioli che soldati. Convincerle: prova di gruppo [[/check skill=per/itm dc=18]], con svantaggio se i PG sono aggressivi. Fallimento aggressivo: rissa. Fallimento diplomatico: scacciati (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIII0000000]{Atto III}).</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoCortile00",
+      "name": "Il cortile",
+      "type": "text",
+      "sort": 800000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScMastio01]{Mastio De Fredier - Cancelli e cortile}.</p>\n<p>Pullula di tende e bracieri circondati da lance rituali con preghiere scritte su lembi di stoffa. Una prova di competenza a testa (a scelta del GM) rivela gli indizi: armi vecchie e solo rituali, nessuna disciplina militare, gruppo religioso non ortodosso alla Chiesa delle Ossa, molti anziani e pochi giovani, sguardi torvi verso i simboli della Chiesa (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIV00000000]{Atto IV}).</p>\n<p>A mezzanotte ospita la @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbVeglia00000]{veglia per Cerere}.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoSalaLup00",
+      "name": "La Sala del Lupo",
+      "type": "text",
+      "sort": 900000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScSala0001]{Sala del Lupo}.</p>\n<p>La sala del mastio, scura, adornata da teschi e pelli di lupo. Sulle pareti, macabri ornamenti ossei fungono da <strong>mappe stellari</strong> e da <strong>albero genealogico</strong> della casata De Fredier: prova di [[/check skill=his]] per intuirlo, con vantaggio se i PG hanno già indagato in cortile.</p>\n<p>@UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier} riceve dal suo trono di quercia e propone le sue soluzioni (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIV00000000]{Atto IV}).</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpLuogoStanze000",
+      "name": "Le stanze private di Enrico",
+      "type": "text",
+      "sort": 1000000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScStanze01]{Stanze private di Enrico}.</p>\n<p>Il testo non le descrive: dice solo che durante la veglia di mezzanotte (o subito dopo) sono l'unico momento in cui Enrico è vulnerabile o poco protetto, e che hanno una <strong>finestra</strong> da cui si può fuggire saltando su un albero con una prova di [[/check skill=acr/ath]] (CD non indicata). La scena è un segnaposto senza mappa.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

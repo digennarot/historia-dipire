@@ -1,0 +1,643 @@
+{
+  "_id": "DipireYrmengard1",
+  "name": "Yrmengard da Nochemburgo",
+  "type": "npc",
+  "img": "modules/historia-dipire/img/yrmengard.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 8,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 13,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 22,
+        "max": 22,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "3d10 + 6"
+      },
+      "movement": {
+        "walk": 9,
+        "units": "m",
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 18,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "\n<p><strong>Capitano della milizia della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, canide @UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}.</strong> Austera e disciplinata, con un forte senso dell'onore. Guida i soldati canidi ben equipaggiati che portano la Croce d'Ossa sulle armature.</p>\n<p><strong>Suggerimento di ruolo:</strong> postura rigida e modi fermi, ma lasciate trasparire la volontà di evitare spargimenti di sangue inutili. Attacca solo se costretta o se i PG si dimostrano apertamente ostili e irrispettosi.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 16 (cotta d'arme, scudo), PF 22 (3d10+6), velocità 9 m, scurovisione 18 m. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngYrmengard00]{Yrmengard da Nochemburgo}.</p>\n<p><em>Discrepanze (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> con FOR 14 e competenza +2, alabarda e morso risultano +4 invece dei +5 stampati; Percezione passiva calcolata 10 invece di 15.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "canide levriera",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 0.5,
+      "spellLevel": 0,
+      "source": {
+        "custom": "",
+        "book": "DiPire",
+        "page": "",
+        "license": "",
+        "rules": "2014"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0
+      },
+      "ani": {
+        "value": 0
+      },
+      "arc": {
+        "value": 0
+      },
+      "ath": {
+        "value": 0
+      },
+      "dec": {
+        "value": 0
+      },
+      "his": {
+        "value": 0
+      },
+      "ins": {
+        "value": 0
+      },
+      "itm": {
+        "value": 0
+      },
+      "inv": {
+        "value": 0
+      },
+      "med": {
+        "value": 0
+      },
+      "nat": {
+        "value": 0
+      },
+      "prc": {
+        "value": 0
+      },
+      "prf": {
+        "value": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "rel": {
+        "value": 0
+      },
+      "slt": {
+        "value": 0
+      },
+      "ste": {
+        "value": 0
+      },
+      "sur": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Yrmengard da Nochemburgo",
+    "displayName": 30,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/historia-dipire/img/tokens/yrmengard.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic"
+    },
+    "flags": {},
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "DpIt001200000000",
+      "name": "Coraggioso",
+      "type": "feat",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "description": {
+          "value": "<p>Ha vantaggio ai tiri salvezza contro la paura.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt001300000000",
+      "name": "Alabarda",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/halberd-crescent-worn-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Stampato:</em> +5 a colpire, 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "martialM",
+          "baseItem": "halberd"
+        },
+        "properties": [
+          "hvy",
+          "rch",
+          "two"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": 3
+        },
+        "activities": {
+          "DpAc001000000000": {
+            "_id": "DpAc001000000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt001400000000",
+      "name": "Morso",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Stampato:</em> +5 a colpire, 5 (1d4+3) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc001100000000": {
+            "_id": "DpAc001100000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt001500000000",
+      "name": "Balestra pesante",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-heavy.webp",
+      "system": {
+        "description": {
+          "value": "<p>+2 a colpire. <em>Danni:</em> 5 (1d10) perforanti.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "martialR",
+          "baseItem": "heavycrossbow"
+        },
+        "properties": [
+          "amm",
+          "hvy",
+          "lod",
+          "two"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc001200000000": {
+            "_id": "DpAc001200000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": "DipireFoldActor1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

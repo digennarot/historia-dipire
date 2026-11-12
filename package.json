@@ -1,0 +1,16 @@
+{
+  "name": "historia-dipire",
+  "version": "1.1.0",
+  "description": "Di Pire, Artigli e Zanne - modulo d'avventura per Historia (Foundry VTT, dnd5e)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "extract": "node scripts/extract.mjs",
+    "test": "node scripts/validate.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

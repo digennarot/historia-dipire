@@ -1,0 +1,50 @@
+{
+  "_id": "DipireAdventure1",
+  "name": "Di Pire, Artigli e Zanne",
+  "img": "modules/historia-it/media/Factions/Church%20of%20Bones.webp",
+  "caption": "<p>Un'avventura in cinque atti per Historia: un rogo, un'inquisitrice e un branco di eretici.</p>",
+  "description": "<p>I personaggi arrivano a <strong>Brunascio</strong> mentre la pira di Cerere fuma ancora. L'inquisitrice <strong>Arianna la Cercatora</strong> vuole morto <strong>Enrico De Fredier</strong>, l'erede decaduto attorno a cui si raduna il branco degli \"eretici\"; il sovrintendente Iginius vuole solo evitare un bagno di sangue. Cinque atti, un'infiltrazione gestita come Sequenza, una veglia a mezzanotte e due finali opposti.</p>\n<p>L'importazione crea una cartella per attori, journal e scene. Le sette scene sono <strong>segnaposto senza mappa</strong>; non aggiungono immagini o token oltre a quelli già presenti. Iniziate dal journal <em>Guida del GM</em> e usate il compendio <em>Di Pire - Automazioni</em> per gli strumenti del GM.</p>\n<p>Richiede il modulo <strong>Historia (Italiano)</strong> per specie, fazioni, regole e ritratti dei PNG. Sistema dnd5e, regole 2014.</p>",
+  "folders": [
+    {
+      "_id": "DipireFoldActor1",
+      "name": "Di Pire, Artigli e Zanne",
+      "type": "Actor",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": "#6d3b2f",
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "DipireFoldJourn1",
+      "name": "Di Pire, Artigli e Zanne",
+      "type": "JournalEntry",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": "#6d3b2f",
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "DipireFoldScene1",
+      "name": "Di Pire, Artigli e Zanne",
+      "type": "Scene",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": "#6d3b2f",
+      "description": "",
+      "flags": {}
+    }
+  ],
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

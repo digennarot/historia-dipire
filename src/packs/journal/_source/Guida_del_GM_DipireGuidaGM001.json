@@ -1,0 +1,259 @@
+{
+  "_id": "DipireGuidaGM001",
+  "name": "Guida del GM",
+  "folder": "DipireFoldJourn1",
+  "sort": 100000,
+  "pages": [
+    {
+      "_id": "DpGuidaSinossi00",
+      "name": "Sinossi e uso del modulo",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Di Pire, Artigli e Zanne</strong> è un'avventura in cinque atti per <strong>Historia</strong> (D&amp;D 5e, regole 2014). I personaggi giungono a <strong>Brunascio</strong>, un piccolo villaggio dove l'inquisitrice @UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora} ha appena fatto bruciare sul rogo <strong>Cerere</strong>, una vecchia gallina erborista. Il sovrintendente @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius} teme la vendetta di @UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}, erede decaduto al cui mastio si radunano gli \"eretici\" della valle, e chiede ai PG di risolvere il problema. Arianna, a sua volta, vuole Enrico morto. I PG devono scegliere da che parte stare: ogni scelta porta a un finale diverso.</p>\n<h2>Struttura</h2>\n<ol>\n<li>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoI000000000]{Atto I - L'Arrivo a Brunascio}: la pira, Iginius, la voce degli abitanti.</li>\n<li>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoII00000000]{Atto II - Arianna la Cercatora}: la milizia di Yrmengard e l'udienza nella chiesetta.</li>\n<li>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIII0000000]{Atto III - L'Arrivo al Mastio}: i cancelli e le guardie, oppure la @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoSequenza00]{Sequenza di infiltrazione}.</li>\n<li>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIV00000000]{Atto IV - Il Branco e la Cerimonia}: il cortile, la Sala del Lupo, la veglia per Cerere.</li>\n<li>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V - La Morte o la Fuga}: il ritorno a Brunascio e i finali.</li>\n</ol>\n<h2>Contenuto del modulo</h2>\n<ul>\n<li><strong>Compendio \"Avventura\"</strong>: importa con un clic cartelle, journal, attori e le sette scene segnaposto (@UUID[Scene.DipireScPiazza01]{Piazza di Brunascio}, @UUID[Scene.DipireScChiesa01]{Chiesetta di Brunascio}, @UUID[Scene.DipireScMastio01]{Mastio De Fredier - Cancelli e cortile}, @UUID[Scene.DipireScSala0001]{Sala del Lupo}, @UUID[Scene.DipireScCasa0001]{Casa di Iginius}, @UUID[Scene.DipireScOsteria1]{Osteria}, @UUID[Scene.DipireScStanze01]{Stanze private di Enrico}; i link funzionano dopo l'importazione).</li>\n<li><strong>Compendio \"PNG\"</strong>: i sei attori dnd5e con attacchi, incantesimi e tratti.</li>\n<li><strong>Compendio \"Journal\"</strong>: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001]{Guida del GM}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001]{Atti}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireLuoghi0001]{Luoghi}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001]{PNG}, @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01]{Ambientazione}.</li>\n<li><strong>Compendio \"Automazioni\"</strong>: importa la macro @UUID[Compendium.historia-dipire.automation.Macro.DipireGMTools001]{Strumenti del GM} e avviala come GM.</li>\n</ul>\n<p>Le scene non hanno mappe: le scene già esistenti conservano i token presenti; le scene aggiunte sono vuote, con note che aprono le pagine dei luoghi. Non sono state aggiunte immagini o token.</p>\n<p>Il modulo richiede <strong>Historia (Italiano)</strong>: i link a specie, fazioni e regole (@UUID[Compendium.historia-it.rules-it.JournalEntry.AvventureRegol01]{Avventure e Sequenze}, @UUID[Compendium.historia-it.rules-it.JournalEntry.RicchezzaRegola1]{Ricchezza & Influenza}, @UUID[Compendium.historia-it.rules-it.JournalEntry.IspirazioneReg01]{Ispirazione}) puntano ai suoi compendi.</p>\n<p>Tutto il testo dei journal è visibile solo al GM (permessi predefiniti). Le automazioni richiedono la selezione dei token interessati e chiedono conferma prima di modificare PF; i risultati o le conseguenze non definiti restano al GM. I blocchi in citazione sono pensati per essere letti o parafrasati ai giocatori.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpGuidaBivi00000",
+      "name": "Bivi e finali",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>L'avventura ha un tronco comune (Atti I-II) e si ramifica dall'Atto III. Ecco i bivi espliciti nel testo e dove portano.</p>\n<h2>Atto II - La convocazione</h2>\n<ul>\n<li>I PG <strong>seguono la milizia</strong> di @UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}: udienza con Arianna.</li>\n<li>I PG <strong>resistono</strong>: prova di gruppo CD 15; comunque perdono 2 PF e vengono portati da Arianna, ma con successo ottengono <strong>vantaggio</strong> alle future prove di Persuasione/Intimidire verso l'Inquisizione.</li>\n</ul>\n<h2>Atto III - Come entrare nel mastio</h2>\n<ul>\n<li><strong>Parlamentare ai cancelli</strong>: prova di gruppo Persuasione/Intimidire CD 18 (svantaggio se aggressivi). Fallimento aggressivo: rissa. Fallimento diplomatico: scacciati.</li>\n<li><strong>Infiltrarsi</strong> (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoSequenza00]{Sequenza}): successo, entrano inosservati; fallimento, spalle al muro. Se si arrendono, portati da Enrico; se combattono, 1d6 danni a testa prima che Enrico intervenga, e perdono la sua fiducia.</li>\n</ul>\n<h2>Atto IV - Le proposte di Enrico</h2>\n<p>Enrico propone soluzioni (a discrezione del GM): 1) uccidere Arianna e farlo sembrare un incidente; 2) mentire ad Arianna, convincendola che Enrico è morto; 3) convincerla con la diplomazia a lasciare in pace i De Fredier. Durante la veglia di mezzanotte (o subito dopo) Enrico è vulnerabile nelle sue stanze: è il momento per <strong>assassinarlo</strong>, con fuga dalla finestra (Acrobazia/Atletica).</p>\n<h2>Atto V - I finali</h2>\n<table>\n<thead><tr><th>Esito</th><th>Cosa succede</th><th>Conseguenze</th></tr></thead>\n<tbody>\n<tr><td><strong>Enrico è morto</strong></td><td>Le guardie di Arianna portano i PG nella chiesa. Arianna è soddisfatta.</td><td>Ricompensa di Iginius (1 Conio a testa) e <strong>+2 Reputazione</strong> con la Chiesa delle Ossa.</td></tr>\n<tr><td><strong>Enrico è vivo</strong>, oppure i PG hanno mentito e vengono <strong>scoperti</strong></td><td>Arianna ordina l'arresto. In uno scontro palese i PG sono soverchiati, messi in catene per essere arsi vivi all'alba. <strong>Il salvataggio:</strong> mentre le fiamme stanno per essere accese, Enrico e il branco assaltano la piazza; i lupi ingaggiano la milizia ed Enrico libera i PG. Scontro finale contro Arianna, che Enrico vuole morta perché nessuna notizia arrivi a Nochemburgo.</td><td>Iginius implora pietà. Ricompensa monetaria, ma <strong>−2 Reputazione</strong> con la Chiesa delle Ossa. La Casata De Fredier è da oggi alleata dei PG. Arianna può fuggire con <em>Ci rivedremo</em> o morire (scelta del GM).</td></tr>\n<tr><td><strong>Arianna convinta con la diplomazia</strong> (proposta 3 di Enrico)</td><td colspan=\"2\">Il testo non descrive questo finale: va improvvisato. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrez00]{Punti a discrezione del GM}.</td></tr>\n</tbody>\n</table>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpGuidaConseg000",
+      "name": "Conseguenze e ricompense",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table>\n<thead><tr><th>Quando</th><th>Ricompensa o conseguenza</th><th>Fonte nel testo</th></tr></thead>\n<tbody>\n<tr><td>Iginius assolda i PG (Atto I)</td><td>Tutti i risparmi del villaggio: una somma considerevole, pari a <strong>1 Conio per ogni personaggio</strong></td><td>L'Incontro con Iginius</td></tr>\n<tr><td>Resistere alla milizia con successo (Atto II)</td><td><strong>Vantaggio</strong> alle future prove di Persuasione/Intimidire verso l'Inquisizione; comunque −2 PF</td><td>Atto II</td></tr>\n<tr><td>Buone descrizioni nelle prove di gruppo</td><td>@UUID[Compendium.historia-it.rules-it.JournalEntry.IspirazioneReg01]{Ispirazione}</td><td>Atto II</td></tr>\n<tr><td>Arianna ingaggia i PG (Atto II)</td><td>La \"gratitudine del Tempio\" se uccidono Enrico (non quantificata)</td><td>L'Udienza</td></tr>\n<tr><td>Combattere le guardie dopo un'infiltrazione fallita</td><td>1d6 danni a testa; Enrico perde fiducia nei PG</td><td>Sequenza</td></tr>\n<tr><td>Enrico muore (Atto V)</td><td>Ricompensa di Iginius; <strong>+2 Reputazione</strong> con la Chiesa delle Ossa</td><td>Atto V</td></tr>\n<tr><td>Enrico vive / menzogna scoperta (Atto V)</td><td>Ricompensa monetaria; <strong>−2 Reputazione</strong> con la Chiesa delle Ossa; Casata De Fredier alleata</td><td>Atto V</td></tr>\n</tbody>\n</table>\n<p><strong>Conio e Reputazione.</strong> Il Conio è l'astrazione della ricchezza di Historia (@UUID[Compendium.historia-it.rules-it.JournalEntry.RicchezzaRegola1]{Ricchezza & Influenza}). La \"Reputazione con la Chiesa delle Ossa\" è la dicitura dell'avventura: Historia misura l'influenza presso le fazioni con la <em>Fama</em> e i gradi di fazione. Come tradurre il ±2 (punti Fama verso la @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, o un semplice indicatore narrativo) è lasciato al GM.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpGuidaDiscrez00",
+      "name": "Punti a discrezione del GM",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Il testo originale lascia esplicitamente al GM queste decisioni. Non sono state \"risolte\" nel modulo: qui sono solo elencate.</p>\n<ul>\n<li><strong>Prove di resistenza alla milizia (Atto II):</strong> \"le prove dipendono dalla descrizione delle azioni dei PG\". Il GM sceglie caratteristica e abilità caso per caso; è l'occasione per assegnare Ispirazione.</li>\n<li><strong>Complicazioni della Sequenza di infiltrazione:</strong> pattuglie improvvise, porte bloccate o cigolanti, muri da scalare, inservienti in pausa fumo sulla traiettoria. Quali e quante, lo decide il GM.</li>\n<li><strong>Prova di competenza nel cortile (Atto IV):</strong> \"una prova di competenza a testa\", senza CD né abilità fissate.</li>\n<li><strong>Le soluzioni proposte da Enrico (Atto IV):</strong> \"varie soluzioni (a discrezione del GM)\": le tre elencate sono esempi, non un menu chiuso.</li>\n<li><strong>Il finale diplomatico:</strong> se i PG convincono Arianna a lasciare in pace i De Fredier, il testo non descrive cosa accade. Va improvvisato a partire dalla tabella dei finali.</li>\n<li><strong>Come viene scoperta la menzogna</strong> (\"Enrico è morto\") non è specificato: il GM decide se e come Arianna lo scopre.</li>\n<li><strong>Chi informa Enrico</strong> dell'arresto dei PG e come il branco arriva in tempo per il salvataggio non è spiegato.</li>\n<li><strong>La fuga di Arianna:</strong> l'abilità <em>Ci rivedremo</em> esiste per riusarla in trame future, \"ma il GM può decidere di farla combattere fino alla morte\".</li>\n<li><strong>L'entità della \"gratitudine del Tempio\"</strong> promessa da Arianna non è quantificata.</li>\n<li><strong>Il valore della ricompensa monetaria finale</strong> nel finale del salvataggio: il testo dice \"la ricompensa monetaria\", presumibilmente quella di Iginius; non è ribadita la cifra.</li>\n<li><strong>Il salto dalla finestra</strong> dopo l'assassinio di Enrico richiede \"Acrobazia/Atletica\" senza CD.</li>\n</ul>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpGuidaDiscrep00",
+      "name": "Discrepanze nelle statistiche",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Confronto tra i blocchi statistiche del testo e la matematica di dnd5e (regole 2014, Sfida 1 e 1/2, competenza +2). Dove la scelta è stata di seguire il sistema, i valori stampati restano riportati nella descrizione dell'oggetto.</p>\n<ol>\n<li><strong>Percezione passiva 15 per tutti.</strong> Con SAG 8/8/10/10 e nessuna competenza, dnd5e calcola 9 (Arianna), 9 (Enrico), 10 (Yrmengard), 10 (guardie). <em>Scelta:</em> si lascia il valore calcolato.</li>\n<li><strong>Arianna, PF 27 con formula 5d6+5</strong> (media 22). <em>Scelta:</em> PF massimi 27 e formula 5d6+5 come stampati.</li>\n<li><strong>Enrico, CA 16 \"maglia di ferro, scudo\".</strong> In 5e sarebbe 18 (16 corrisponde a giaco di maglia + scudo). <em>Scelta:</em> CA 16 fissa, descrizione originale.</li>\n<li><strong>Bonus d'attacco e danni non coerenti con FOR/DES.</strong> Enrico: alabarda stampata 1d10+1 (con FOR +3 è 1d10+3), balestra +2/1d10 (con DES +1 è +3/1d10+1). Yrmengard, Miliziano, Guardia: alabarda e morso stampati +5 (con FOR +2 è +4), danni 1d10+1 e 1d4+3 (sarebbero 1d10+2 e 1d4+2). <em>Scelta:</em> dnd5e calcola dalle caratteristiche.</li>\n<li><strong>Guardia, PF \"(Vedi sotto)\"</strong> senza nulla sotto. <em>Scelta:</em> 13 (2d8+4).</li>\n<li><strong>Un blocco \"Guardia\", due descrizioni.</strong> La milizia di Arianna è \"ben equipaggiata\"; il blocco parla di equipaggiamento scadente \"specialmente le guardie di Enrico\"; l'Atto III le descrive come boscaioli. <em>Scelta:</em> due attori: @UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Miliziano della Croce d'Ossa} (danni pieni) e @UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier} (−2 ai danni), stessa CA 11.</li>\n<li><strong>Incantesimi di Arianna senza tratto di incantatore.</strong> <em>Scelta:</em> Raggio di gelo e Arma spirituale come incantesimi a volontà con INT; Raggio di gelo fissato a 2d8; regole 2014 (Arma spirituale senza concentrazione).</li>\n<li><strong>Sequenza di infiltrazione: \"CD 14 (min 12) | PF per azione: 3 (min 1)\".</strong> È una variante più dura della regola base di Historia (CD 12, 1 PF per azione): vedi @UUID[Compendium.historia-it.rules-it.JournalEntry.AvventureRegol01]{Avventure e Sequenze}.</li>\n<li><strong>\"Reputazione con la Chiesa delle Ossa\" ±2.</strong> Historia usa Fama e gradi di fazione. <em>Scelta:</em> dicitura dell'avventura mantenuta, con nota in @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaConseg000]{Conseguenze e ricompense}.</li>\n<li><strong>Enrico usa alabarda (a due mani) e scudo insieme.</strong> Lasciato come stampato.</li>\n<li><strong>Iginius non ha blocco statistiche.</strong> L'attore @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius} ha valori neutri (10) solo per avere un token in scena.</li>\n</ol>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DpGuidaCrediti00",
+      "name": "Crediti e licenza",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Di Pire, Artigli e Zanne</strong>: avventura di Tiziano Di Gennaro, che ne ha curato anche la conversione per Foundry VTT.</p>\n<p><strong>Historia</strong> è un'ambientazione di Mana Project Studio. Questo modulo non copia testo del manuale: rimanda ai compendi del modulo <em>Historia (Italiano)</em> per specie, fazioni e regole. I ritratti dei PNG (Iginius, Arianna, Enrico, Yrmengard e le guardie) sono inclusi nel modulo, nella cartella <code>img/</code>.</p>\n<p>Le icone di oggetti e privilegi provengono dalla libreria di icone inclusa in Foundry VTT, soggetta alla licenza indicata in <code>icons/svg/LICENSE.txt</code> dell'applicazione.</p>\n<p>Sistema: dnd5e 6.x (regole 2014). Foundry VTT 14+.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "DipireGMReview01",
+      "name": "Verifiche richieste al GM",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Prima di usare questi valori in gioco, il GM deve verificarli.</strong> I valori già presenti sulle schede servono a mantenere gli attori importabili e non costituiscono una risoluzione definitiva delle discrepanze.</p>\n<ul>\n<li>PF della Guardia non indicati nel testo: la scheda conserva 13 PF come valore provvisorio.</li>\n<li>Percezione passiva, PF di Arianna, CA di Enrico e bonus/danni degli attacchi non coincidono con i calcoli dnd5e 2014; i valori inseriti sono provvisori.</li>\n<li>Il tratto di riduzione di 2 danni è attribuito soprattutto alle guardie di Enrico, mentre l'equipaggiamento della milizia è descritto come buono: verificare la distinzione tra i due attori.</li>\n<li>La Sequenza usa CD 14 (minimo 12) e costo 3 PF per azione (minimo 1), ma il testo non definisce soglia o durata per completarla.</li>\n<li>La CD per la fuga dalla finestra e il tipo di danno dell'1d6 dopo l'infiltrazione fallita non sono specificati.</li>\n<li>La ricompensa monetaria finale, la \"gratitudine del Tempio\" e la traduzione della reputazione ±2 in Fama restano da decidere.</li>\n<li>Il finale diplomatico e le condizioni del tratto <em>Ci rivedremo</em> richiedono adjudicazione del GM.</li>\n</ul>\n<p>Le automazioni non completano questi dati e non assegnano valuta o Fama automaticamente. Usa il compendio @UUID[Compendium.historia-dipire.automation.Macro.DipireGMTools001]{Strumenti del GM} per i tiri e il tracciamento dei soli esiti espliciti.</p>"
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6",
+        "createdTime": 1794000000000,
+        "modifiedTime": 1794000000000,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

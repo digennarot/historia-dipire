@@ -1,0 +1,21 @@
+{
+  "_id": "DipireGMTools001",
+  "name": "Strumenti del GM — Di Pire",
+  "type": "script",
+  "command": "(async () => {\n  const api = game.modules.get(\"historia-dipire\")?.api;\n  if (!api?.openAutomation) throw new Error(\"Attiva il modulo historia-dipire prima di eseguire gli strumenti GM.\");\n  await api.openAutomation();\n})();",
+  "scope": "global",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

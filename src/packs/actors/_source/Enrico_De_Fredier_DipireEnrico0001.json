@@ -1,0 +1,736 @@
+{
+  "_id": "DipireEnrico0001",
+  "name": "Enrico De Fredier",
+  "type": "npc",
+  "img": "modules/historia-dipire/img/enrico.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 8,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 12,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 32,
+        "max": 32,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "5d8 + 10"
+      },
+      "movement": {
+        "walk": 9,
+        "units": "m",
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 18,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "\n<p><strong>Erede decaduto della casata De Fredier, licaio @UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}.</strong> Fiero, brusco, avvolto da una costante e rassegnata tristezza. Un leader antico, legato a tradizioni dimenticate. Al suo mastio si radunano gli \"eretici\" della valle.</p>\n<p><strong>Suggerimento di ruolo:</strong> tono asciutto e perentorio, con un leggero ringhio gutturale ma mai aggressività cieca. Sorride a mezza bocca mostrando le zanne ingiallite. È intelligente: valuta le capacità dei PG per capire come sfruttarli a vantaggio del branco senza scatenare l'ira di Nochemburgo.</p>\n<p><strong>Sfida 1 (200 PE).</strong> CA 16 (maglia di ferro, scudo), PF 32 (5d8+10), velocità 9 m, scurovisione 18 m. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngEnrico00000]{Enrico De Fredier}.</p>\n<p><em>Discrepanze (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> CA 16 è mantenuta come stampata anche se maglia di ferro e scudo in 5e darebbero 18; alabarda a due mani e scudo insieme sono come nel testo; Percezione passiva calcolata 9 invece di 15.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "type": {
+        "value": "humanoid",
+        "subtype": "licaio lupo",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 1,
+      "spellLevel": 0,
+      "source": {
+        "custom": "",
+        "book": "DiPire",
+        "page": "",
+        "license": "",
+        "rules": "2014"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0
+      },
+      "ani": {
+        "value": 0
+      },
+      "arc": {
+        "value": 0
+      },
+      "ath": {
+        "value": 0
+      },
+      "dec": {
+        "value": 0
+      },
+      "his": {
+        "value": 1
+      },
+      "ins": {
+        "value": 0
+      },
+      "itm": {
+        "value": 1
+      },
+      "inv": {
+        "value": 1
+      },
+      "med": {
+        "value": 0
+      },
+      "nat": {
+        "value": 0
+      },
+      "prc": {
+        "value": 0
+      },
+      "prf": {
+        "value": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "rel": {
+        "value": 1
+      },
+      "slt": {
+        "value": 0
+      },
+      "ste": {
+        "value": 0
+      },
+      "sur": {
+        "value": 1
+      }
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Enrico De Fredier",
+    "displayName": 30,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/historia-dipire/img/tokens/enrico.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic"
+    },
+    "flags": {},
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "DpIt000700000000",
+      "name": "Uno per tutti",
+      "type": "feat",
+      "img": "icons/skills/melee/shield-block-gray-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Finché ha alleati vicini, Enrico ha resistenza ai danni. Può scegliere di perdere PF al posto loro se vengono colpiti (applicando la resistenza).</p><p><em>Il GM applica la resistenza e il trasferimento dei danni a mano.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt000800000000",
+      "name": "Alabarda",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/halberd-crescent-worn-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>+5 a colpire. <em>Danni stampati:</em> 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "martialM",
+          "baseItem": "halberd"
+        },
+        "properties": [
+          "hvy",
+          "rch",
+          "two"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": 3
+        },
+        "activities": {
+          "DpAc000600000000": {
+            "_id": "DpAc000600000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt000900000000",
+      "name": "Morso",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
+      "system": {
+        "description": {
+          "value": "<p>+5 a colpire. <em>Danni:</em> 5 (1d4+3) perforanti.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "properties": [],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc000700000000": {
+            "_id": "DpAc000700000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt001000000000",
+      "name": "Balestra pesante",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-heavy.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Stampato:</em> +2 a colpire, 5 (1d10) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "martialR",
+          "baseItem": "heavycrossbow"
+        },
+        "properties": [
+          "amm",
+          "hvy",
+          "lod",
+          "two"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc000800000000": {
+            "_id": "DpAc000800000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt001100000000",
+      "name": "Spirito di branco",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Reazione.</strong> Impone svantaggio a un attacco contro un alleato entro 3 m.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "DpAc000900000000": {
+            "_id": "DpAc000900000000",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": "Quando un alleato entro 3 m viene attaccato",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "type": "self",
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": "DipireFoldActor1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}
