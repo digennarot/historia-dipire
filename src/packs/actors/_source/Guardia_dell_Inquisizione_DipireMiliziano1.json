@@ -1,6 +1,6 @@
 {
   "_id": "DipireMiliziano1",
-  "name": "Miliziano della Croce d'Ossa",
+  "name": "Guardia dell'Inquisizione",
   "type": "npc",
   "img": "modules/historia-dipire/img/guardia.webp",
   "system": {
@@ -64,7 +64,7 @@
     },
     "details": {
       "biography": {
-        "value": "\n<p><strong>Soldato della milizia di Arianna, canide @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}.</strong> I soldati di Yrmengard sono canidi ben equipaggiati, con armature recanti la Croce d'Ossa. Modi decisi ma non violenti, finché Arianna non ordina diversamente.</p>\n<p>Blocco \"Guardia\" del testo originale, <strong>senza</strong> la riduzione di 2 ai danni per equipaggiamento scadente, che il testo attribuisce \"specialmente alle guardie di Enrico\": vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngGuardie0000]{Milizia e guardie}.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 11 (brigantina), velocità 9 m, scurovisione 18 m.</p>\n<p><em>Dato mancante (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> il testo rimanda i PF a una sezione che non esiste. Qui sono fissati a <strong>13 (2d8+4)</strong>.</p>",
+        "value": "<p><strong>Soldato della milizia della Croce d’Ossa, canide @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}.</strong> Ben equipaggiato, infreddolito, lontano da casa. Obbedisce a Yrmengard. Metà della milizia porta l’alabarda, metà l’archibugio: tenete nella scheda l’arma che vi serve.</p>\n<p><strong>Archibugio:</strong> usa le regole delle armi da fuoco di Historia (descrizione dell’arma). Sulla vetta e sotto la pioggia le polveri sono bagnate: prova di Intelligenza CD 12 prima del primo colpo.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 11 (brigantina), PF 13 (2d8+4), velocità 9 m, scurovisione 18 m. Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngGuardie0000]{Guardia dell’Inquisizione}.</p>",
         "public": ""
       },
       "alignment": "",
@@ -156,7 +156,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Miliziano della Croce d'Ossa",
+    "name": "Guardia dell'Inquisizione",
     "displayName": 30,
     "actorLink": false,
     "width": 1,
@@ -244,7 +244,7 @@
       "img": "icons/weapons/polearms/halberd-crescent-worn-steel.webp",
       "system": {
         "description": {
-          "value": "<p><em>Stampato:</em> +5 a colpire, 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p><em>Stampato:</em> +5 a colpire, 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
           "chat": ""
         },
         "source": {
@@ -374,7 +374,7 @@
       "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
       "system": {
         "description": {
-          "value": "<p><em>Stampato:</em> +5 a colpire, 5 (1d4+3) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p><em>Stampato:</em> +5 a colpire, 5 (1d4+3) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
           "chat": ""
         },
         "source": {
@@ -495,38 +495,61 @@
     },
     {
       "_id": "DpIt001900000000",
-      "name": "Balestra pesante",
+      "name": "Archibugio",
       "type": "weapon",
-      "img": "icons/weapons/crossbows/crossbow-heavy.webp",
+      "img": "icons/weapons/guns/rifle-brown.webp",
       "system": {
         "description": {
-          "value": "<p>+2 a colpire. <em>Danni:</em> 5 (1d10) perforanti.</p>",
+          "value": "<p><em>Archibugio a miccia della milizia di Nochemburgo, con la Croce d’Ossa incisa sul calcio.</em></p><p><strong>Proprietà:</strong> Due Mani, Munizioni (corta), Pesante, Schegge</p><p><em><strong>Schegge.</strong></em> Chiunque si trovi sulla traiettoria del colpo, tra chi utilizza l'arma e il bersaglio, viene colpito dalle schegge sparate, subendo danni pari al modificatore di caratteristica utilizzato per l'attacco.</p><p>Tutte le armi da fuoco hanno le seguenti proprietà:</p><p><em><strong>Impatto Letale.</strong></em> Un colpo critico da arma da fuoco infligge 1d6 livelli di indebolimento.</p><p><em><strong>Malfunzionamento.</strong></em> Se l'arma da fuoco è stata ricaricata velocemente in condizioni di particolare stress oppure in movimento, mancare il successivo tiro per colpire vuol dire far esplodere male la polvere da sparo, subendo un livello di indebolimento per la bruciatura.</p><p><em><strong>Polveri Bagnate.</strong></em> La polvere da sparo può perdere di efficacia in caso di maltempo, forte umidità o altre eventualità che prevedano il suo contatto con dei liquidi. Se tali occasioni si sono presentate e il personaggio non ha avuto modo di eseguire una manutenzione, il personaggio dovrà effettuare una prova di Intelligenza con CD 12 prima di sparare il primo colpo. In caso di fallimento, il colpo non andrà a segno e metà delle munizioni si saranno rovinate.</p><p><em><strong>Ricarica Laboriosa.</strong></em> Ricaricare un'arma da fuoco richiede un'azione da eseguire rimanendo immobili durante il proprio turno. Muoversi durante il turno in cui si ricarica o essere in condizioni di particolare stress può causare un malfunzionamento. Le munizioni costano 2 mo per colpo. Effettuando l'azione di attacco, inoltre, è possibile effettuare un singolo attacco con un'arma da fuoco.</p>",
           "chat": ""
         },
         "source": {
-          "custom": "",
-          "book": "DiPire",
-          "page": "",
-          "license": "",
+          "custom": "Historia Manuale pagina: 248",
+          "revision": 1,
           "rules": "2014"
         },
         "quantity": 1,
-        "equipped": true,
-        "identified": true,
-        "proficient": null,
-        "type": {
-          "value": "martialR",
-          "baseItem": "heavycrossbow"
+        "weight": {
+          "value": 10,
+          "units": "lb"
         },
-        "properties": [
-          "amm",
-          "hvy",
-          "lod",
-          "two"
-        ],
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "range": {
+          "value": 6,
+          "long": 18,
+          "units": "m",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
         "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
           "base": {
-            "number": 1,
+            "number": 2,
             "denomination": 10,
             "bonus": "",
             "types": [
@@ -543,17 +566,37 @@
             }
           }
         },
-        "range": {
-          "value": 30,
-          "long": 120,
-          "units": "m",
-          "reach": null
+        "armor": {
+          "value": 10
         },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [
+          "two",
+          "amm",
+          "hvy",
+          "fir"
+        ],
+        "proficient": 1,
+        "unidentified": {
+          "description": ""
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "container": null,
+        "attuned": false,
+        "cover": null,
+        "magicalBonus": null,
         "activities": {
           "DpAc001500000000": {
             "_id": "DpAc001500000000",
             "type": "attack",
-            "name": "",
             "activation": {
               "type": "action",
               "value": 1,
@@ -568,23 +611,38 @@
               },
               "spellSlot": true
             },
+            "description": {
+              "chatFlavor": ""
+            },
             "duration": {
-              "concentration": false,
               "value": "",
               "units": "inst",
               "special": "",
-              "override": false
+              "override": false,
+              "concentration": false
             },
+            "effects": [],
             "range": {
+              "value": "6",
+              "units": "m",
+              "special": "",
               "override": false
             },
             "target": {
               "template": {
+                "count": "",
                 "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
                 "units": "m"
               },
               "affects": {
-                "choice": false
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
               },
               "prompt": true,
               "override": false
@@ -614,15 +672,28 @@
               "parts": []
             },
             "sort": 0,
-            "img": "",
-            "flags": {}
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
           }
+        },
+        "identifier": "arquebus",
+        "ammunition": {},
+        "crew": {
+          "value": []
         }
       },
       "effects": [],
       "folder": null,
       "sort": 0,
-      "flags": {}
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.historia-it.items-it.Item.WGyfmtR0RsnbHDfn"
+      }
     }
   ],
   "effects": [],

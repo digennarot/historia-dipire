@@ -1,9 +1,9 @@
 {
-  "_id": "DipireScMastio01",
-  "name": "Mastio De Fredier - Cancelli e cortile",
-  "navName": "Mastio",
+  "_id": "DipireScPiazza01",
+  "name": "Piazza della Pira",
+  "navName": "Piazza",
   "navigation": true,
-  "navOrder": 3,
+  "navOrder": 1,
   "width": 2400,
   "height": 1600,
   "padding": 0.25,
@@ -24,14 +24,14 @@
     "distance": 1.5,
     "units": "m"
   },
-  "tokenVision": false,
+  "tokenVision": true,
   "fog": {
     "mode": 0
   },
   "environment": {
     "darknessLevel": 0.6,
     "globalLight": {
-      "enabled": true
+      "enabled": false
     }
   },
   "levels": [
@@ -43,7 +43,7 @@
         "top": null
       },
       "background": {
-        "color": "#2f3a2c",
+        "color": "#3a3330",
         "src": null
       },
       "sort": 0,
@@ -52,208 +52,61 @@
   ],
   "tokens": [
     {
-      "_id": "DpTk001500000000",
-      "name": "Guardia del branco De Fredier 1",
-      "actorId": "DipireGuardia001",
+      "_id": "DpTk000100000000",
+      "name": "Iginius",
+      "actorId": "DipireIginius001",
+      "actorLink": true,
+      "x": 900,
+      "y": 1100,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": false,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/iginius.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk000200000000",
+      "name": "Guardia dell'Inquisizione 1",
+      "actorId": "DipireMiliziano1",
       "actorLink": false,
       "x": 1100,
-      "y": 1400,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": false,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk001600000000",
-      "name": "Guardia del branco De Fredier 2",
-      "actorId": "DipireGuardia001",
-      "actorLink": false,
-      "x": 1300,
-      "y": 1400,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": false,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk001700000000",
-      "name": "Guardia del branco De Fredier 3",
-      "actorId": "DipireGuardia001",
-      "actorLink": false,
-      "x": 700,
-      "y": 600,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": false,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk001800000000",
-      "name": "Guardia del branco De Fredier 4",
-      "actorId": "DipireGuardia001",
-      "actorLink": false,
-      "x": 1700,
-      "y": 600,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": false,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk001900000000",
-      "name": "Enrico De Fredier",
-      "actorId": "DipireEnrico0001",
-      "actorLink": true,
-      "x": 1200,
-      "y": 400,
+      "y": 700,
       "elevation": 0,
       "width": 1,
       "height": 1,
@@ -266,7 +119,154 @@
         "attribute": "attributes.hp"
       },
       "texture": {
-        "src": "modules/historia-dipire/img/tokens/enrico.webp",
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk000300000000",
+      "name": "Guardia dell'Inquisizione 2",
+      "actorId": "DipireMiliziano1",
+      "actorLink": false,
+      "x": 1300,
+      "y": 700,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk000400000000",
+      "name": "Cultista della Montagna (Bruno)",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 300,
+      "y": 300,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk000500000000",
+      "name": "Cultista della Montagna (Tecla)",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 400,
+      "y": 300,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
         "tint": "#ffffff",
         "scaleX": 1,
         "scaleY": 1,
@@ -299,61 +299,11 @@
   ],
   "notes": [
     {
-      "_id": "DpNt001100000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoCancell00",
-      "x": 1250,
-      "y": 1550,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/book.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "I cancelli",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
-      "_id": "DpNt001200000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoCortile00",
-      "x": 1250,
-      "y": 850,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/book.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "Il cortile e gli indizi",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
-      "_id": "DpNt001300000000",
-      "entryId": "DipireAmbiente01",
-      "pageId": "DpAmbVeglia00000",
-      "x": 1250,
-      "y": 250,
+      "_id": "DpNt000100000000",
+      "entryId": "DipireJ01Arrivo1",
+      "pageId": "DpJ01Pira0000000",
+      "x": 1200,
+      "y": 900,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -365,7 +315,7 @@
         "tint": "#ffffff"
       },
       "iconSize": 48,
-      "text": "La veglia di mezzanotte",
+      "text": "La pira di Cerere",
       "fontFamily": "Signika",
       "fontSize": 24,
       "textAnchor": 1,
@@ -374,11 +324,11 @@
       "flags": {}
     },
     {
-      "_id": "DpNt001400000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoMastio000",
-      "x": 350,
-      "y": 350,
+      "_id": "DpNt000200000000",
+      "entryId": "DipireJ01Arrivo1",
+      "pageId": "DpJ01Sovrint0000",
+      "x": 500,
+      "y": 1200,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -390,7 +340,7 @@
         "tint": "#ffffff"
       },
       "iconSize": 48,
-      "text": "Il mastio",
+      "text": "Casa di Iginius",
       "fontFamily": "Signika",
       "fontSize": 24,
       "textAnchor": 1,
@@ -399,23 +349,23 @@
       "flags": {}
     },
     {
-      "_id": "DpNt001500000000",
-      "entryId": "DipireAtti000001",
-      "pageId": "DpAttoIII0000000",
-      "x": 2050,
-      "y": 350,
+      "_id": "DpNt000300000000",
+      "entryId": "DipireJ01Arrivo1",
+      "pageId": "DpJ01Osteria0000",
+      "x": 1900,
+      "y": 600,
       "elevation": 0,
       "sort": 0,
       "locked": false,
       "texture": {
-        "src": "icons/svg/dice-target.svg",
+        "src": "icons/svg/book.svg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
         "tint": "#ffffff"
       },
       "iconSize": 48,
-      "text": "Atto III - L'Arrivo",
+      "text": "Osteria del Ceppo",
       "fontFamily": "Signika",
       "fontSize": 24,
       "textAnchor": 1,
@@ -424,48 +374,23 @@
       "flags": {}
     },
     {
-      "_id": "DpNt001600000000",
-      "entryId": "DipireAtti000001",
-      "pageId": "DpAttoSequenza00",
-      "x": 2050,
-      "y": 1450,
+      "_id": "DpNt000400000000",
+      "entryId": "DipireJ01Arrivo1",
+      "pageId": "DpJ01Nebbia00000",
+      "x": 1200,
+      "y": 200,
       "elevation": 0,
       "sort": 0,
       "locked": false,
       "texture": {
-        "src": "icons/svg/dice-target.svg",
+        "src": "icons/svg/book.svg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
         "tint": "#ffffff"
       },
       "iconSize": 48,
-      "text": "Sequenza - Infiltrazione",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
-      "_id": "DpNt001700000000",
-      "entryId": "DipireAtti000001",
-      "pageId": "DpAttoIV00000000",
-      "x": 350,
-      "y": 1450,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/dice-target.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "Atto IV - Il Branco",
+      "text": "Arrivo nella nebbia",
       "fontFamily": "Signika",
       "fontSize": 24,
       "textAnchor": 1,
@@ -475,18 +400,183 @@
     }
   ],
   "drawings": [],
-  "lights": [],
+  "lights": [
+    {
+      "_id": "DpLt000100000000",
+      "name": "Brace della pira",
+      "x": 1200,
+      "y": 800,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": "#8a2a0a",
+        "coloration": 1,
+        "dim": 3,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 2,
+          "intensity": 3,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000200000000",
+      "name": "Lanterna dell'Osteria",
+      "x": 1900,
+      "y": 500,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "color": "#ffb347",
+        "coloration": 1,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000300000000",
+      "name": "Candele della chiesetta",
+      "x": 600,
+      "y": 350,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": "#ffe9b0",
+        "coloration": 1,
+        "dim": 1.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 1,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000400000000",
+      "name": "Finestra di Iginius",
+      "x": 500,
+      "y": 1300,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": "#ffcf87",
+        "coloration": 1,
+        "dim": 2,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 2,
+          "intensity": 2,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    }
+  ],
   "sounds": [],
   "regions": [],
   "tiles": [],
   "walls": [],
-  "journal": "DipireLuoghi0001",
-  "journalEntryPage": "DpLuogoCortile00",
+  "journal": "DipireJ05Scene01",
+  "journalEntryPage": "DpJ05Piazza00000",
   "playlist": null,
   "playlistSound": null,
-  "weather": "",
+  "weather": "fog",
   "folder": "DipireFoldScene1",
-  "sort": 3,
+  "sort": 100000,
   "ownership": {
     "default": 0
   },

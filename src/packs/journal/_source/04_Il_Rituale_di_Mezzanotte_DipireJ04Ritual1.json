@@ -1,0 +1,183 @@
+{
+  "_id": "DipireJ04Ritual1",
+  "name": "04 - Il Rituale di Mezzanotte",
+  "folder": "DipireFoldJourn1",
+  "sort": 500000,
+  "pages": [
+    {
+      "_id": "DpJ04Vetta000000",
+      "name": "La Corona dei Lupi",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>La vetta è un pianoro battuto dal vento. Nove pietre ritte, più alte di un uomo, formano un cerchio attorno a un lago gelato piccolo come un’aia. Il ghiaccio è nero e liscio, e dentro, se lo guardate, vi sembra di vedere delle forme ferme, come pesci nel ghiaccio. Non sono pesci.</p><p>Sul bordo nord del cerchio c’è una pira di fascine. In cima, un fantoccio di paglia con un fazzoletto rosso in testa e un mazzetto di sambuco al collo. Attorno, una trentina di figure incappucciate con le torce cantano a bocca chiusa una melodia senza parole.</p><p>Davanti alla pira, un lupo alto, in armatura vecchia, con una corona di rami secchi. Si volta prima ancora che vi abbia sentiti.</p></div>\n<h2>Chi c’è</h2>\n<ul><li>@UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}, con il @UUID[Compendium.historia-dipire.items.Item.DipireItSimbolo1]{Simbolo Sacrificale} al collo.</li><li>Una trentina di fedeli: in gran parte anziani e pastori che non combattono. Sei di loro sono @UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Cultisti della Montagna} armati.</li><li>Nonna Ghita e, se sono vivi e liberi, Bruno e Tecla.</li><li>Se i cultisti l’hanno catturata durante la salita della milizia (succede se i PG arrivano dopo le 23:30 e la milizia è salita senza di loro): <strong>Arianna</strong>, legata a una delle pietre, imbavagliata.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04Enrico00000",
+      "name": "Il confronto con Enrico",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>«Mio padre e mia madre mi hanno sussurrato in sogno che qualcuno sarebbe salito. Col pugno o con l’ariete, vi aspettavo. Ditemi chi vi manda, e poi ditemi perché dovrei lasciarvi scendere.»</p></div>\n<p>Enrico è brusco, triste, stanco. Ascolta. Se i PG gli parlano con rispetto, racconta tutto ciò che è nella pagina @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Rituale0000]{Il vero scopo del rituale}: il Patto della Neve, la Fame Bianca, i tre elementi del rito.</p>\n<h2>Cosa chiede</h2>\n<ol><li><strong>Il teschio</strong>, se l’hanno loro. È l’unica cosa per cui è disposto a pagare qualunque prezzo.</li><li><strong>Arianna</strong>, viva. «La Corona vuole una vita per una voce. Che sia la sua.»</li><li><strong>Che fermino la milizia</strong> sulla cengia per il tempo del rito, se l’Inquisizione arriva.</li></ol>\n<table><thead><tr><th>Prova</th><th>Effetto</th></tr></thead><tbody><tr><td>[[/check skill=ins dc=13]]</td><td>Enrico non vuole uccidere Arianna per vendetta: crede davvero che non ci sia altro modo. Gli fa schifo.</td></tr><tr><td>[[/check skill=his dc=14]] sui teschi e sulle ossa incise attorno alla pira (vantaggio se i PG hanno fatto la prova di Storia alla pira)</td><td>Sono il <em>registro d’ossa</em> dei De Fredier: ogni bambino portato alla Corona è segnato con un osso inciso. Uno, di trent’anni fa, porta il segno della febbre di neve e una zampa di felino: «Piccola Neve, cucciola di puma, guarita».</td></tr><tr><td>Mostrare a Enrico il @UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Mandato} e la nota di Arianna</td><td>Enrico capisce prima dei PG: «Lei la conosce. La canzone. Gliel’hanno cantata». Per la prima volta, esita.</td></tr></tbody></table>\n<div class=\"advice\"><h4>Proposte possibili</h4><ol><li>Consegnare Arianna alla Corona come sacrificio (finale <em>Il Branco</em>).</li><li>Convincere Arianna a cantare (finale <em>Il Patto della Neve</em>).</li><li>Cantare loro stessi, con il teschio (finale <em>Il Patto della Neve</em>, a caro prezzo).</li><li>Uccidere Enrico e disperdere i fedeli, come vuole la Cercatora (finale <em>La Croce</em>).</li></ol></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04Arrivo00000",
+      "name": "L’arrivo dell’Inquisizione",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Alle 23:30, salvo che i PG l’abbiano fermata, la milizia arriva in cima alla Scala dei Corvi: Arianna, Yrmengard e da 4 a 8 guardie, con le torce e gli archibugi.</p>\n<div class=\"narrative\"><p>Dal bordo del pianoro sale una fila di torce. Le croci d’osso sui farsetti brillano di brina. In testa, una puma magra in un mantello nero. Non grida. Alza solo la mano, e otto canne di archibugio si abbassano verso il cerchio.</p></div>\n<div class=\"narrative\"><p>«Enrico De Fredier. In nome del Vicario di Nochemburgo e della Croce d’Ossa, siete in arresto per eresia, apostasia e omicidio. Spegnete quel fuoco.»</p></div>\n<h2>Lo stallo</h2>\n<ul><li>Le polveri sono bagnate: ogni archibugiere fa una prova di Intelligenza CD 12 prima del primo colpo (regola <em>Polveri Bagnate</em>).</li><li>Yrmengard non vuole un massacro di vecchi. Se i PG le parlano prima che inizi lo scontro, [[/check skill=per dc=13]] la fa esitare; con il vantaggio guadagnato nel journal 02, può dare l’ordine di non sparare.</li><li>I cultisti più giovani vogliono attaccare. Enrico li trattiene per un round, non per due.</li><li>Se lo scontro inizia, ogni round di sangue dentro il cerchio fa avanzare l’orologio della Fame di 1 (al massimo una volta per round).</li></ul>\n<div class=\"notable\"><h4>Rivelare il segreto di Arianna</h4><p>Se i PG mostrano le prove (l’osso inciso, il Mandato, i versi del canto che conoscono) davanti ai suoi soldati, Arianna deve rispondere. Prova di Persuasione o Intimidire CD 15 (vantaggio per ogni prova mostrata oltre la prima). Se riesce, Yrmengard ordina di abbassare le armi e guarda la Cercatora come si guarda un estraneo. Arianna ora può essere convinta a cantare.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04Rito0000000",
+      "name": "Il rito e la Fame Bianca",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A mezzanotte, se i tre elementi sono pronti (gli occhi, il sangue, la voce), il rito comincia. Enrico si apre il palmo con il falcetto del Simbolo e appoggia la mano sulla pietra più alta. Il ghiaccio del lago scricchiola.</p>\n<div class=\"narrative\"><p>Il fuoco della pira si piega verso terra, come schiacciato da una mano. Dalle crepe del ghiaccio sale un vapore bianco che non è vapore. Ha un odore di stalla e di neve vecchia. E da qualche parte, sotto i vostri piedi, qualcosa comincia a masticare.</p></div>\n<h2>Il Canto della Catena</h2>\n<p>Il rito dura <strong>3 round</strong>. Ogni round chi canta fa una prova a scelta tra Religione, Intrattenere o Natura:</p>\n<table><thead><tr><th>Round</th><th>CD</th><th>Note</th></tr></thead><tbody><tr><td>1</td><td>13</td><td>Il primo verso. Chi tiene il teschio in mano ha vantaggio.</td></tr><tr><td>2</td><td>15</td><td>La Fame si accorge del canto: gli sciami di corvi attaccano chi canta, se l’orologio è a 2 o più.</td></tr><tr><td>3</td><td>17</td><td>Il nome della catena. Enrico ulula insieme alla voce.</td></tr></tbody></table>\n<ul><li>Con l’orologio della Fame a 4 o più, la CD di ogni prova aumenta di 2.</li><li>Ogni prova fallita fa avanzare l’orologio di 1. Il rito fallisce se fallisce due prove, oppure se Enrico va a 0 PF o esce dal cerchio prima del terzo round.</li><li>Gli altri PG possono aiutare: tenere lontani i corvi, coprire chi canta dagli spari, cantare il ritornello (azione di Aiuto, una volta per round per tutto il gruppo).</li></ul>\n<h2>Chi può cantare</h2>\n<table><thead><tr><th>Voce</th><th>Come</th><th>Prezzo</th></tr></thead><tbody><tr><td><strong>Arianna</strong></td><td>Ha sentito il canto da cucciola: lo ricorda appena comincia. Prove con bonus +5 e vantaggio al primo round.</td><td>Il suo segreto è ormai di tutti. Da domani non sarà più una Cercatora.</td></tr><tr><td><strong>Un PG</strong></td><td>Tiene il teschio in mano e lascia che il canto passi attraverso di lui. Prove normali.</td><td>Alla fine del rito prende 2 livelli di indebolimento e un ciuffo del suo pelo diventa bianco per sempre. La Fame conosce il suo nome.</td></tr><tr><td><strong>Nessuno: una vita per una voce</strong></td><td>Una creatura viva viene sgozzata sulla pietra alta a mezzanotte. Il rito riesce senza prove.</td><td>Se la vittima è Arianna: finale «Il Branco». Chiunque altro, a discrezione del GM.</td></tr></tbody></table>\n<h2>La Fame Bianca</h2>\n<p>La Fame non ha statistiche: non si combatte. Se l’orologio arriva a 6 durante il rito, si mostra per un istante, alta come un abete, fatta di neve sporca e di costole di vacca, con una bocca che mastica senza fermarsi. Ogni creatura nel cerchio fa un [[/save ability=con dc=13]] all’inizio di ogni round del rito: chi fallisce subisce 2d6 danni da freddo. Chi la guarda per la prima volta fa un [[/save ability=wis dc=13]]: chi fallisce è spaventato fino alla fine del rito.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04FinaleA0000",
+      "name": "Finale: la Croce",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Quando</strong>: i PG si schierano con l’Inquisizione. Enrico muore o viene catturato, il rito non si compie.</p>\n<div class=\"narrative\"><p>La pira si spegne da sola. Il lago gelato si apre con un colpo secco, come un osso che si spezza. Qualcosa di bianco esce dalla Corona e scende verso la valle, senza fretta. Arianna lo guarda passare e si fa il segno della Croce d’Ossa. Non vi dice cosa ha visto.</p></div>\n<ul><li>Alba: il primo gelo dura tre giorni. Brunascio perde un abitante o una stalla per ogni segmento pieno dell’orologio della Fame. Arianna attribuisce i morti alla «maledizione del lupo» e accende il secondo palo per Ilario e Liù.</li><li>Iginius paga i PG: <strong>1 Conio ciascuno</strong>. Non li guarda negli occhi.</li><li><strong>+2 reputazione con la Chiesa delle Ossa</strong> e una lettera di raccomandazione per Nochemburgo.</li><li>Se i PG hanno il teschio e lo consegnano, Arianna lo macina e lo getta nel torrente. Il patto è perso per sempre: la Fame scenderà ogni inverno.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04FinaleB0000",
+      "name": "Finale: il Branco",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Quando</strong>: i PG si schierano con Enrico e consegnano Arianna alla Corona.</p>\n<div class=\"narrative\"><p>Arianna non grida. Guarda il fuoco e muove le labbra, e per un attimo vi sembra che stia cantando. Poi il falcetto scende. Il lago gelato si richiude con un sospiro lungo. Il vento cala. Per la prima volta da quando siete arrivati, sentite la neve cadere davvero.</p></div>\n<ul><li>Il patto è rinnovato. Brunascio passa l’inverno senza morti. Nessuno in paese saprà mai perché.</li><li>Yrmengard, se è viva, porta la milizia a valle e racconta a Nochemburgo che la Cercatora è caduta in un dirupo. Lo fa per i suoi soldati, non per i PG. Tra un anno arriverà un altro inquisitore.</li><li>Iginius paga i PG, ma solo se non sa cosa è successo sulla vetta.</li><li><strong>−2 reputazione con la Chiesa delle Ossa</strong> se la verità viene fuori. La casata De Fredier è da oggi alleata dei PG; Enrico regala loro il @UUID[Compendium.historia-dipire.items.Item.DipireItSimbolo1]{Simbolo Sacrificale}.</li><li>Se Arianna aveva il tratto <em>Ci rivedremo</em> disponibile e il GM lo vuole, al momento del sacrificio lei sparisce nella tormenta lasciando una delle sue guardie sulla pietra. Il patto regge comunque, ma ora c’è una Cercatora che sa tutto, e vi odia.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04FinaleC0000",
+      "name": "Finale: il Patto della Neve",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Quando</strong>: il rito riesce senza sacrificio. Arianna canta, oppure canta un PG con il teschio. Nessuna delle due fazioni ha vinto: entrambe hanno ceduto.</p>\n<div class=\"narrative\"><p>La voce trema al primo verso e si fa ferma al terzo. Enrico ulula il nome della catena, e trenta gole gli rispondono dal buio. Il ghiaccio del lago si fa bianco, poi trasparente, poi di nuovo nero. Quando l’eco finisce, l’aria ha l’odore dei fiori di sambuco, a metà inverno.</p></div>\n<ul><li>Il patto è rinnovato per un anno. La Fame dorme.</li><li><strong>Se ha cantato Arianna</strong>: resta seduta nella neve fino all’alba. Al mattino straccia il Mandato e ordina a Yrmengard di liberare i prigionieri. Torna a Nochemburgo da sola, e i PG non sapranno mai cosa ne è stato di lei, a meno che il GM non voglia usarla in futuro. Il secondo palo viene bruciato vuoto.</li><li><strong>Se ha cantato un PG</strong>: diventa, che lo voglia o no, la nuova voce della Corona. Il prossimo primo gelo dovrà tornare, o insegnare il canto a qualcuno. Enrico gli dà il @UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{teschio di Cerere} da custodire, come le comari prima di lui.</li><li>Iginius paga i PG e, se hanno scoperto la sua denuncia, restituisce il Prato della Fontana alla comunità «per la memoria della comare».</li><li>Nessuna variazione di reputazione con la Chiesa (a meno che il segreto di Arianna non arrivi a Nochemburgo). La casata De Fredier è alleata dei PG, e a Brunascio qualcuno torna ad appendere il sambuco alle porte.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04FinaleD0000",
+      "name": "Finale: la Fame",
+      "type": "text",
+      "sort": 800000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Quando</strong>: il rito fallisce e nessuna fazione vince. Enrico muore nello scontro con la milizia, il canto si spezza, l’orologio arriva a 6, oppure i PG non salgono affatto.</p>\n<div class=\"narrative\"><p>Il ghiaccio esplode verso l’alto in schegge bianche. Le torce si spengono tutte insieme. Nel buio senti i fedeli che corrono, gli archibugi che sparano a niente, qualcuno che prega. E sotto tutto, vicino, un rumore umido di mandibole.</p></div>\n<ul><li>Fuga dalla vetta: una Sequenza di discesa (vedi @UUID[Compendium.historia-it.rules-it.JournalEntry.AvventureRegol01]{Avventure e Sequenze}) con CD 14, 3 PF per azione. Ogni round la Fame si avvicina: chi resta ultimo fa un [[/save ability=con dc=14]] o subisce 3d6 danni da freddo.</li><li>Alba: Brunascio perde un abitante o una stalla per ogni segmento dell’orologio, più tre. Tra i morti, Iginius, trovato seduto davanti al camino spento con gli occhi bianchi.</li><li>Nessuno paga i PG. Arianna, se è sopravvissuta, ha un nuovo eretico da cercare: chiunque sia sceso vivo dalla Corona.</li></ul>\n<div class=\"advice\"><h4>Se volete dare una seconda possibilità</h4><p>Il primo gelo dura tre giorni. Se i PG tornano sulla vetta con il teschio e una voce entro la terza notte, possono ancora tentare il rito, con l’orologio a 6. Il folk horror ama i finali amari, ma una one shot di Halloween può concedere un’ultima corsa nella neve.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ04Ricomp00000",
+      "name": "Ricompense e conseguenze",
+      "type": "text",
+      "sort": 900000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<table><thead><tr><th>Finale</th><th>Denaro</th><th>Reputazione Chiesa</th><th>Alleati</th><th>Brunascio</th></tr></thead><tbody><tr><td>La Croce</td><td>1 Conio a testa</td><td>+2</td><td>Inquisizione</td><td>Morti pari all’orologio</td></tr><tr><td>Il Branco</td><td>1 Conio (se Iginius non sa)</td><td>−2 se scoperto</td><td>Casata De Fredier</td><td>Salva</td></tr><tr><td>Il Patto della Neve</td><td>1 Conio a testa</td><td>0</td><td>Casata De Fredier, il villaggio</td><td>Salva</td></tr><tr><td>La Fame</td><td>nessuno</td><td>sospetti di eresia</td><td>nessuno</td><td>Strage</td></tr></tbody></table>\n<h2>Punti esperienza</h2>\n<p>Per una one shot conviene un avanzamento a traguardi: un livello a fine serata se il gruppo ha raggiunto la vetta. In alternativa, contate i PE degli avversari sconfitti o messi in fuga più 200 PE a testa per un finale che salva Brunascio.</p>\n<h2>Oggetti</h2>\n<ul><li>@UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{Il Teschio Bruciacchiato di Cerere}: resta ai PG nei finali in cui lo hanno custodito.</li><li>@UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Il Mandato dell’Inquisizione}: se lo hanno sottratto. Venderlo o usarlo a Nochemburgo è un’avventura a parte.</li><li>@UUID[Compendium.historia-dipire.items.Item.DipireItSimbolo1]{Il Simbolo Sacrificale di Enrico}: dono di Enrico nei finali in cui il branco è alleato; preda di guerra in «La Croce».</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

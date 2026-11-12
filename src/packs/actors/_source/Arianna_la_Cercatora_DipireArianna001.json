@@ -64,7 +64,7 @@
     },
     "details": {
       "biography": {
-        "value": "\n<p><strong>Inquisitrice della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, felide @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}.</strong> Fredda, scarna, calcolatrice e autoritaria. Non alza mai la voce, perché non ne ha bisogno: la sua autorità incute già terrore. Ha preso il comando di Brunascio in nome dell'autorità di Nochemburgo e ha fatto bruciare Cerere.</p>\n<p><strong>Suggerimento di ruolo:</strong> non rispondete mai alle domande dirette sul suo passato. Studiate i personaggi con sguardo giudicante. Se i PG insistono, fate lampeggiare i suoi occhi di rabbia repressa e tagliate corto: le domande le fa lei. Nascondete i suoi veri motivi personali dietro un incrollabile zelo religioso contro le eresie.</p>\n<p><strong>Sfida 1 (200 PE).</strong> CA 16 (armatura magica), PF 27 (5d6+5), velocità 9 m, scurovisione 18 m. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngArianna0000]{Arianna la Cercatora}.</p>\n<p><em>Discrepanze (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> il testo indica Percezione passiva 15, ma con SAG 8 dnd5e calcola 9; i PF stampati (27) sono superiori alla media della formula 5d6+5 (22): si mantengono i 27 stampati.</p>",
+        "value": "<p><strong>Inquisitrice della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, felide @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}.</strong> Fredda, scarna, autoritaria. Non alza mai la voce. Ha preso il comando di Brunascio con il @UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Mandato dell’Inquisizione} e ha fatto bruciare Cerere dopo una sola notte di interrogatorio.</p>\n<p><strong>Segreto:</strong> trent’anni fa, cucciola malata di febbre di neve, fu salvata da Cerere con il rito della Corona e il <em>Canto della Catena</em>. Cerere la chiamava «Piccola Neve» e l’ha riconosciuta. Arianna l’ha bruciata per eliminare l’unica testimone. Ora vuole Enrico morto e il teschio distrutto. Ricorda ancora il canto: può essere la voce del rito (journal 04).</p>\n<p><strong>Suggerimento di ruolo:</strong> non rispondete mai sul suo passato. Le domande le fa lei. Se qualcuno nomina la febbre di neve, il sambuco o «Neve», fermatevi un respiro di troppo.</p>\n<p><strong>Sfida 1 (200 PE).</strong> Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngArianna0000]{Arianna «La Cercatora»}. Note sulle statistiche: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti} (PF 27 mantenuti come stampati, Percezione passiva calcolata da dnd5e).</p>",
         "public": ""
       },
       "alignment": "",
@@ -840,6 +840,207 @@
       "folder": null,
       "sort": 0,
       "flags": {}
+    },
+    {
+      "_id": "DpIt003000000000",
+      "name": "Pistola",
+      "type": "weapon",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Una pistola a ruota con il calcio intarsiato d’osso, dono del Vicario. Arianna la porta carica sotto il mantello e la usa solo a bruciapelo.</em></p><p><strong>Proprietà:</strong> Maneggevole, Munizioni (corta)</p><p><em><strong>Maneggevole.</strong></em> Quest'arma è considerata un'arma leggera utilizzabile con una mano; effettuando un'azione di attacco con essa è possibile usare un'azione bonus per effettuare un attacco in mischia con un'arma leggera tenuta nell'altra mano, come per combattere con due armi.</p><p>Tutte le armi da fuoco hanno le seguenti proprietà:</p><p><em><strong>Impatto Letale.</strong></em> Un colpo critico da arma da fuoco infligge 1d6 livelli di indebolimento.</p><p><em><strong>Malfunzionamento.</strong></em> Se l'arma da fuoco è stata ricaricata velocemente in condizioni di particolare stress oppure in movimento, mancare il successivo tiro per colpire vuol dire far esplodere male la polvere da sparo, subendo un livello di indebolimento per la bruciatura.</p><p><em><strong>Polveri Bagnate.</strong></em> La polvere da sparo può perdere di efficacia in caso di maltempo, forte umidità o altre eventualità che prevedano il suo contatto con dei liquidi. Se tali occasioni si sono presentate e il personaggio non ha avuto modo di eseguire una manutenzione, il personaggio dovrà effettuare una prova di Intelligenza con CD 12 prima di sparare il primo colpo. In caso di fallimento, il colpo non andrà a segno e metà delle munizioni si saranno rovinate.</p><p><em><strong>Ricarica Laboriosa.</strong></em> Ricaricare un'arma da fuoco richiede un'azione da eseguire rimanendo immobili durante il proprio turno. Muoversi durante il turno in cui si ricarica o essere in condizioni di particolare stress può causare un malfunzionamento. Le munizioni costano 2 mo per colpo. Effettuando l'azione di attacco, inoltre, è possibile effettuare un singolo attacco con un'arma da fuoco.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Historia Manuale pagina: 248",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 40,
+          "denomination": "gp"
+        },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "range": {
+          "value": 6,
+          "long": 18,
+          "units": "m",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [
+          "lgt",
+          "amm",
+          "fir"
+        ],
+        "proficient": 1,
+        "unidentified": {
+          "description": ""
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "container": null,
+        "attuned": false,
+        "cover": null,
+        "magicalBonus": null,
+        "activities": {
+          "DpAc003000000000": {
+            "_id": "DpAc003000000000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false,
+              "concentration": false
+            },
+            "effects": [],
+            "range": {
+              "value": "6",
+              "units": "m",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "m"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "pistol",
+        "ammunition": {},
+        "crew": {
+          "value": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.historia-it.items-it.Item.UkAElWbCiijzPmhZ"
+      }
     }
   ],
   "effects": [],

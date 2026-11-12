@@ -4,6 +4,8 @@
 // - pack actors   -> src/packs/actors/_source
 // - pack journal  -> src/packs/journal/_source
 // - pack automation -> src/packs/automation/_source
+// - pack items     -> src/packs/items/_source
+// - pack tables    -> src/packs/tables/_source
 // - pack adventure -> src/adventure/adventure.json (metadati e cartelle) e src/adventure/scenes/*.json
 //   (attori e journal dell'Adventure vengono scartati: alla build si riassemblano dai pack separati).
 // Attenzione: i pack vanno sbloccati e modificati in Foundry; i documenti importati nel mondo non sono letti.
@@ -45,6 +47,8 @@ async function extractTo(packName, destDir, transform = d => d) {
 await extractTo("actors", path.join(ROOT, "src/packs/actors/_source"), strip);
 await extractTo("journal", path.join(ROOT, "src/packs/journal/_source"), strip);
 await extractTo("automation", path.join(ROOT, "src/packs/automation/_source"), strip);
+await extractTo("items", path.join(ROOT, "src/packs/items/_source"), strip);
+await extractTo("tables", path.join(ROOT, "src/packs/tables/_source"), strip);
 
 // Adventure: scene in file separati, metadati senza attori/journal.
 const tmp = path.join(ROOT, "build", "extract", "adventure");
@@ -57,7 +61,7 @@ const scenesDir = path.join(ROOT, "src/adventure/scenes");
 await fs.rm(scenesDir, { recursive: true, force: true });
 await fs.mkdir(scenesDir, { recursive: true });
 for (const s of adv.scenes ?? []) await fs.writeFile(path.join(scenesDir, `${safeName(s.name)}_${s._id}.json`), JSON.stringify(s, null, 2) + "\n", "utf8");
-const meta = { _id: adv._id, name: adv.name, img: adv.img, caption: adv.caption, description: adv.description, folders: adv.folders ?? [], flags: adv.flags ?? {}, _stats: adv._stats };
+const meta = { _id: adv._id, name: adv.name, img: adv.img, caption: adv.caption, description: adv.description, folders: adv.folders ?? [], itemFolder: adv.items?.[0]?.folder ?? null, tableFolder: adv.tables?.[0]?.folder ?? null, flags: adv.flags ?? {}, _stats: adv._stats };
 await fs.writeFile(path.join(ROOT, "src/adventure/adventure.json"), JSON.stringify(meta, null, 2) + "\n", "utf8");
 console.log(`adventure: ${adv.scenes?.length ?? 0} scene -> src/adventure/`);
 await fs.rm(path.join(ROOT, "build"), { recursive: true, force: true });

@@ -1,9 +1,9 @@
 {
-  "_id": "DipireScPiazza01",
-  "name": "Piazza di Brunascio",
-  "navName": "Piazza",
+  "_id": "DipireScAccamp01",
+  "name": "Accampamento dell'Inquisizione",
+  "navName": "Accampamento",
   "navigation": true,
-  "navOrder": 1,
+  "navOrder": 2,
   "width": 2400,
   "height": 1600,
   "padding": 0.25,
@@ -24,14 +24,14 @@
     "distance": 1.5,
     "units": "m"
   },
-  "tokenVision": false,
+  "tokenVision": true,
   "fog": {
     "mode": 0
   },
   "environment": {
-    "darknessLevel": 0,
+    "darknessLevel": 0.7,
     "globalLight": {
-      "enabled": true
+      "enabled": false
     }
   },
   "levels": [
@@ -43,7 +43,7 @@
         "top": null
       },
       "background": {
-        "color": "#3a3330",
+        "color": "#2f302a",
         "src": null
       },
       "sort": 0,
@@ -52,66 +52,17 @@
   ],
   "tokens": [
     {
-      "_id": "DpTk000100000000",
-      "name": "Iginius",
-      "actorId": "DipireIginius001",
+      "_id": "DpTk000600000000",
+      "name": "Arianna la Cercatora",
+      "actorId": "DipireArianna001",
       "actorLink": true,
-      "x": 1100,
-      "y": 800,
+      "x": 1200,
+      "y": 600,
       "elevation": 0,
       "width": 1,
       "height": 1,
       "level": "defaultLevel0000",
       "hidden": false,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/iginius.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk000200000000",
-      "name": "Arianna la Cercatora",
-      "actorId": "DipireArianna001",
-      "actorLink": true,
-      "x": 1200,
-      "y": 400,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": true,
       "disposition": 0,
       "displayName": 30,
       "displayBars": 40,
@@ -150,17 +101,17 @@
       }
     },
     {
-      "_id": "DpTk000300000000",
+      "_id": "DpTk000700000000",
       "name": "Yrmengard da Nochemburgo",
       "actorId": "DipireYrmengard1",
       "actorLink": true,
-      "x": 1300,
-      "y": 500,
+      "x": 1200,
+      "y": 1300,
       "elevation": 0,
       "width": 1,
       "height": 1,
       "level": "defaultLevel0000",
-      "hidden": true,
+      "hidden": false,
       "disposition": 0,
       "displayName": 30,
       "displayBars": 40,
@@ -199,208 +150,12 @@
       }
     },
     {
-      "_id": "DpTk000400000000",
-      "name": "Miliziano della Croce d'Ossa 1",
+      "_id": "DpTk000800000000",
+      "name": "Guardia dell'Inquisizione 1",
       "actorId": "DipireMiliziano1",
       "actorLink": false,
       "x": 1000,
-      "y": 500,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": true,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk000500000000",
-      "name": "Miliziano della Croce d'Ossa 2",
-      "actorId": "DipireMiliziano1",
-      "actorLink": false,
-      "x": 1400,
-      "y": 500,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": true,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk000600000000",
-      "name": "Miliziano della Croce d'Ossa 3",
-      "actorId": "DipireMiliziano1",
-      "actorLink": false,
-      "x": 1200,
-      "y": 600,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": true,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/guardia.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk000700000000",
-      "name": "Enrico De Fredier",
-      "actorId": "DipireEnrico0001",
-      "actorLink": true,
-      "x": 1200,
-      "y": 1300,
-      "elevation": 0,
-      "width": 1,
-      "height": 1,
-      "level": "defaultLevel0000",
-      "hidden": true,
-      "disposition": 0,
-      "displayName": 30,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "texture": {
-        "src": "modules/historia-dipire/img/tokens/enrico.webp",
-        "tint": "#ffffff",
-        "scaleX": 1,
-        "scaleY": 1,
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": true,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic"
-      },
-      "delta": {},
-      "flags": {},
-      "ring": {
-        "enabled": true,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      }
-    },
-    {
-      "_id": "DpTk000800000000",
-      "name": "Guardia del branco De Fredier 1",
-      "actorId": "DipireGuardia001",
-      "actorLink": false,
-      "x": 900,
-      "y": 1300,
+      "y": 1400,
       "elevation": 0,
       "width": 1,
       "height": 1,
@@ -445,11 +200,11 @@
     },
     {
       "_id": "DpTk000900000000",
-      "name": "Guardia del branco De Fredier 2",
-      "actorId": "DipireGuardia001",
+      "name": "Guardia dell'Inquisizione 2",
+      "actorId": "DipireMiliziano1",
       "actorLink": false,
-      "x": 1500,
-      "y": 1300,
+      "x": 1400,
+      "y": 1400,
       "elevation": 0,
       "width": 1,
       "height": 1,
@@ -494,11 +249,158 @@
     },
     {
       "_id": "DpTk001000000000",
-      "name": "Guardia del branco De Fredier 3",
-      "actorId": "DipireGuardia001",
+      "name": "Guardia dell'Inquisizione 3",
+      "actorId": "DipireMiliziano1",
       "actorLink": false,
-      "x": 1200,
-      "y": 1400,
+      "x": 400,
+      "y": 400,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001100000000",
+      "name": "Guardia dell'Inquisizione 4",
+      "actorId": "DipireMiliziano1",
+      "actorLink": false,
+      "x": 2000,
+      "y": 400,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001200000000",
+      "name": "Guardia dell'Inquisizione 5",
+      "actorId": "DipireMiliziano1",
+      "actorLink": false,
+      "x": 400,
+      "y": 1200,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001300000000",
+      "name": "Guardia dell'Inquisizione 6",
+      "actorId": "DipireMiliziano1",
+      "actorLink": false,
+      "x": 2000,
+      "y": 1200,
       "elevation": 0,
       "width": 1,
       "height": 1,
@@ -544,111 +446,11 @@
   ],
   "notes": [
     {
-      "_id": "DpNt000100000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoPiazza000",
-      "x": 1150,
-      "y": 1050,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/book.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "La pira di Cerere",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
-      "_id": "DpNt000200000000",
-      "entryId": "DipireAtti000001",
-      "pageId": "DpAttoI000000000",
-      "x": 350,
-      "y": 350,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/dice-target.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "Atto I - L'Arrivo",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
-      "_id": "DpNt000300000000",
-      "entryId": "DipireAtti000001",
-      "pageId": "DpAttoV000000000",
-      "x": 2050,
-      "y": 350,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/dice-target.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "Atto V - Il Salvataggio",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
-      "_id": "DpNt000400000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoCasaIgi00",
-      "x": 450,
-      "y": 1250,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "texture": {
-        "src": "icons/svg/book.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "tint": "#ffffff"
-      },
-      "iconSize": 48,
-      "text": "Casa di Iginius",
-      "fontFamily": "Signika",
-      "fontSize": 24,
-      "textAnchor": 1,
-      "textColor": "#ffffff",
-      "global": true,
-      "flags": {}
-    },
-    {
       "_id": "DpNt000500000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoOsteria00",
-      "x": 1950,
-      "y": 1250,
+      "entryId": "DipireJ02Inquis1",
+      "pageId": "DpJ02Udienza0000",
+      "x": 1200,
+      "y": 400,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -660,7 +462,7 @@
         "tint": "#ffffff"
       },
       "iconSize": 48,
-      "text": "Osteria",
+      "text": "Padiglione di Arianna",
       "fontFamily": "Signika",
       "fontSize": 24,
       "textAnchor": 1,
@@ -670,10 +472,10 @@
     },
     {
       "_id": "DpNt000600000000",
-      "entryId": "DipireLuoghi0001",
-      "pageId": "DpLuogoBrunasc00",
-      "x": 350,
-      "y": 750,
+      "entryId": "DipireJ02Inquis1",
+      "pageId": "DpJ02Accamp00000",
+      "x": 700,
+      "y": 900,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -685,7 +487,57 @@
         "tint": "#ffffff"
       },
       "iconSize": 48,
-      "text": "Brunascio",
+      "text": "Carro-gabbia",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    },
+    {
+      "_id": "DpNt000700000000",
+      "entryId": "DipireJ05Scene01",
+      "pageId": "DpJ05Accamp00000",
+      "x": 1800,
+      "y": 1000,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/fire.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "Forgia e polvere nera",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    },
+    {
+      "_id": "DpNt000800000000",
+      "entryId": "DipireJ02Inquis1",
+      "pageId": "DpJ02Milizia0000",
+      "x": 1200,
+      "y": 1500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "Cancello",
       "fontFamily": "Signika",
       "fontSize": 24,
       "textAnchor": 1,
@@ -695,18 +547,265 @@
     }
   ],
   "drawings": [],
-  "lights": [],
+  "lights": [
+    {
+      "_id": "DpLt000500000000",
+      "name": "Braciere",
+      "x": 250,
+      "y": 250,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 4.5,
+        "color": "#ff7a1a",
+        "coloration": 1,
+        "dim": 9,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000600000000",
+      "name": "Braciere",
+      "x": 2150,
+      "y": 250,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 4.5,
+        "color": "#ff7a1a",
+        "coloration": 1,
+        "dim": 9,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000700000000",
+      "name": "Braciere",
+      "x": 250,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 4.5,
+        "color": "#ff7a1a",
+        "coloration": 1,
+        "dim": 9,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000800000000",
+      "name": "Braciere",
+      "x": 2150,
+      "y": 1350,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 4.5,
+        "color": "#ff7a1a",
+        "coloration": 1,
+        "dim": 9,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt000900000000",
+      "name": "Forgia",
+      "x": 1800,
+      "y": 900,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "color": "#ff4500",
+        "coloration": 1,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "pulse",
+          "speed": 4,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001000000000",
+      "name": "Lanterna di Arianna",
+      "x": 1200,
+      "y": 500,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": "#d8e4ff",
+        "coloration": 1,
+        "dim": 3,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    }
+  ],
   "sounds": [],
   "regions": [],
   "tiles": [],
   "walls": [],
-  "journal": "DipireLuoghi0001",
-  "journalEntryPage": "DpLuogoPiazza000",
+  "journal": "DipireJ05Scene01",
+  "journalEntryPage": "DpJ05Accamp00000",
   "playlist": null,
   "playlistSound": null,
-  "weather": "",
+  "weather": "rain",
   "folder": "DipireFoldScene1",
-  "sort": 1,
+  "sort": 200000,
   "ownership": {
     "default": 0
   },

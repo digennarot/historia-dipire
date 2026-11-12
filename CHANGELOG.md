@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0
+
+Riscrittura dell’avventura secondo la nuova struttura in cinque journal. **Non compatibile** con i documenti importati dalla 1.x: reimportate l’Adventure in un mondo pulito.
+
+- Nuova trama: il Patto della Neve, la Fame Bianca, il segreto di Arianna («Piccola Neve»), la denuncia di Iginius, il rito sulla Corona dei Lupi e quattro finali (La Croce, Il Branco, Il Patto della Neve, La Fame), con l’orologio della Fame Bianca.
+- Journal 00-04 e 05 (allestimento delle scene: illuminazione, suoni, muri e linea di vista); journal PNG riscritto con stat block riassunti. Rimossi Guida del GM, Atti, Luoghi e Ambientazione.
+- Tre scene al posto delle sette segnaposto: Piazza della Pira, Accampamento dell’Inquisizione, Vetta del Rituale, con oscurità, meteo, luci animate, token e note.
+- Nuovi compendi **Di Pire - Oggetti** (Teschio di Cerere, Mandato dell’Inquisizione, Simbolo Sacrificale) e **Di Pire - Tabelle** (Dicerie, Effetti orrifici).
+- Attori: Guardia dell’Inquisizione con l’Archibugio di Historia, Cultista della Montagna (ex Guardia del branco), Sciame di Corvi della Fame (nuovo), Iginius con statistiche, Arianna con la Pistola di Historia, Enrico con *Ululato della Corona*.
+- Strumenti del GM aggiornati: tappe della salita, Scala dei Corvi, Canto della Catena, orologio della Fame Bianca, tabelle, quattro finali.
+
 ## 1.1.1
 
 - Nuova presentazione dell’avventura (one shot folk horror per Halloween) nel documento Avventura, nel manifesto e nel README.

@@ -1,0 +1,51 @@
+{
+  "_id": "DipireItMandato1",
+  "name": "Il Mandato dell'Inquisizione",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Un foglio di pergamena spessa, ripiegato in tre, chiuso da un sigillo di cera nera con la Croce d’Ossa. Il nastro rosso è macchiato di fango. Odora di incenso, di sego e, appena, di fumo.</em></p>\n<blockquote><p>«Noi, Vicario della Chiesa delle Ossa in Nochemburgo, concediamo alla sorella Arianna, detta la Cercatora, piena facoltà di inquisire, sequestrare e purificare nella valle di Brunascio e nelle terre dei De Fredier, su denuncia del sovrintendente Iginius, a gloria delle Ossa e a salute delle anime.»</p></blockquote>\n<h3>Proprietà</h3>\n<ul>\n<li><strong>Autorità della Croce.</strong> Chi lo mostra e viene creduto ha vantaggio alle prove di Carisma (Intimidire) contro i paesani di Brunascio e i soldati della milizia (non contro Yrmengard, che conosce la grafia di Arianna). Ha svantaggio a ogni prova di Carisma contro i fedeli della Corona.</li>\n<li><strong>Il nome del delatore.</strong> Il testo cita Iginius come autore della denuncia. Basta leggerlo.</li>\n<li><strong>La nota sotto la cera</strong> (Intelligenza (Indagare) CD 15). Il sigillo è stato staccato e riattaccato con cera nuova. Sotto, sul retro, una riga a carboncino, nella grafia stretta di Arianna: <em>«Brunascio. Piccola Neve. Nessun testimone.»</em> È la prova del suo segreto.</li>\n</ul>\n<p><em>Valore: nessuno sul mercato. Come prova contro Arianna, o come merce di ricatto a Nochemburgo, vale moltissimo.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "kg"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": true,
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

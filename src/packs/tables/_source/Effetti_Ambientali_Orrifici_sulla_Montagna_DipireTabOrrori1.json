@@ -1,0 +1,109 @@
+{
+  "_id": "DipireTabOrrori1",
+  "name": "Effetti Ambientali Orrifici sulla Montagna",
+  "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+  "description": "<p>Tirate 1d6 a ogni tappa della salita ai Denti (journal 03), o quando la notte sembra troppo tranquilla.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "DpTrOrr000000001",
+      "type": "text",
+      "name": "Le impronte che tornano",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "description": "<p>Davanti al gruppo, nella neve fresca, ci sono le loro impronte. Le stesse suole, le stesse zampe, lo stesso passo zoppo di chi ha una ferita. Vanno nella direzione opposta, verso valle. Ogni PG fa un tiro salvezza su Saggezza CD 11: chi fallisce è spaventato per 1 minuto (può ripetere il tiro alla fine di ogni suo turno).</p>",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrOrr000000002",
+      "type": "text",
+      "name": "Il campanaccio",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "description": "<p>Nella nebbia suona un campanaccio da mucca, prima lontano, poi più vicino. Si avvicina con passo lento, regolare. Quando arriva, c’è solo il campanaccio, appeso a un collo di vacca gelato, tagliato di netto, posato nella neve. Se il gruppo segue il suono invece di aspettare, l’orologio della Fame Bianca avanza di 1.</p>",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrOrr000000003",
+      "type": "text",
+      "name": "La voce della comare",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "description": "<p>Dalle rocce arriva un chiocciare di gallina, poi una voce vecchia e stonata che canta un verso in dialetto. Un PG che supera una prova di Saggezza (Religione o Natura) CD 13 lo ricorda parola per parola: avrà vantaggio alla prima prova del Canto della Catena sulla vetta.</p>",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrOrr000000004",
+      "type": "text",
+      "name": "Il gelo che morde",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "description": "<p>Il vento gira di colpo e porta un freddo che entra nelle ossa. Ogni PG fa un tiro salvezza su Costituzione CD 12: chi fallisce subisce 1d6 danni da freddo e lascia cadere quello che ha in mano, le dita insensibili.</p>",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrOrr000000005",
+      "type": "text",
+      "name": "I fantocci",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "description": "<p>Lungo il sentiero, su pali piantati nella neve, ci sono fantocci di paglia con teste di animale: capra, cane, gatto. Sono girati verso il gruppo. Alla curva successiva ce ne sono altri, più vicini al sentiero. E altri ancora. Non succede niente. Chi apre un fantoccio trova dentro un dente da latte avvolto in un pezzo di stoffa con un nome ricamato.</p>",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrOrr000000006",
+      "type": "text",
+      "name": "La fame",
+      "img": "icons/magic/water/barrier-ice-crystal-wall-faceted-blue.webp",
+      "description": "<p>Tutti i PG sentono all’improvviso una fame che fa male. Le razioni nello zaino sanno di cenere. Ogni PG fa un tiro salvezza su Saggezza CD 12: chi fallisce si morde le labbra o la zampa fino a sanguinare (1 danno perforante) e ha svantaggio alla prossima prova di Saggezza.</p>",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

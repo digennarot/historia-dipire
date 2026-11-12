@@ -1,0 +1,138 @@
+{
+  "_id": "DipireItTeschio1",
+  "name": "Il Teschio Bruciacchiato di Cerere",
+  "type": "equipment",
+  "img": "icons/commodities/bones/skull-bird-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Il teschio di una gallina, annerito dal fuoco, con il becco incrinato. Un filo di lana rossa gli gira attorno tre volte e un rametto di sambuco è infilato in un’orbita. È più freddo dell’aria, sempre, anche al sole.</em></p>\n<p>Ogni comare di Brunascio custodiva il teschio della comare precedente: è chiamato «gli occhi della comare», perché vede la Fame Bianca anche quando è invisibile. Questo era di Cerere. Arianna lo ha inchiodato in cima al palo della pira come monito. Enrico ne ha bisogno per il rito. Arianna lo vuole distrutto.</p>\n<h3>Proprietà</h3>\n<ul>\n<li><strong>Gli occhi della comare.</strong> Chi lo porta ha vantaggio alle prove di Saggezza (Percezione) per notare creature legate alla Fame Bianca e ai tiri salvezza contro il freddo della montagna.</li>\n<li><strong>Il Canto della Comare (1 volta per notte).</strong> Con un’azione, chi lo tiene in mano lo sente canticchiare per 1 minuto il <em>Canto della Catena</em>. Per quel minuto ha vantaggio alle prove del rito della Corona (journal 04). Poi fa un tiro salvezza su Saggezza CD 12: se lo fallisce, vede Cerere bruciare ed è spaventato fino alla fine del suo turno successivo.</li>\n<li><strong>Scacciare i corvi.</strong> Alzare il teschio e gridare contro uno Sciame di Corvi della Fame (azione, Intimidire CD 12) lo fa fuggire.</li>\n</ul>\n<p><em>Non è magico in senso arcano: un incantesimo di individuazione percepisce solo un’aura debole e fredda, come di neve.</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "kg"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "identified": true,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [],
+    "attunement": "",
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "strength": null,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "activities": {
+      "DpAcItTeschio001": {
+        "_id": "DpAcItTeschio001",
+        "type": "utility",
+        "name": "Il Canto della Comare",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "img": "",
+        "flags": {}
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

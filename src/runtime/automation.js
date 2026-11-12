@@ -1,5 +1,7 @@
 const MODULE_ID = "historia-dipire";
 const DEFAULT_STATE = {
+  hunger: 0,
+  stages: 0,
   sequence: { actions: 0, successes: 0 },
   outcome: null,
   reputationDelta: 0,
@@ -213,97 +215,6 @@ async function applyHpLoss(actors, amount, description) {
   return true;
 }
 
-async function runActII() {
-  const actors = getParticipants();
-  if (!actors.length) return;
-  const fields = await formDialog("Atto II — Resistere alla milizia", actors.map(actor => `
-    <fieldset><legend>${foundry.utils.escapeHTML(actor.name)}</legend>
-      <div class="form-group"><label>Competenza (se pertinente)</label><select name="skill-${actor.id}">${skillOptions(Object.keys(SKILLS), true)}</select></div>
-      <div class="form-group"><label>Caratteristica</label><select name="ability-${actor.id}">${abilityOptions()}</select></div>
-    </fieldset>
-  `).join(""));
-  if (!fields) return;
-  const result = await runGroupCheck({
-    label: "Atto II — Resistenza alla milizia",
-    dc: 15,
-    actors,
-    checkForActor: actor => ({
-      skill: fields[`skill-${actor.id}`],
-      ability: fields[`ability-${actor.id}`],
-    }),
-  });
-  if (!result) return;
-  if (result.passed) {
-    for (const actor of actors) await actor.setFlag(MODULE_ID, "inquisitionAdvantage", true);
-    ui.notifications.info("Vantaggio futuro verso l'Inquisizione registrato per i personaggi selezionati. Lo strumento lo applicherà ai successivi tiri di Persuasione e Intimidire.");
-  }
-  await applyHpLoss(actors, 2, "Atto II: i personaggi perdono 2 PF a prescindere dall'esito.");
-}
-
-async function runGateCheck() {
-  const actors = getParticipants();
-  if (!actors.length) return;
-  const fields = await formDialog("Atto III — Parlamentare ai cancelli", `
-    ${actors.map(actor => `<div class="form-group"><label>${foundry.utils.escapeHTML(actor.name)}</label><select name="skill-${actor.id}">${skillOptions(["per", "itm"])}</select></div>`).join("")}
-    <div class="form-group"><label>Approccio aggressivo</label><input name="aggressive" type="checkbox" value="yes"></div>
-  `);
-  if (!fields) return;
-  const result = await runGroupCheck({
-    label: "Atto III — Prova ai cancelli",
-    dc: 18,
-    actors,
-    checkForActor: actor => ({
-      skill: fields[`skill-${actor.id}`],
-      ability: "cha",
-      mode: fields.aggressive === "yes" ? "disadvantage" : "normal",
-    }),
-  });
-  if (result) {
-    await ChatMessage.create({
-      content: `<p>Conseguenza da adjudicare dal GM: il testo prevede rissa dopo un fallimento aggressivo e allontanamento dopo un fallimento diplomatico.</p>`,
-    });
-  }
-}
-
-async function runSequence() {
-  const actors = getParticipants();
-  if (!actors.length) return;
-  const fields = await formDialog("Sequenza — Infiltrazione", `
-    ${checkFields({ dc: 14, mode: true })}
-    <div class="form-group"><label>PF per azione (minimo 1)</label><input name="cost" type="number" min="1" value="3" required></div>
-  `);
-  if (!fields) return;
-  const dc = Number(fields.dc);
-  const cost = Number(fields.cost);
-  if (!Number.isInteger(dc) || dc < 12 || !Number.isInteger(cost) || cost < 1) {
-    ui.notifications.error("La Sequenza usa CD minima 12 e costo minimo 1 PF per azione.");
-    return;
-  }
-  const eligible = actors.filter(actor => Number(actor.system.attributes.hp.value) >= cost);
-  if (eligible.length !== actors.length) {
-    ui.notifications.error("Uno o più personaggi selezionati non hanno PF sufficienti per il costo scelto. Nessun PF è stato modificato.");
-    return;
-  }
-  const actions = eligible.length;
-  const totalCost = actions * cost;
-  if (!await confirm("Conferma azioni della Sequenza", `<p>${actions} azioni; CD ${dc}; costo ${cost} PF per azione (${totalCost} PF totali).</p><p>La durata o il numero di successi necessario non è definito: lo decide il GM.</p>`)) return;
-  for (const actor of eligible) {
-    const current = Number(actor.system.attributes.hp.value);
-    await actor.update({ "system.attributes.hp.value": Math.max(0, current - cost) });
-  }
-  const results = [];
-  for (const actor of eligible) results.push(await rollActor(actor, { label: "Sequenza di infiltrazione", dc, skill: fields.skill, ability: fields.ability, mode: fields.mode }));
-  const state = getState();
-  state.sequence.actions += actions;
-  state.sequence.successes += results.filter(result => result.success).length;
-  await setState(state);
-  const detail = results.map(result =>
-    `<li>${result.name}: ${result.total} — ${result.success ? "successo" : "fallimento"}</li>`).join("");
-  await ChatMessage.create({
-    content: `<h3>Progressi della Sequenza — non è un esito finale</h3><ul>${detail}</ul><p>Registrati ${state.sequence.successes} successi in ${state.sequence.actions} azioni. Il testo non definisce la soglia per completare la Sequenza: il GM ne decide l'esito.</p>`,
-  });
-}
-
 async function runIndividualChecks(title, skillChoices, dcLabel) {
   const actors = getParticipants();
   if (!actors.length) return;
@@ -328,74 +239,178 @@ async function runIndividualChecks(title, skillChoices, dcLabel) {
   });
 }
 
-async function runInitialDamage() {
-  const actors = getParticipants();
-  if (!actors.length) return;
-  if (!await confirm("Danni iniziali dell'infiltrazione", `<p>Tira 1d6 per ogni personaggio selezionato. Il tipo di danno non è indicato nel testo, quindi i risultati verranno mostrati in chat ma non applicati automaticamente.</p>`)) return;
-  const results = [];
-  for (const actor of actors) {
-    const roll = await new Roll("1d6").evaluate();
-    await roll.toMessage({
-      speaker: ChatMessage.getSpeaker({ actor }),
-      flavor: "Danni iniziali — infiltrazione fallita",
-    });
-    results.push(`${foundry.utils.escapeHTML(actor.name)}: ${roll.total}`);
-  }
-  const state = getState();
-  state.enricoTrust = "persa";
-  await setState(state);
-  await ChatMessage.create({
-    content: `<p>Risultati da applicare manualmente dal GM (tipo di danno non specificato): ${results.join("; ")}.</p><p>Fiducia di Enrico registrata come persa.</p>`,
-  });
+const HUNGER_MAX = 6;
+const TABLE_IDS = { rumors: "DipireTabDiceri1", horrors: "DipireTabOrrori1" };
+
+function hungerEffect(value) {
+  if (value >= 6) return "La Fame si mostra: TS Costituzione CD 13 a ogni round del rito o 2d6 danni da freddo.";
+  if (value >= 4) return "Due sciami di Corvi della Fame durante il rito; CD del Canto +2.";
+  if (value >= 2) return "Uno sciame di Corvi della Fame durante il rito.";
+  return "Il rito è teso ma tranquillo.";
 }
 
+async function changeHunger(delta, reason) {
+  const state = getState();
+  const before = Number(state.hunger) || 0;
+  state.hunger = Math.max(0, Math.min(HUNGER_MAX, before + delta));
+  await setState(state);
+  await ChatMessage.create({
+    whisper: game.users.filter(user => user.isGM).map(user => user.id),
+    content: `<h3>Orologio della Fame Bianca: ${state.hunger}/${HUNGER_MAX}</h3><p>${foundry.utils.escapeHTML(reason)} (${before} → ${state.hunger}).</p><p>${hungerEffect(state.hunger)}</p>`,
+  });
+  return state.hunger;
+}
+
+async function adjustHunger() {
+  const state = getState();
+  const fields = await formDialog("Orologio della Fame Bianca", `
+    <p>Valore attuale: <strong>${state.hunger}/${HUNGER_MAX}</strong>. ${hungerEffect(state.hunger)}</p>
+    <div class="form-group"><label>Variazione</label><select name="delta">
+      <option value="1">+1</option><option value="-1">−1</option><option value="0">nessuna (mostra solo)</option>
+    </select></div>
+    <div class="form-group"><label>Motivo</label><input name="reason" type="text" value="Decisione del GM"></div>
+  `);
+  if (!fields) return;
+  await changeHunger(Number(fields.delta), fields.reason || "Decisione del GM");
+}
+
+async function drawTable(key) {
+  const id = TABLE_IDS[key];
+  let table = game.tables.find(t => t._stats?.compendiumSource?.endsWith(id) || t.id === id);
+  if (!table) {
+    const pack = game.packs.get(`${MODULE_ID}.tables`);
+    table = pack ? await pack.getDocument(id) : null;
+  }
+  if (!table) {
+    ui.notifications.error("Tabella non trovata: importa l'avventura o attiva il compendio Di Pire - Tabelle.");
+    return;
+  }
+  await table.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE });
+}
+
+async function runPyreInvestigation() {
+  await runIndividualChecks("01 — Indagine alla pira", ["prc", "inv", "nat", "med", "rel", "his", "ins"],
+    "CD dal journal 01: Percezione 12, Indagare 13, Natura 13, Medicina 14, Religione 12, Storia 15, Intuizione 13.");
+}
+
+async function runMilitiaResistance() {
+  const actors = getParticipants();
+  if (!actors.length) return;
+  const fields = await formDialog("02 — Resistere alla milizia", actors.map(actor => `
+    <fieldset><legend>${foundry.utils.escapeHTML(actor.name)}</legend>
+      <div class="form-group"><label>Competenza (se pertinente)</label><select name="skill-${actor.id}">${skillOptions(Object.keys(SKILLS), true)}</select></div>
+      <div class="form-group"><label>Caratteristica</label><select name="ability-${actor.id}">${abilityOptions()}</select></div>
+    </fieldset>
+  `).join(""));
+  if (!fields) return;
+  const result = await runGroupCheck({
+    label: "02 — Resistenza alla milizia",
+    dc: 15,
+    actors,
+    checkForActor: actor => ({
+      skill: fields[`skill-${actor.id}`],
+      ability: fields[`ability-${actor.id}`],
+    }),
+  });
+  if (!result) return;
+  if (result.passed) {
+    for (const actor of actors) await actor.setFlag(MODULE_ID, "inquisitionAdvantage", true);
+    ui.notifications.info("Vantaggio futuro verso l'Inquisizione registrato: lo strumento lo applica ai tiri di Persuasione e Intimidire.");
+  }
+  await applyHpLoss(actors, 2, "Journal 02: i personaggi perdono 2 PF a prescindere dall'esito.");
+}
+
+async function runAscentStage() {
+  const actors = getParticipants();
+  if (!actors.length) return;
+  const state = getState();
+  const stage = Math.min(3, (Number(state.stages) || 0) + 1);
+  const fields = await formDialog(`03 — Tappa ${stage} della salita`, `
+    <p>Prova di gruppo di Sopravvivenza CD 13. Se fallisce: orologio della Fame +1 e TS Costituzione CD 12 per ogni PG (1 livello di indebolimento se fallito).</p>
+    <div class="form-group"><label>Tira anche sulla tabella degli orrori</label><input name="horror" type="checkbox" value="yes" checked></div>
+  `);
+  if (!fields) return;
+  const result = await runGroupCheck({ label: `03 — Tappa ${stage}: orientarsi nella tormenta`, dc: 13, skill: "sur", ability: "wis", actors });
+  if (!result) return;
+  state.stages = stage;
+  await setState(state);
+  if (!result.passed) {
+    await changeHunger(1, `Tappa ${stage} fallita`);
+    const frozen = [];
+    for (const actor of actors) {
+      const rolls = await actor.rollSavingThrow({ ability: "con", target: 12 }, {}, { data: { flavor: "Freddo della montagna (CD 12)" } });
+      const roll = Array.isArray(rolls) ? rolls[0] : rolls;
+      if (roll && roll.total < 12) frozen.push(actor);
+    }
+    if (frozen.length && await confirm("Indebolimento per il freddo", `<p>Hanno fallito il tiro salvezza: ${frozen.map(a => foundry.utils.escapeHTML(a.name)).join(", ")}.</p><p>Aggiungere 1 livello di indebolimento a ciascuno?</p>`)) {
+      for (const actor of frozen) {
+        const current = Number(actor.system.attributes.exhaustion) || 0;
+        await actor.update({ "system.attributes.exhaustion": Math.min(6, current + 1) });
+      }
+    }
+  }
+  if (fields.horror === "yes") await drawTable("horrors");
+}
+
+async function runChant() {
+  const actors = getParticipants();
+  if (actors.length !== 1) {
+    ui.notifications.warn("Seleziona il solo token di chi canta.");
+    return;
+  }
+  const state = getState();
+  const bump = state.hunger >= 4 ? 2 : 0;
+  const fields = await formDialog("04 — Il Canto della Catena", `
+    <p>Orologio della Fame: ${state.hunger}/${HUNGER_MAX}${bump ? " (CD +2)" : ""}. Il rito fallisce dopo due prove fallite.</p>
+    <div class="form-group"><label>Round</label><select name="round"><option value="13">1 (CD 13)</option><option value="15">2 (CD 15)</option><option value="17">3 (CD 17)</option></select></div>
+    <div class="form-group"><label>Competenza</label><select name="skill">${skillOptions(["rel", "prf", "nat"])}</select></div>
+    <div class="form-group"><label>Vantaggio o svantaggio</label><select name="mode"><option value="normal">Normale</option><option value="advantage">Vantaggio (teschio, verso ricordato, Aiuto)</option><option value="disadvantage">Svantaggio</option></select></div>
+  `);
+  if (!fields) return;
+  const dc = Number(fields.round) + bump;
+  const result = await rollActor(actors[0], { label: "Il Canto della Catena", dc, skill: fields.skill, mode: fields.mode });
+  if (!result.success) await changeHunger(1, "Prova del Canto fallita");
+}
+
+const OUTCOMES = {
+  croce: { label: "La Croce", delta: 2, reward: "1 Conio a testa da Iginius. Brunascio perde un abitante o una stalla per ogni segmento dell'orologio." },
+  branco: { label: "Il Branco", delta: -2, reward: "1 Conio a testa se Iginius non sa; −2 solo se la verità viene fuori. Casata De Fredier alleata." },
+  patto: { label: "Il Patto della Neve", delta: 0, reward: "1 Conio a testa. Brunascio salva, Casata De Fredier alleata." },
+  fame: { label: "La Fame", delta: 0, reward: "Nessuna ricompensa. Brunascio perde un abitante o una stalla per ogni segmento dell'orologio, più tre." },
+};
+
 async function recordOutcome() {
-  const fields = await formDialog("Atto V — Registra finale", `
-    <div class="form-group"><label>Esito</label><select name="outcome">
-      <option value="enrico-dead">Enrico è morto</option>
-      <option value="rescue">Salvataggio in piazza</option>
-      <option value="diplomacy">Finale diplomatico</option>
+  const fields = await formDialog("04 — Registra il finale", `
+    <div class="form-group"><label>Finale</label><select name="outcome">
+      ${Object.entries(OUTCOMES).map(([id, o]) => `<option value="${id}">${o.label}</option>`).join("")}
     </select></div>
   `);
   if (!fields) return;
-  const values = {
-    "enrico-dead": { delta: 2, label: "Enrico è morto" },
-    rescue: { delta: -2, label: "Salvataggio in piazza" },
-    diplomacy: { delta: 0, label: "Finale diplomatico" },
-  };
-  const outcome = values[fields.outcome];
+  const outcome = OUTCOMES[fields.outcome];
   if (!outcome) return;
   const state = getState();
-  const reputationText = outcome.delta > 0 ? "+2" : outcome.delta < 0 ? "−2" : "nessuna variazione definita";
-  const rewardText = fields.outcome === "enrico-dead"
-    ? "Ricompensa indicata: 1 Conio per personaggio; nessuna valuta verrà assegnata automaticamente."
-    : fields.outcome === "rescue"
-      ? "Il testo menziona una ricompensa monetaria ma non ne specifica l'importo: decide il GM."
-      : "Il testo non specifica ricompense o reputazione per questo finale.";
-  if (!await confirm("Conferma registrazione finale", `<p>${outcome.label}; reputazione narrativa ${reputationText}.</p><p>${rewardText}</p><p>Il valore non viene convertito in Fama o valuta di sistema.</p>`)) return;
+  const reputationText = outcome.delta > 0 ? `+${outcome.delta}` : outcome.delta < 0 ? `−${Math.abs(outcome.delta)}` : "nessuna variazione";
+  if (!await confirm("Conferma il finale", `<p>${outcome.label}; reputazione con la Chiesa delle Ossa: ${reputationText}.</p><p>${outcome.reward}</p><p>Orologio della Fame: ${state.hunger}/${HUNGER_MAX}. Nessuna valuta o Fama viene assegnata automaticamente.</p>`)) return;
   state.outcome = fields.outcome;
   state.reputationDelta = outcome.delta;
   await setState(state);
   await ChatMessage.create({
-    content: `<h3>Finale registrato: ${foundry.utils.escapeHTML(outcome.label)}</h3><p>Reputazione narrativa: ${reputationText}. ${foundry.utils.escapeHTML(rewardText)}</p>`,
+    content: `<h3>Finale: ${outcome.label}</h3><p>Reputazione con la Chiesa delle Ossa (indicatore narrativo): ${reputationText}.</p><p>${outcome.reward}</p>`,
   });
 }
 
 async function showState() {
   const state = getState();
-  const sequence = state.sequence;
   await ChatMessage.create({
     whisper: game.users.filter(user => user.isGM).map(user => user.id),
-    content: `<h3>Stato campagna Di Pire</h3><ul><li>Sequenza: ${sequence.successes} successi in ${sequence.actions} azioni; soglia finale non definita.</li><li>Fiducia di Enrico dopo infiltrazione: ${foundry.utils.escapeHTML(state.enricoTrust ?? "non registrata")}.</li><li>Finale: ${foundry.utils.escapeHTML(state.outcome ?? "non registrato")}.</li><li>Variazione narrativa della reputazione: ${state.reputationDelta > 0 ? "+" : ""}${state.reputationDelta} (non convertita in Fama).</li></ul>`,
+    content: `<h3>Stato di Di Pire</h3><ul><li>Orologio della Fame Bianca: ${state.hunger}/${HUNGER_MAX}. ${hungerEffect(state.hunger)}</li><li>Tappe della salita giocate: ${state.stages}/3.</li><li>Finale: ${foundry.utils.escapeHTML(OUTCOMES[state.outcome]?.label ?? "non registrato")}.</li><li>Reputazione narrativa con la Chiesa: ${state.reputationDelta > 0 ? "+" : ""}${state.reputationDelta}.</li></ul>`,
   });
 }
 
-async function clearSequence() {
-  if (!await confirm("Azzera la Sequenza", "<p>Azzerare solo il conteggio di azioni e successi della Sequenza?</p>")) return;
-  const state = getState();
-  state.sequence = { actions: 0, successes: 0 };
-  await setState(state);
-  ui.notifications.info("Conteggio della Sequenza azzerato.");
+async function resetState() {
+  if (!await confirm("Azzera lo stato", "<p>Azzerare orologio della Fame, tappe e finale registrato? I vantaggi verso l'Inquisizione restano sui personaggi.</p>")) return;
+  await setState(foundry.utils.deepClone(DEFAULT_STATE));
+  ui.notifications.info("Stato di Di Pire azzerato.");
 }
 
 async function openAutomation() {
@@ -408,29 +423,33 @@ async function openAutomation() {
     window: { title: "Di Pire — Strumenti del GM" },
     content: "<p>Seleziona i token dei personaggi coinvolti prima di avviare prove o conseguenze.</p>",
     buttons: [
-      { action: "act2", label: "Atto II — Resistere alla milizia" },
-      { action: "gates", label: "Atto III — Prova ai cancelli" },
-      { action: "sequence", label: "Sequenza di infiltrazione" },
-      { action: "courtyard", label: "Atto IV — Prove nel cortile" },
-      { action: "escape", label: "Fuga dalla finestra" },
-      { action: "damage", label: "Danni iniziali 1d6" },
-      { action: "outcome", label: "Registra finale e reputazione" },
-      { action: "state", label: "Mostra stato campagna" },
-      { action: "reset-sequence", label: "Azzera Sequenza" },
+      { action: "pyre", label: "01 — Indagine alla pira" },
+      { action: "rumors", label: "01 — Tira una diceria" },
+      { action: "militia", label: "02 — Resistere alla milizia" },
+      { action: "stage", label: "03 — Tappa della salita" },
+      { action: "horror", label: "03 — Tira un orrore" },
+      { action: "ledge", label: "03 — La Scala dei Corvi" },
+      { action: "chant", label: "04 — Il Canto della Catena" },
+      { action: "hunger", label: "Orologio della Fame Bianca" },
+      { action: "outcome", label: "Registra il finale" },
+      { action: "state", label: "Mostra stato" },
+      { action: "reset", label: "Azzera stato" },
       { action: "close", label: "Chiudi" },
     ],
     rejectClose: false,
   });
   switch (action) {
-    case "act2": await runActII(); break;
-    case "gates": await runGateCheck(); break;
-    case "sequence": await runSequence(); break;
-    case "courtyard": await runIndividualChecks("Atto IV — Prove nel cortile", Object.keys(SKILLS), "Il testo non fissa una CD: il GM valuta i risultati."); break;
-    case "escape": await runIndividualChecks("Fuga dalla finestra", ["acr", "ath"], "Il testo non fissa una CD: il GM la decide."); break;
-    case "damage": await runInitialDamage(); break;
+    case "pyre": await runPyreInvestigation(); break;
+    case "rumors": await drawTable("rumors"); break;
+    case "militia": await runMilitiaResistance(); break;
+    case "stage": await runAscentStage(); break;
+    case "horror": await drawTable("horrors"); break;
+    case "ledge": await runIndividualChecks("03 — La Scala dei Corvi", ["ath", "acr"], "CD 12. Fallimento: 1d6 contundenti; fallimento di 5 o più: caduta di 6 m (2d6)."); break;
+    case "chant": await runChant(); break;
+    case "hunger": await adjustHunger(); break;
     case "outcome": await recordOutcome(); break;
     case "state": await showState(); break;
-    case "reset-sequence": await clearSequence(); break;
+    case "reset": await resetState(); break;
     default: break;
   }
 }

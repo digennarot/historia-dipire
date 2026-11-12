@@ -64,7 +64,7 @@
     },
     "details": {
       "biography": {
-        "value": "\n<p><strong>Capitano della milizia della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, canide @UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}.</strong> Austera e disciplinata, con un forte senso dell'onore. Guida i soldati canidi ben equipaggiati che portano la Croce d'Ossa sulle armature.</p>\n<p><strong>Suggerimento di ruolo:</strong> postura rigida e modi fermi, ma lasciate trasparire la volontà di evitare spargimenti di sangue inutili. Attacca solo se costretta o se i PG si dimostrano apertamente ostili e irrispettosi.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 16 (cotta d'arme, scudo), PF 22 (3d10+6), velocità 9 m, scurovisione 18 m. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngYrmengard00]{Yrmengard da Nochemburgo}.</p>\n<p><em>Discrepanze (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> con FOR 14 e competenza +2, alabarda e morso risultano +4 invece dei +5 stampati; Percezione passiva calcolata 10 invece di 15.</p>",
+        "value": "<p><strong>Capitano della milizia della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, canide @UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}.</strong> Austera, disciplinata, con un forte senso dell’onore. Guida le @UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Guardie dell’Inquisizione} accampate dietro la chiesetta di Brunascio.</p>\n<p><strong>Ruolo:</strong> è l’ago della bilancia. I soldati obbediscono a lei prima che ad Arianna. Non vuole un massacro di vecchi e bambini: una richiesta d’onore ben posta (Persuasione CD 13) può farle abbassare le armi, all’accampamento (journal 02) come sulla vetta (journal 04).</p>\n<p><strong>Suggerimento di ruolo:</strong> postura rigida, modi fermi, frasi brevi. Attacca solo se costretta o se i PG sono apertamente ostili.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngYrmengard00]{Yrmengard da Nochemburgo}. Note: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
         "public": ""
       },
       "alignment": "",
@@ -244,7 +244,7 @@
       "img": "icons/weapons/polearms/halberd-crescent-worn-steel.webp",
       "system": {
         "description": {
-          "value": "<p><em>Stampato:</em> +5 a colpire, 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p><em>Stampato:</em> +5 a colpire, 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
           "chat": ""
         },
         "source": {
@@ -374,7 +374,7 @@
       "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
       "system": {
         "description": {
-          "value": "<p><em>Stampato:</em> +5 a colpire, 5 (1d4+3) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p><em>Stampato:</em> +5 a colpire, 5 (1d4+3) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
           "chat": ""
         },
         "source": {

@@ -4,9 +4,11 @@
 //   src/packs/actors/_source/*.json    -> pack Actor "actors"
 //   src/packs/journal/_source/*.json   -> pack JournalEntry "journal"
 //   src/packs/automation/_source/*.json -> pack Macro "automation"
+//   src/packs/items/_source/*.json     -> pack Item "items"
+//   src/packs/tables/_source/*.json    -> pack RollTable "tables"
 //   src/adventure/adventure.json       -> metadati e cartelle del documento Adventure
 //   src/adventure/scenes/*.json        -> scene incluse nell'Adventure
-// Il documento Adventure viene assemblato qui: contiene gli stessi attori e journal dei pack separati,
+// Il documento Adventure viene assemblato qui: contiene gli stessi attori, journal, oggetti e tabelle dei pack separati,
 // più le scene e le cartelle. Non esistono quindi due copie da tenere allineate.
 
 import fs from "node:fs/promises";
@@ -36,9 +38,11 @@ export async function loadSources() {
   const actors = await readDocs(path.join(ROOT, "src/packs/actors/_source"));
   const journal = await readDocs(path.join(ROOT, "src/packs/journal/_source"));
   const automation = await readDocs(path.join(ROOT, "src/packs/automation/_source"));
+  const items = await readDocs(path.join(ROOT, "src/packs/items/_source"));
+  const tables = await readDocs(path.join(ROOT, "src/packs/tables/_source"));
   const scenes = await readDocs(path.join(ROOT, "src/adventure/scenes"));
   const adventure = await readJson(path.join(ROOT, "src/adventure/adventure.json"));
-  return { actors, journal, automation, scenes, adventure };
+  return { actors, journal, automation, items, tables, scenes, adventure };
 }
 
 // Chiavi LevelDB come le scrive Foundry: !<collezione>!<id>, con gli embedded in !<coll>.<sub>!<id>.<subId>.
@@ -46,6 +50,7 @@ const EMBEDDED = {
   actors: { items: "items", effects: "effects" },
   items: { effects: "effects" },
   journal: { pages: "pages" },
+  tables: { results: "results" },
 };
 function injectKeys(doc, collection, prefix = "", idPrefix = "") {
   const sub = [prefix, collection].filter(Boolean).join(".");
@@ -57,14 +62,16 @@ function injectKeys(doc, collection, prefix = "", idPrefix = "") {
   return doc;
 }
 
-export function assembleAdventure({ actors, journal, scenes, adventure }) {
+export function assembleAdventure({ actors, journal, items = [], tables = [], scenes, adventure }) {
   const clone = o => JSON.parse(JSON.stringify(o));
   return {
-    ...clone(adventure),
+    ...clone({ ...adventure, itemFolder: undefined, tableFolder: undefined }),
     actors: clone(actors),
     journal: clone(journal),
     scenes: clone(scenes),
-    items: [], tables: [], macros: [], cards: [], playlists: [], combats: [],
+    items: clone(items).map(i => ({ ...i, folder: adventure.itemFolder ?? null })),
+    tables: clone(tables).map(t => ({ ...t, folder: adventure.tableFolder ?? null })),
+    macros: [], cards: [], playlists: [], combats: [],
     folder: null, sort: 0, ownership: { default: 0 }, flags: adventure.flags ?? {},
   };
 }
@@ -83,7 +90,7 @@ async function main() {
   const manifest = await readJson(path.join(ROOT, "module.json"));
   console.log(`${manifest.id} ${manifest.version}`);
   const src = await loadSources();
-  console.log(`attori: ${src.actors.length}, journal: ${src.journal.length}, automazioni: ${src.automation.length}, scene: ${src.scenes.length}`);
+  console.log(`attori: ${src.actors.length}, journal: ${src.journal.length}, oggetti: ${src.items.length}, tabelle: ${src.tables.length}, automazioni: ${src.automation.length}, scene: ${src.scenes.length}`);
 
   await fs.rm(OUT, { recursive: true, force: true });
   await fs.rm(TMP, { recursive: true, force: true });
@@ -94,6 +101,8 @@ async function main() {
     ["actors", src.actors, "actors"],
     ["journal", src.journal, "journal"],
     ["automation", src.automation, "macros"],
+    ["items", src.items, "items"],
+    ["tables", src.tables, "tables"],
     ["adventure", [adventureDoc], "adventures"],
   ];
   for (const [name, docs, collection] of jobs) {

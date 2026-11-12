@@ -2,11 +2,11 @@
   "_id": "DipirePNG0000001",
   "name": "PNG",
   "folder": "DipireFoldJourn1",
-  "sort": 400000,
+  "sort": 700000,
   "pages": [
     {
       "_id": "DpPngIginius0000",
-      "name": "Iginius",
+      "name": "Iginius, il sovrintendente",
       "type": "text",
       "sort": 100000,
       "title": {
@@ -15,136 +15,34 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius}. Specie: @UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}.</p>\n<p><strong>Sovrintendente di Brunascio.</strong> Un istrice di mezza età dall'aria pragmatica ma visibilmente fuori dalla sua portata. È opportunista e terrorizzato dalla situazione. Cerca di mantenere un contegno autoritario, ma la sua scorta sgangherata lo tradisce. Pelo brizzolato, vesti di buona qualità, una collana di metallo brunito dal tempo.</p>\n<p><strong>Suggerimento di ruolo:</strong> parlate in modo frettoloso e guardatevi spesso alle spalle. Siate puntigliosi sulle piccole cose (come la pronuncia del suo nome: <em>\"Ighinius, con la 'g' dura. Qui si dice così\"</em>) per mascherare il terrore che prova per quelle grandi.</p>\n<p><strong>Ruolo nella trama:</strong> assolda i PG (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoI000000000]{Atto I}), li ricompensa se Enrico muore, implora pietà alla fine dello scontro nel finale del salvataggio (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}).</p>\n<p class=\"dipire-gm\"><em>GM:</em> Nessun blocco statistiche nel testo: l'attore ha valori neutri segnaposto.</p>"
+        "content": "<p><strong>Istrice (@UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}), sovrintendente di Brunascio.</strong> Ingaggia i PG. Opportunista, terrorizzato, puntiglioso sulle piccole cose («Ighinius, con la g dura») per non pensare a quelle grandi. Ha denunciato lui Cerere, per un prato.</p>\n<div class=\"notable\"><h4>Iginius</h4><p><em>Umanoide medio (istrice), sfida 1/8 (25 PE)</em></p><p><strong>CA</strong> 11 (vesti imbottite) · <strong>PF</strong> 9 (2d8) · <strong>Velocità</strong> 9 m</p><p>FOR 10 · DES 12 · COS 11 · INT 13 · SAG 11 · CAR 12</p><p><strong>Abilità</strong> Inganno +3, Intuizione +2, Persuasione +3 · <strong>Sensi</strong> Percezione passiva 11</p><p><strong>Aculei.</strong> Una creatura che lo afferra o lo colpisce con un attacco naturale in mischia subisce 1d4 danni perforanti.</p><p><strong>Pugnale.</strong> Attacco con arma da mischia o a distanza: +3 a colpire, 1d4+1 perforanti.</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius}.</p>"
       },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "system": {},
-      "category": null,
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
     },
     {
       "_id": "DpPngIginiusImg0",
       "name": "Ritratto: Iginius",
       "type": "image",
-      "sort": 150000,
+      "sort": 200000,
       "title": {
         "show": false,
         "level": 1
       },
-      "text": {
-        "format": 1
-      },
-      "image": {
-        "caption": "Iginius, sovrintendente di Brunascio."
-      },
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
       "src": "modules/historia-dipire/img/iginius.webp",
-      "system": {},
-      "category": null,
+      "image": {
+        "caption": ""
+      },
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
     },
     {
       "_id": "DpPngArianna0000",
-      "name": "Arianna \"La Cercatora\"",
-      "type": "text",
-      "sort": 200000,
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "text": {
-        "format": 1,
-        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora}. Specie: felide @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}. Fazione: @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}.</p>\n<p><strong>Inquisitrice.</strong> Fredda, scarna, calcolatrice e autoritaria. Non alza mai la voce, perché non ne ha bisogno: la sua autorità incute già terrore.</p>\n<p><strong>Suggerimento di ruolo:</strong> non rispondete mai alle domande dirette sul suo passato. Studiate i personaggi con sguardo giudicante. Se i PG insistono con le domande, fate lampeggiare i suoi occhi di rabbia repressa e tagliate corto: le domande le fa lei, non loro. Nascondete i suoi veri motivi personali dietro un incrollabile zelo religioso contro le eresie.</p>\n<p><strong>Ruolo nella trama:</strong> ha fatto bruciare Cerere; convoca e ingaggia i PG (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoII00000000]{Atto II}); giudica i PG al ritorno (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}). Vuole Enrico morto. Può fuggire con <em>Ci rivedremo</em>.</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Felide puma - Sfida 1 (200 PE)</em><br>CA 16 (armatura magica) | PF 27 (5d6+5) | Velocità 9 m<br>FOR 12 (+1) DES 16 (+3) COS 12 (+1) INT 16 (+3) SAG 8 (−1) CAR 10 (+0)<br>Abilità: Arcano +5, Acrobazia +5, Furtività +5, Indagare +5, Intimidire +2, Religione +5, Storia +5<br>Sensi: Percezione passiva 15 (calcolata: 9), Scurovisione 18 m</p>\n<ul>\n<li><strong>Tutti per uno:</strong> finché ha alleati che combattono per lei, ha resistenza ai danni.</li>\n<li><strong>Raggio di gelo</strong> (incantesimo): +5 a colpire, a distanza, 9 (2d8) da freddo.</li>\n<li><strong>Artigli migliorati</strong> (mischia): +5 a colpire, 5 (1d4+3) taglienti.</li>\n<li><strong>Arma spirituale</strong> (azione bonus, incantesimo): +5 a colpire, a distanza, 7 (1d8+3) radiosi.</li>\n<li><strong>Combatti per me</strong> (reazione): se colpita, reindirizza l'attacco su un alleato entro 3 m.</li>\n<li><strong>Ci rivedremo</strong> (reazione): se scende a 0 PF, reindirizza l'attacco a un alleato e svanisce alla vista, fuggendo.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "system": {},
-      "category": null,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "DpPngAriannaImg0",
-      "name": "Ritratto: Arianna",
-      "type": "image",
-      "sort": 250000,
-      "title": {
-        "show": false,
-        "level": 1
-      },
-      "text": {
-        "format": 1
-      },
-      "image": {
-        "caption": "Arianna la Cercatora, inquisitrice della Chiesa delle Ossa."
-      },
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": "modules/historia-dipire/img/arianna.webp",
-      "system": {},
-      "category": null,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "DpPngEnrico00000",
-      "name": "Enrico De Fredier",
+      "name": "Arianna «La Cercatora»",
       "type": "text",
       "sort": 300000,
       "title": {
@@ -153,136 +51,34 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}. Specie: licaio @UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}. Casata: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbDeFredier00]{De Fredier}.</p>\n<p><strong>Erede decaduto.</strong> Fiero, brusco, ma avvolto da una costante e rassegnata tristezza. È un leader antico, legato a tradizioni dimenticate.</p>\n<p><strong>Suggerimento di ruolo:</strong> mantenete un tono di voce asciutto e perentorio, accompagnato da un leggero ringhio gutturale, ma senza mai sfociare in un'aggressività cieca. Sorridete a mezza bocca mostrando le zanne ingiallite. Enrico è intelligente: valuterà le capacità dei PG per capire come sfruttarli a vantaggio del suo branco senza scatenare l'ira di Nochemburgo.</p>\n<p><strong>Ruolo nella trama:</strong> riceve i PG nella Sala del Lupo e propone le sue soluzioni (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoIV00000000]{Atto IV}); guida la veglia per Cerere; nel finale del salvataggio assalta la piazza e libera i PG (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}).</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Licai lupo - Sfida 1 (200 PE)</em><br>CA 16 (maglia di ferro, scudo) | PF 32 (5d8+10) | Velocità 9 m<br>FOR 16 (+3) DES 12 (+1) COS 14 (+2) INT 12 (+1) SAG 8 (−1) CAR 12 (+1)<br>Abilità: Indagare +3, Intimidire +3, Religione +3, Sopravvivenza +1, Storia +3<br>Sensi: Percezione passiva 15 (calcolata: 9), Scurovisione 18 m</p>\n<ul>\n<li><strong>Uno per tutti:</strong> finché ha alleati vicini ha resistenza ai danni. Può scegliere di perdere PF al posto loro se colpiti (applicando la resistenza).</li>\n<li><strong>Alabarda:</strong> +5 a colpire, 6 (1d10+1) taglienti.</li>\n<li><strong>Morso:</strong> +5 a colpire, 5 (1d4+3) perforanti.</li>\n<li><strong>Balestra pesante:</strong> +2 a colpire, 5 (1d10) perforanti.</li>\n<li><strong>Spirito di branco</strong> (reazione): impone svantaggio a un attacco contro un alleato entro 3 m.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
+        "content": "<p><strong>Felide @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}, inquisitrice della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}.</strong> Fredda, scarna, autoritaria. Cresciuta dalla Chiesa dopo essere stata guarita da Cerere con il rito della Corona: per nasconderlo ha bruciato l’unica testimone. Vuole Enrico morto e il teschio distrutto.</p>\n<div class=\"notable\"><h4>Arianna la Cercatora</h4><p><em>Umanoide medio (puma), sfida 1 (200 PE)</em></p><p><strong>CA</strong> 16 (armatura magica) · <strong>PF</strong> 27 (5d6+5) · <strong>Velocità</strong> 9 m</p><p>FOR 12 · DES 16 · COS 12 · INT 16 · SAG 8 · CAR 10</p><p><strong>Abilità</strong> Acrobazia +5, Arcano +5, Furtività +5, Indagare +5, Intimidire +2, Religione +5, Storia +5 · <strong>Sensi</strong> scurovisione 18 m</p><p><strong>Tutti per uno.</strong> Finché ha alleati che combattono per lei, ha resistenza ai danni.</p><p><strong>Azioni.</strong> <em>Raggio di gelo</em> (+5, 2d8 freddo); <em>Artigli migliorati</em> (+5, 1d4+3 taglienti); <em>Pistola</em> (+5, 2d8+3 perforanti, regole delle armi da fuoco di Historia).</p><p><strong>Azione bonus.</strong> <em>Arma spirituale</em> (+5, 1d8+3 radiosi).</p><p><strong>Reazioni.</strong> <em>Combatti per me</em>: se colpita, sposta l’attacco su un alleato entro 3 m. <em>Ci rivedremo</em>: se scende a 0 PF, sposta l’attacco su un alleato e sparisce alla vista, fuggendo.</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna la Cercatora}. Porta con sé il @UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Mandato dell’Inquisizione}.</p>"
       },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "system": {},
-      "category": null,
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
     },
     {
-      "_id": "DpPngEnricoImg00",
-      "name": "Ritratto: Enrico De Fredier",
+      "_id": "DpPngAriannaImg0",
+      "name": "Ritratto: Arianna",
       "type": "image",
-      "sort": 350000,
-      "title": {
-        "show": false,
-        "level": 1
-      },
-      "text": {
-        "format": 1
-      },
-      "image": {
-        "caption": "Enrico De Fredier."
-      },
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": "modules/historia-dipire/img/enrico.webp",
-      "system": {},
-      "category": null,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "DpPngYrmengard00",
-      "name": "Yrmengard da Nochemburgo",
-      "type": "text",
       "sort": 400000,
       "title": {
-        "show": true,
-        "level": 1
-      },
-      "text": {
-        "format": 1,
-        "content": "<p>Attore: @UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}. Specie: canide @UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}. Fazione: @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}.</p>\n<p><strong>Capitano della milizia.</strong> Austera e disciplinata, ma con un forte senso dell'onore.</p>\n<p><strong>Suggerimento di ruolo:</strong> mantenete una postura rigida e modi fermi, ma lasciate trasparire la sua volontà di evitare spargimenti di sangue inutili. Attaccherà solo se costretta o se i PG si dimostrano apertamente ostili e irrispettosi.</p>\n<p><strong>Ruolo nella trama:</strong> convoca i PG per conto di Arianna (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoII00000000]{Atto II}); comanda la milizia nello scontro finale (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAtti000001.JournalEntryPage.DpAttoV000000000]{Atto V}).</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Canide levri - Sfida 1/2 (100 PE)</em><br>CA 16 (cotta d'arme, scudo) | PF 22 (3d10+6) | Velocità 9 m<br>FOR 14 (+2) DES 11 (+0) COS 14 (+2) INT 8 (−1) SAG 10 (+0) CAR 13 (+1)<br>Sensi: Percezione passiva 15 (calcolata: 10), Scurovisione 18 m</p>\n<ul>\n<li><strong>Coraggioso:</strong> vantaggio ai TS contro la paura.</li>\n<li><strong>Alabarda:</strong> +5 a colpire, 6 (1d10+1) taglienti.</li>\n<li><strong>Morso:</strong> +5 a colpire, 5 (1d4+3) perforanti.</li>\n<li><strong>Balestra pesante:</strong> +2 a colpire, 5 (1d10) perforanti.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
-      },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "system": {},
-      "category": null,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
-    },
-    {
-      "_id": "DpPngYrmengImg00",
-      "name": "Ritratto: Yrmengard",
-      "type": "image",
-      "sort": 450000,
-      "title": {
         "show": false,
         "level": 1
       },
-      "text": {
-        "format": 1
-      },
+      "src": "modules/historia-dipire/img/arianna.webp",
       "image": {
-        "caption": "Yrmengard da Nochemburgo."
+        "caption": ""
       },
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": "modules/historia-dipire/img/yrmengard.webp",
-      "system": {},
-      "category": null,
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
     },
     {
-      "_id": "DpPngGuardie0000",
-      "name": "Milizia e guardie",
+      "_id": "DpPngEnrico00000",
+      "name": "Enrico De Fredier",
       "type": "text",
       "sort": 500000,
       "title": {
@@ -291,97 +87,156 @@
       },
       "text": {
         "format": 1,
-        "content": "<p>Il testo ha un solo blocco \"Guardia\" (canide dogo, Sfida 1/2) ma descrive due gruppi diversi, per cui il modulo offre due attori:</p>\n<ul>\n<li>@UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Miliziano della Croce d'Ossa}: i soldati di Yrmengard, \"canidi ben equipaggiati con armature recanti la Croce d'Ossa\". Danni pieni.</li>\n<li>@UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Guardia del branco De Fredier}: le guardie del mastio di Enrico, \"più boscaioli che soldati\", con armi vecchie in cattivo stato. <strong>−2 a tutti i danni</strong>, già applicato alle formule.</li>\n</ul>\n<p>Specie: @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}.</p>\n<h2>Statistiche (dal testo)</h2>\n<p><em>Canide dogo - Sfida 1/2 (100 PE)</em><br>CA 11 (brigantina) | PF: \"(Vedi sotto)\", non indicati nel testo, fissati a 13 (2d8+4) | Velocità 9 m<br>FOR 14 (+2) DES 11 (+0) COS 14 (+2) INT 8 (−1) SAG 10 (+0) CAR 13 (+1)<br>Sensi: Percezione passiva 15 (calcolata: 10), Scurovisione 18 m</p>\n<ul>\n<li><strong>Coraggioso:</strong> vantaggio ai TS contro la paura.</li>\n<li><strong>Equipaggiamento scadente</strong> (specialmente le guardie di Enrico): riducono di 2 tutti i danni inflitti.</li>\n<li><strong>Alabarda:</strong> +5 a colpire, danni base 6 (1d10+1) taglienti.</li>\n<li><strong>Morso:</strong> +5 a colpire, danni base 5 (1d4+3) perforanti.</li>\n<li><strong>Balestra pesante:</strong> +2 a colpire, danni base 5 (1d10) perforanti.</li>\n</ul>\n<p>Discrepanze: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{vedi la Guida del GM}.</p>"
+        "content": "<p><strong>Lupo (@UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}), ultimo erede della casata De Fredier.</strong> Fiero, brusco, triste. Custode del Patto della Neve. Vuole rinnovarlo a ogni costo, anche sacrificando Arianna.</p>\n<div class=\"notable\"><h4>Enrico De Fredier</h4><p><em>Umanoide medio (lupo), sfida 1 (200 PE)</em></p><p><strong>CA</strong> 16 (maglia di ferro, scudo) · <strong>PF</strong> 32 (5d8+10) · <strong>Velocità</strong> 9 m</p><p>FOR 16 · DES 12 · COS 14 · INT 12 · SAG 8 · CAR 12</p><p><strong>Abilità</strong> Indagare +3, Intimidire +3, Religione +3, Sopravvivenza +1, Storia +3 · <strong>Sensi</strong> scurovisione 18 m</p><p><strong>Uno per tutti.</strong> Finché ha alleati vicini, ha resistenza ai danni. Può subire al posto di un alleato i danni di un attacco che lo ha colpito (applicando la resistenza).</p><p><strong>Azioni.</strong> <em>Alabarda</em> (+5, 1d10+1 taglienti); <em>Morso</em> (+5, 1d4+3 perforanti); <em>Balestra pesante</em> (+2, 1d10 perforanti); <em>Ululato della Corona</em> (ricarica 5-6): ogni nemico entro 9 m che lo sente fa un TS Saggezza CD 11 o è spaventato fino alla fine del suo turno successivo.</p><p><strong>Reazione.</strong> <em>Spirito di branco</em>: impone svantaggio a un attacco contro un alleato entro 3 m.</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}. Porta al collo il @UUID[Compendium.historia-dipire.items.Item.DipireItSimbolo1]{Simbolo Sacrificale}.</p>"
       },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "system": {},
-      "category": null,
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
     },
     {
-      "_id": "DpPngGuardieImg0",
-      "name": "Ritratto: Milizia e guardie",
+      "_id": "DpPngEnricoImg00",
+      "name": "Ritratto: Enrico De Fredier",
       "type": "image",
-      "sort": 550000,
+      "sort": 600000,
       "title": {
         "show": false,
         "level": 1
       },
-      "text": {
-        "format": 1
-      },
+      "src": "modules/historia-dipire/img/enrico.webp",
       "image": {
-        "caption": "Una guardia in armatura (miliziano della Croce d'Ossa o guardia del branco De Fredier)."
+        "caption": ""
       },
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": "modules/historia-dipire/img/guardia.webp",
-      "system": {},
-      "category": null,
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
     },
     {
-      "_id": "DpPngCerere00000",
-      "name": "Cerere",
+      "_id": "DpPngYrmengard00",
+      "name": "Yrmengard da Nochemburgo",
       "type": "text",
-      "sort": 600000,
+      "sort": 700000,
       "title": {
         "show": true,
         "level": 1
       },
       "text": {
         "format": 1,
-        "content": "<p>Specie: @UUID[Compendium.historia-it.species-it.Item.yE4ICtbPWPUWK355]{Polli}. Nessun attore: è già morta quando inizia l'avventura.</p>\n<p>Una vecchia e strana gallina erborista, legata ad antiche superstizioni e a \"semplici segreti tradizionali\". Arianna l'ha fatta bruciare sulla pira nella piazza di Brunascio pochi giorni prima dell'arrivo dei PG; il suo teschio bruciacchiato è ancora in cima al palo.</p>\n<p>La sua morte divide il villaggio e spinge il branco di Enrico a radunarsi al mastio, dove a mezzanotte le viene dedicata una @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireAmbiente01.JournalEntryPage.DpAmbVeglia00000]{veglia funebre} con un fantoccio.</p>"
+        "content": "<p><strong>Levriera (@UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}), capitano della milizia.</strong> Austera, disciplinata, con un forte senso dell’onore. Obbedisce ad Arianna finché gli ordini non diventano massacro. È l’ago della bilancia nei journal 02 e 04.</p>\n<div class=\"notable\"><h4>Yrmengard</h4><p><em>Umanoide medio (levriero), sfida 1/2 (100 PE)</em></p><p><strong>CA</strong> 16 (cotta d’arme, scudo) · <strong>PF</strong> 22 (3d10+6) · <strong>Velocità</strong> 9 m</p><p>FOR 14 · DES 11 · COS 14 · INT 8 · SAG 10 · CAR 13</p><p><strong>Coraggiosa.</strong> Vantaggio ai TS contro la paura.</p><p><strong>Azioni.</strong> <em>Alabarda</em> (+5, 1d10+1 taglienti); <em>Morso</em> (+5, 1d4+3 perforanti); <em>Balestra pesante</em> (+2, 1d10 perforanti).</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}.</p>"
       },
-      "image": {},
-      "video": {
-        "controls": true,
-        "volume": 0.5
-      },
-      "src": null,
-      "system": {},
-      "category": null,
       "ownership": {
         "default": -1
       },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "14.369",
-        "systemId": "dnd5e",
-        "systemVersion": "6.0.6",
-        "createdTime": 1794000000000,
-        "modifiedTime": 1794000000000,
-        "lastModifiedBy": null
-      }
+      "flags": {}
+    },
+    {
+      "_id": "DpPngYrmengImg00",
+      "name": "Ritratto: Yrmengard",
+      "type": "image",
+      "sort": 800000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "src": "modules/historia-dipire/img/yrmengard.webp",
+      "image": {
+        "caption": ""
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpPngGuardie0000",
+      "name": "Guardia dell’Inquisizione",
+      "type": "text",
+      "sort": 900000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Canidi (@UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}) della milizia della Croce d’Ossa.</strong> Ben equipaggiati, infreddoliti, lontani da casa. Metà porta l’alabarda, metà l’archibugio.</p>\n<div class=\"notable\"><h4>Guardia dell’Inquisizione</h4><p><em>Umanoide medio (dogo), sfida 1/2 (100 PE)</em></p><p><strong>CA</strong> 11 (brigantina) · <strong>PF</strong> 13 (2d8+4) · <strong>Velocità</strong> 9 m</p><p>FOR 14 · DES 11 · COS 14 · INT 8 · SAG 10 · CAR 13 · <strong>Sensi</strong> scurovisione 18 m</p><p><strong>Coraggioso.</strong> Vantaggio ai TS contro la paura.</p><p><strong>Azioni.</strong> <em>Alabarda</em> (+5, 1d10+1 taglienti, portata 3 m); <em>Morso</em> (+5, 1d4+3 perforanti); <em>Archibugio</em> (+2, 2d10 perforanti, armi da fuoco di Historia: <em>Impatto Letale</em>, <em>Malfunzionamento</em>, <em>Polveri Bagnate</em>, <em>Ricarica Laboriosa</em>, <em>Schegge</em>).</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Guardia dell’Inquisizione}.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpPngGuardieImg0",
+      "name": "Ritratto: Guardia dell’Inquisizione",
+      "type": "image",
+      "sort": 1000000,
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "src": "modules/historia-dipire/img/guardia.webp",
+      "image": {
+        "caption": ""
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpPngCultista000",
+      "name": "Cultista della Montagna",
+      "type": "text",
+      "sort": 1100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Fedeli armati della Corona.</strong> Carbonai, boscaioli, pastori giovani: lupi, doghi, qualche cervo. Armi vecchie da rito, nessuna disciplina, molta rabbia. Proteggono la vetta e vogliono far pagare al villaggio il silenzio davanti alla pira.</p>\n<div class=\"notable\"><h4>Cultista della Montagna</h4><p><em>Umanoide medio (vari), sfida 1/2 (100 PE)</em></p><p><strong>CA</strong> 11 (pelli e brigantina vecchia) · <strong>PF</strong> 13 (2d8+4) · <strong>Velocità</strong> 9 m</p><p>FOR 14 · DES 11 · COS 14 · INT 8 · SAG 10 · CAR 13 · <strong>Sensi</strong> scurovisione 18 m</p><p><strong>Fervore della Corona.</strong> Vantaggio ai TS contro la paura. Finché si trova entro 9 m da Enrico, ha vantaggio agli attacchi contro chi indossa simboli della Chiesa delle Ossa.</p><p><strong>Armi da rito.</strong> Armi vecchie e mal tenute: −2 a tutti i danni (già applicato).</p><p><strong>Azioni.</strong> <em>Lancia rituale</em> (+4, 1d6+2−2 perforanti, da lancio 6/18 m); <em>Morso</em> (+4, 1d4+2−2 perforanti); <em>Falcetto d’osso</em> (+4, 1d4+2−2 taglienti).</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Cultista della Montagna}. Ritratto condiviso con la Guardia.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpPngCorvi000000",
+      "name": "Sciame di Corvi della Fame",
+      "type": "text",
+      "sort": 1200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Fauna corrotta della montagna.</strong> Corvi che hanno mangiato carne toccata dalla Fame Bianca. Gelidi, silenziosi finché non parlano con le voci dei morti.</p>\n<div class=\"notable\"><h4>Sciame di Corvi della Fame</h4><p><em>Sciame Medio di bestie Minuscole, sfida 1/4 (50 PE)</em></p><p><strong>CA</strong> 12 · <strong>PF</strong> 24 (7d8−7) · <strong>Velocità</strong> 3 m, volare 15 m</p><p>FOR 6 · DES 14 · COS 8 · INT 3 · SAG 12 · CAR 6 · <strong>Sensi</strong> Percezione passiva 16</p><p><strong>Resistenze</strong> contundente, perforante, tagliente, freddo · <strong>Immunità</strong> afferrato, affascinato, intralciato, paralizzato, pietrificato, prono, spaventato, stordito</p><p><strong>Sciame.</strong> Può occupare lo spazio di un’altra creatura e muoversi in spazi stretti come un corvo. Non recupera PF.</p><p><strong>Voci dei morti.</strong> Imita le voci di chi ha sentito parlare, anche dei morti.</p><p><strong>Becchi gelati.</strong> +4 a colpire, 2d6 perforanti più 1d4 freddo, oppure 1d6 perforanti se lo sciame ha metà PF o meno.</p></div>\n<p>Scheda: @UUID[Compendium.historia-dipire.actors.Actor.DipireCorvi00001]{Sciame di Corvi della Fame}.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpPngCerere00000",
+      "name": "Cerere",
+      "type": "text",
+      "sort": 1300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Gallina (@UUID[Compendium.historia-it.species-it.Item.yE4ICtbPWPUWK355]{Polli}), l’ultima comare di Brunascio.</strong> Erborista, levatrice, custode del Patto della Neve insieme ai De Fredier. Arsa viva cinque giorni prima dell’arrivo dei PG. Non compare mai, ma è in ogni scena: nel teschio sul palo, nel sambuco strappato dalle porte, nel canto che nessuno ricorda per intero.</p>\n<p>Il suo teschio: @UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{Il Teschio Bruciacchiato di Cerere}.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
     }
   ],
   "categories": [],

@@ -1,6 +1,6 @@
 {
   "_id": "DipireGuardia001",
-  "name": "Guardia del branco De Fredier",
+  "name": "Cultista della Montagna",
   "type": "npc",
   "img": "modules/historia-dipire/img/guardia.webp",
   "system": {
@@ -64,13 +64,13 @@
     },
     "details": {
       "biography": {
-        "value": "\n<p><strong>Guardia del mastio di Enrico, canide @UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}.</strong> Sembrano più boscaioli che soldati: armi vecchie, in cattivo stato, più adatte al rito che alla guerra. Nessuna disciplina militare.</p>\n<p>Blocco \"Guardia\" del testo originale <strong>con</strong> la riduzione di 2 ai danni per equipaggiamento scadente: vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngGuardie0000]{Milizia e guardie}.</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 11 (brigantina), velocità 9 m, scurovisione 18 m.</p>\n<p><em>Dato mancante (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> PF non indicati nel testo, fissati a <strong>13 (2d8+4)</strong>.</p>",
+        "value": "<p><strong>Fedele armato della Corona dei Lupi.</strong> Carbonai, boscaioli, giovani pastori: lupi (@UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}), doghi (@UUID[Compendium.historia-it.species-it.Item.fU5F0zFnZNdkc3LY]{Doghi}), qualche cervo (@UUID[Compendium.historia-it.species-it.Item.6TpuxIQgQQjbykNu]{Cervi}). Armi vecchie da rito, nessuna disciplina, molta rabbia verso il villaggio che è rimasto a guardare la pira.</p>\n<p>Fanno la guardia alla Scala dei Corvi e alla vetta. Usate questo profilo anche per Bruno e Tecla, i ladri del teschio (journal 01).</p>\n<p><strong>Sfida 1/2 (100 PE).</strong> CA 11, PF 13 (2d8+4), velocità 9 m, scurovisione 18 m. Le armi da rito infliggono −2 ai danni (già nelle formule). Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngCultista000]{Cultista della Montagna}.</p>",
         "public": ""
       },
       "alignment": "",
       "type": {
         "value": "humanoid",
-        "subtype": "canide dogo",
+        "subtype": "fedele della Corona",
         "swarm": "",
         "custom": ""
       },
@@ -156,7 +156,7 @@
     }
   },
   "prototypeToken": {
-    "name": "Guardia del branco De Fredier",
+    "name": "Cultista della Montagna",
     "displayName": 30,
     "actorLink": false,
     "width": 1,
@@ -202,12 +202,12 @@
   "items": [
     {
       "_id": "DpIt002000000000",
-      "name": "Coraggioso",
+      "name": "Fervore della Corona",
       "type": "feat",
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
-          "value": "<p>Ha vantaggio ai tiri salvezza contro la paura.</p>",
+          "value": "<p>Vantaggio ai tiri salvezza contro la paura. Finché si trova entro 9 m da Enrico De Fredier, ha vantaggio ai tiri per colpire contro chi indossa simboli della Chiesa delle Ossa.</p>",
           "chat": ""
         },
         "source": {
@@ -239,12 +239,12 @@
     },
     {
       "_id": "DpIt002100000000",
-      "name": "Equipaggiamento scadente",
+      "name": "Armi da rito",
       "type": "feat",
       "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
       "system": {
         "description": {
-          "value": "<p>A causa delle armi in cattivo stato, riduce di 2 tutti i danni inflitti. La riduzione è già applicata alle formule di danno delle armi di questo attore.</p>",
+          "value": "<p>Le armi dei fedeli sono vecchie, fatte per il rito più che per la guerra: tutti i danni inflitti sono ridotti di 2 (già applicato nelle formule delle armi).</p>",
           "chat": ""
         },
         "source": {
@@ -276,12 +276,12 @@
     },
     {
       "_id": "DpIt002200000000",
-      "name": "Alabarda",
+      "name": "Lancia rituale",
       "type": "weapon",
-      "img": "icons/weapons/polearms/halberd-crescent-stone-worn.webp",
+      "img": "icons/weapons/polearms/spear-flared-gray.webp",
       "system": {
         "description": {
-          "value": "<p><em>Danni base stampati:</em> 6 (1d10+1) taglienti, ridotti di 2.</p><p><em>Equipaggiamento scadente:</em> −2 ai danni già applicato alla formula.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p>Una lancia di frassino con lembi di stoffa scritti di preghiere legati sotto la punta. Danni ridotti di 2 (<em>Armi da rito</em>).</p>",
           "chat": ""
         },
         "source": {
@@ -296,21 +296,20 @@
         "identified": true,
         "proficient": null,
         "type": {
-          "value": "martialM",
-          "baseItem": "halberd"
+          "value": "simpleM",
+          "baseItem": "spear"
         },
         "properties": [
-          "hvy",
-          "rch",
-          "two"
+          "thr",
+          "ver"
         ],
         "damage": {
           "base": {
             "number": 1,
-            "denomination": 10,
+            "denomination": 6,
             "bonus": "-2",
             "types": [
-              "slashing"
+              "piercing"
             ],
             "custom": {
               "enabled": false,
@@ -324,10 +323,10 @@
           }
         },
         "range": {
-          "value": null,
-          "long": null,
+          "value": 6,
+          "long": 18,
           "units": "m",
-          "reach": 3
+          "reach": null
         },
         "activities": {
           "DpAc001600000000": {
@@ -411,7 +410,7 @@
       "img": "icons/creatures/abilities/fangs-teeth-bite.webp",
       "system": {
         "description": {
-          "value": "<p><em>Danni base stampati:</em> 5 (1d4+3) perforanti, ridotti di 2.</p><p><em>Equipaggiamento scadente:</em> −2 ai danni già applicato alla formula.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p>Danni ridotti di 2 (<em>Armi da rito</em>: chi combatte senza disciplina morde male).</p>",
           "chat": ""
         },
         "source": {
@@ -532,12 +531,12 @@
     },
     {
       "_id": "DpIt002400000000",
-      "name": "Balestra pesante",
+      "name": "Falcetto d'osso",
       "type": "weapon",
-      "img": "icons/weapons/crossbows/crossbow-heavy.webp",
+      "img": "icons/weapons/sickles/sickle-simple-bone.webp",
       "system": {
         "description": {
-          "value": "<p>+2 a colpire. <em>Danni base:</em> 5 (1d10) perforanti, ridotti di 2.</p><p><em>Equipaggiamento scadente:</em> −2 ai danni già applicato alla formula.</p>",
+          "value": "<p>Un falcetto con il manico d’osso inciso, usato per tagliare il vischio e il sambuco. Danni ridotti di 2 (<em>Armi da rito</em>).</p>",
           "chat": ""
         },
         "source": {
@@ -552,22 +551,19 @@
         "identified": true,
         "proficient": null,
         "type": {
-          "value": "martialR",
-          "baseItem": "heavycrossbow"
+          "value": "simpleM",
+          "baseItem": "sickle"
         },
         "properties": [
-          "amm",
-          "hvy",
-          "lod",
-          "two"
+          "lgt"
         ],
         "damage": {
           "base": {
             "number": 1,
-            "denomination": 10,
+            "denomination": 4,
             "bonus": "-2",
             "types": [
-              "piercing"
+              "slashing"
             ],
             "custom": {
               "enabled": false,
@@ -581,8 +577,8 @@
           }
         },
         "range": {
-          "value": 30,
-          "long": 120,
+          "value": null,
+          "long": null,
           "units": "m",
           "reach": null
         },
@@ -639,7 +635,7 @@
               },
               "flat": false,
               "type": {
-                "value": "ranged",
+                "value": "melee",
                 "classification": "weapon"
               }
             },

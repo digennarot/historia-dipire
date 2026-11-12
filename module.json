@@ -3,7 +3,7 @@
   "id": "historia-dipire",
   "title": "Di Pire, Artigli e Zanne",
   "description": "One shot folk horror per Historia (D&D 5e 2014), perfetta per Halloween. Nel nebbioso villaggio montano di Brunascio, soffocato dall’Inquisizione, il palo della pira di Cerere svetta ancora sulla piazza, l’inquisitrice Arianna “La Cercatora” stringe la sua morsa e il nobile lupo Enrico De Fredier raduna i suoi fedeli per un rituale di mezzanotte. Richiede Historia (Italiano).",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "authors": [
     {
       "name": "Tiziano Di Gennaro"
@@ -63,7 +63,9 @@
       },
       "flags": {
         "dnd5e": {
-          "types": ["npc"]
+          "types": [
+            "npc"
+          ]
         }
       }
     },
@@ -73,6 +75,27 @@
       "path": "packs/journal",
       "type": "JournalEntry",
       "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Di Pire - Oggetti",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Di Pire - Tabelle",
+      "path": "packs/tables",
+      "type": "RollTable",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
@@ -95,7 +118,14 @@
       "name": "Di Pire, Artigli e Zanne",
       "sorting": "m",
       "color": "#6d3b2f",
-      "packs": ["adventure", "journal", "actors", "automation"],
+      "packs": [
+        "adventure",
+        "journal",
+        "actors",
+        "items",
+        "tables",
+        "automation"
+      ],
       "folders": []
     }
   ],

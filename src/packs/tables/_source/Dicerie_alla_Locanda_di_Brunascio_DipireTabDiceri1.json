@@ -1,0 +1,109 @@
+{
+  "_id": "DipireTabDiceri1",
+  "name": "Dicerie alla Locanda di Brunascio",
+  "img": "icons/sundries/documents/document-letter-tan.webp",
+  "description": "<p>Tirate 1d6 per ogni avventore dell’Osteria del Ceppo che si convince a parlare. Metà delle dicerie sono vere, metà false: la verità è indicata solo al GM, tra parentesi quadre.</p>",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "DpTrDic000000001",
+      "type": "text",
+      "name": "«La comare saliva sulla Corona ogni primo gelo a cantare. Quest’anno chi ci va, a cantare?»",
+      "img": "icons/sundries/documents/document-letter-tan.webp",
+      "description": "<p>[VERA] Il Patto della Neve richiede una voce. Senza Cerere, nessuno conosce il canto per intero.</p>",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrDic000000002",
+      "type": "text",
+      "name": "«I De Fredier si mangiano i bambini. L’inverno del gran freddo ne sono spariti tre, e sulla neve c’erano impronte di lupo.»",
+      "img": "icons/sundries/documents/document-letter-tan.webp",
+      "description": "<p>[FALSA] I bambini li ha presi la Fame Bianca, l’anno in cui il rito fu interrotto da una valanga. I lupi trovarono quello che restava e lo riportarono alle famiglie.</p>",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrDic000000003",
+      "type": "text",
+      "name": "«Il sovrintendente è sceso a Nochemburgo a fine estate. Da quando è tornato dorme con la candela accesa.»",
+      "img": "icons/sundries/documents/document-letter-tan.webp",
+      "description": "<p>[VERA] Iginius è andato a presentare la denuncia contro Cerere.</p>",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrDic000000004",
+      "type": "text",
+      "name": "«La Cercatora non ha ombra. L’ha vista mia cugina, al sole di mezzogiorno: niente, per terra.»",
+      "img": "icons/sundries/documents/document-letter-tan.webp",
+      "description": "<p>[FALSA] Arianna ha un’ombra come tutti. Ma non entra mai nella chiesetta da sola, e non si toglie il cappuccio davanti all’altare.</p>",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrDic000000005",
+      "type": "text",
+      "name": "«Le pecore di Bastiano, su all’alpeggio, sono morte in piedi. Gelate in una notte, e la neve deve ancora venire.»",
+      "img": "icons/sundries/documents/document-letter-tan.webp",
+      "description": "<p>[VERA] La Fame Bianca si sta svegliando. Vedi la seconda tappa della salita.</p>",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "DpTrDic000000006",
+      "type": "text",
+      "name": "«La vecchia ha maledetto il paese dal rogo. Ha gridato che la montagna ci avrebbe mangiati tutti.»",
+      "img": "icons/sundries/documents/document-letter-tan.webp",
+      "description": "<p>[FALSA] Cerere non ha maledetto nessuno: ha gridato «chi tiene la catena?». Era un avvertimento, non una maledizione.</p>",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

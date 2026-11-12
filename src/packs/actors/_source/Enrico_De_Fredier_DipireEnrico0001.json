@@ -64,7 +64,7 @@
     },
     "details": {
       "biography": {
-        "value": "\n<p><strong>Erede decaduto della casata De Fredier, licaio @UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}.</strong> Fiero, brusco, avvolto da una costante e rassegnata tristezza. Un leader antico, legato a tradizioni dimenticate. Al suo mastio si radunano gli \"eretici\" della valle.</p>\n<p><strong>Suggerimento di ruolo:</strong> tono asciutto e perentorio, con un leggero ringhio gutturale ma mai aggressività cieca. Sorride a mezza bocca mostrando le zanne ingiallite. È intelligente: valuta le capacità dei PG per capire come sfruttarli a vantaggio del branco senza scatenare l'ira di Nochemburgo.</p>\n<p><strong>Sfida 1 (200 PE).</strong> CA 16 (maglia di ferro, scudo), PF 32 (5d8+10), velocità 9 m, scurovisione 18 m. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngEnrico00000]{Enrico De Fredier}.</p>\n<p><em>Discrepanze (vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}):</em> CA 16 è mantenuta come stampata anche se maglia di ferro e scudo in 5e darebbero 18; alabarda a due mani e scudo insieme sono come nel testo; Percezione passiva calcolata 9 invece di 15.</p>",
+        "value": "<p><strong>Ultimo erede della casata De Fredier, lupo (@UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}).</strong> Fiero, brusco, avvolto da una tristezza rassegnata. Custode del Patto della Neve: ogni primo gelo versa il proprio sangue sulla Corona dei Lupi per tenere legata la Fame Bianca.</p>\n<p><strong>Il suo piano:</strong> rinnovare il patto a mezzanotte con il teschio di Cerere. Senza una comare manca la voce, e il registro d’ossa dice che la Corona accetta «una vita per una voce». Enrico ha scelto la vita di Arianna. Non lo fa per vendetta, e gli fa schifo.</p>\n<p><strong>Suggerimento di ruolo:</strong> tono asciutto, un ringhio basso in gola, mai aggressività cieca. Sorride a mezza bocca mostrando le zanne ingiallite. Ascolta. Valuta i PG come strumenti, poi, se lo meritano, come alleati.</p>\n<p><strong>Sfida 1 (200 PE).</strong> Porta il @UUID[Compendium.historia-dipire.items.Item.DipireItSimbolo1]{Simbolo Sacrificale}. Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngEnrico00000]{Enrico De Fredier}. Note: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti} (CA 16 mantenuta come stampata).</p>",
         "public": ""
       },
       "alignment": "",
@@ -244,7 +244,7 @@
       "img": "icons/weapons/polearms/halberd-crescent-worn-steel.webp",
       "system": {
         "description": {
-          "value": "<p>+5 a colpire. <em>Danni stampati:</em> 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p>+5 a colpire. <em>Danni stampati:</em> 6 (1d10+1) taglienti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
           "chat": ""
         },
         "source": {
@@ -500,7 +500,7 @@
       "img": "icons/weapons/crossbows/crossbow-heavy.webp",
       "system": {
         "description": {
-          "value": "<p><em>Stampato:</em> +2 a colpire, 5 (1d10) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireGuidaGM001.JournalEntryPage.DpGuidaDiscrep00]{Discrepanze nelle statistiche}.</p>",
+          "value": "<p><em>Stampato:</em> +2 a colpire, 5 (1d10) perforanti.</p><p><em>Nota:</em> tiro per colpire e danni sono calcolati da dnd5e dalle caratteristiche; il valore stampato nel testo originale può differire. Vedi @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}.</p>",
           "chat": ""
         },
         "source": {
@@ -710,6 +710,115 @@
           "max": "",
           "spent": 0,
           "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt004200000000",
+      "name": "Ululato della Corona",
+      "type": "feat",
+      "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ricarica 5-6.</strong> Enrico ulula il nome della catena. Ogni nemico entro 9 m che può sentirlo fa un tiro salvezza su Saggezza [[/save ability=wis dc=11]]: se lo fallisce è spaventato fino alla fine del suo turno successivo.</p><p><em>Aggiunta della versione 2.0.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {
+          "DpAc004200000000": {
+            "_id": "DpAc004200000000",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "target": "",
+                  "value": "1",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "type": "self",
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "recharge",
+              "type": "recoverAll",
+              "formula": "5"
+            }
+          ]
         }
       },
       "effects": [],

@@ -1,0 +1,140 @@
+{
+  "_id": "DipireItSimbolo1",
+  "name": "Il Simbolo Sacrificale di Enrico",
+  "type": "equipment",
+  "img": "icons/equipment/neck/collar-carved-bone-teeth.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Un collare di denti di lupo incisi, uno per ogni capo della casata, attorno a un disco di ferro nero. Sul disco sono incise nove pietre in cerchio e una testa di lupo che inghiotte il sole. Sul retro, incernierata, una lama corta e ricurva come un falcetto, con il filo nero di sangue vecchio.</em></p>\n<p>Con questo falcetto il capo dei De Fredier si apre il palmo sulla pietra alta, ogni anno, nella notte del primo gelo. I denti sono quelli dei padri: chi lo indossa, dicono i fedeli, non è mai solo.</p>\n<h3>Proprietà (richiede sintonia)</h3>\n<p>Per entrare in sintonia bisogna bagnare il falcetto con il proprio sangue (1 danno tagliente).</p>\n<ul>\n<li><strong>Sangue al gelo.</strong> Chi è in sintonia ha resistenza ai danni da freddo.</li>\n<li><strong>Uno per la Corona (1 volta per riposo lungo).</strong> Reazione: quando un alleato entro 3 m viene colpito da un attacco, chi è in sintonia subisce al suo posto i danni dell’attacco.</li>\n<li><strong>Il sangue dei padri.</strong> Nel rito della Corona, chi è in sintonia può versare il sangue al posto di Enrico, se Enrico è morto, ma solo se un De Fredier gli ha dato il simbolo di sua volontà.</li>\n</ul>\n<h3>Maledizione</h3>\n<p>Il collare ha fame. Dopo ogni riposo lungo, chi è in sintonia fa un tiro salvezza su Saggezza CD 10. Se lo fallisce, si sveglia con il sapore del sangue in bocca e ha svantaggio alle prove di Carisma fino al riposo lungo successivo: si sorprende a guardare le gole degli altri. Interrompere la sintonia richiede un incantesimo <em>rimuovi maledizione</em> o restituire il collare a un De Fredier.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "kg"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "identified": true,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "properties": [
+      "mgc"
+    ],
+    "attunement": "required",
+    "equipped": false,
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "strength": null,
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "activities": {
+      "DpAcItSimbolo001": {
+        "_id": "DpAcItSimbolo001",
+        "type": "utility",
+        "name": "Uno per la Corona",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "Quando un alleato entro 3 m viene colpito da un attacco",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1",
+              "scaling": {
+                "mode": "",
+                "formula": ""
+              }
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "m"
+          },
+          "affects": {
+            "type": "self",
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "sort": 0,
+        "img": "",
+        "flags": {}
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

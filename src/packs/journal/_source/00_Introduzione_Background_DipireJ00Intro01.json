@@ -1,0 +1,129 @@
+{
+  "_id": "DipireJ00Intro01",
+  "name": "00 - Introduzione & Background",
+  "folder": "DipireFoldJourn1",
+  "sort": 100000,
+  "pages": [
+    {
+      "_id": "DpJ00Sinossi0000",
+      "name": "Sinossi e uso del modulo",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Di Pire, Artigli e Zanne</strong> è una one shot folk horror per <strong>Historia</strong> (D&amp;D 5e, regole 2014), pensata per una sola serata di gioco e per personaggi di livello 1-3. Dura quattro o cinque ore.</p>\n<div class=\"narrative\"><p>I personaggi giungono nel nebbioso e isolato villaggio montano di Brunascio, un luogo soffocato dal terrore dell’Inquisizione. Al centro della piazza svetta ancora il palo di una pira con il teschio bruciacchiato della vecchia erborista Cerere, arsa viva per eresia. Mentre la spietata inquisitrice Arianna «La Cercatora» stringe la sua morsa sul paese, tra i picchi innevati si vocifera che il nobile lupo Enrico De Fredier stia radunando i suoi fedeli per un oscuro e solenne rituale di mezzanotte. Il sovrintendente del villaggio ingaggia i PG per scoprire la verità e impedire che la situazione degeneri in un massacro.</p></div>\n<h2>Struttura della serata</h2>\n<table><thead><tr><th>Journal</th><th>Cosa succede</th><th>Scena</th><th>Durata</th></tr></thead><tbody><tr><td>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ01Arrivo1]{01 - Arrivo a Brunascio}</td><td>La pira, il sovrintendente, l’indagine, l’osteria. Di notte qualcuno prova a rubare il teschio.</td><td>@UUID[Scene.DipireScPiazza01]{Piazza della Pira}</td><td>60 min</td></tr><tr><td>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ02Inquis1]{02 - L’Ombra dell’Inquisizione}</td><td>La milizia porta i PG all’accampamento. Udienza con Arianna, il Mandato, i prigionieri.</td><td>@UUID[Scene.DipireScAccamp01]{Accampamento dell’Inquisizione}</td><td>60 min</td></tr><tr><td>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ03Salita1]{03 - La Salita ai Picchi Innevati}</td><td>Tre tappe di viaggio nella tormenta, orrori della montagna, le sentinelle del branco.</td><td>nessuna mappa (teatro della mente)</td><td>60 min</td></tr><tr><td>@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ04Ritual1]{04 - Il Rituale di Mezzanotte}</td><td>La Corona dei Lupi, Enrico, l’arrivo dell’Inquisizione, il rito e i quattro finali.</td><td>@UUID[Scene.DipireScVetta001]{Vetta del Rituale}</td><td>60-90 min</td></tr></tbody></table>\n<p>Il journal @UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ05Scene01]{05 - Allestimento delle scene} raccoglie luci, suoni e muri consigliati per le tre mappe. Le statistiche sono negli attori del compendio <em>Di Pire - PNG</em> e riassunte nel journal @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001]{PNG}.</p>\n<h2>Cosa contiene il modulo</h2>\n<ul><li><strong>Di Pire - Avventura</strong>: importa con un clic journal, attori, oggetti, tabelle e le tre scene (senza immagine di sfondo: le luci e le note sono già posizionate, la mappa la mettete voi).</li><li><strong>Di Pire - Oggetti</strong>: @UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{Il Teschio Bruciacchiato di Cerere}, @UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Il Mandato dell’Inquisizione}, @UUID[Compendium.historia-dipire.items.Item.DipireItSimbolo1]{Il Simbolo Sacrificale di Enrico}.</li><li><strong>Di Pire - Tabelle</strong>: @UUID[Compendium.historia-dipire.tables.RollTable.DipireTabDiceri1]{Dicerie alla Locanda di Brunascio} e @UUID[Compendium.historia-dipire.tables.RollTable.DipireTabOrrori1]{Effetti Ambientali Orrifici sulla Montagna}, entrambe da 1d6.</li><li><strong>Di Pire - Automazioni</strong>: la macro <em>Strumenti del GM</em> per prove di gruppo, tappe della salita, orologio della Fame Bianca e registrazione del finale.</li></ul>\n<div class=\"advice\"><h4>Una nota sul tono</h4><p>Il folk horror funziona per sottrazione. Non mostrate la Fame Bianca prima della vetta: mostrate le sue tracce. Pecore morte in piedi, impronte che tornano indietro, una campana che suona da sola. Il mostro vero, per quasi tutta la serata, sono le persone: un’inquisitrice che ha paura del proprio passato, un sovrintendente che ha venduto una vecchia per un prato, un lupo disposto a uccidere per salvare chi lo odia.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ00Cerere00000",
+      "name": "La vera storia di Cerere",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Cerere</strong> era una vecchia gallina (@UUID[Compendium.historia-it.species-it.Item.yE4ICtbPWPUWK355]{Polli}), erborista, levatrice e conciaossa di Brunascio. Per quarant’anni ha fatto nascere vitelli e bambini, ha curato febbri e geloni, ha messo a tacere i morti che non volevano stare zitti. Era l’ultima <em>comare</em> della valle.</p>\n<h2>Il Patto della Neve</h2>\n<p>Molte generazioni fa, prima che la @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa} arrivasse fin quassù, ogni inverno scendeva dai picchi la <strong>Fame Bianca</strong>: un gelo che camminava. Svuotava le stalle, faceva sparire i cuccioli dalle culle, lasciava gli adulti seduti davanti al focolare spento con gli occhi bianchi di brina. Nessuno l’ha mai vista per intero. Chi l’ha intravista parla di una figura alta come un abete, fatta di neve sporca e di ossa di animale, con una bocca che non smette mai di masticare.</p>\n<p>Il primo dei <strong>De Fredier</strong>, un lupo, e la prima comare di Brunascio la legarono sulla vetta, dentro un cerchio di nove pietre che i montanari chiamano <strong>Corona dei Lupi</strong>. Il legame va rinnovato ogni anno, nella notte del primo gelo, a mezzanotte. Servono tre cose:</p>\n<ol><li><strong>Gli occhi della comare</strong>: il teschio di una comare morta, che vede la Fame anche quando è invisibile. Ogni comare custodiva il teschio della precedente; quello di Cerere ora sta in cima al palo della pira.</li><li><strong>Il sangue dei De Fredier</strong>: il capo della casata versa il proprio sangue sulle pietre e ulula il nome della catena.</li><li><strong>La voce</strong>: qualcuno deve cantare il <em>Canto della Catena</em>, una filastrocca in dialetto antico che si impara solo da bambini, cantata da una comare sopra la culla.</li></ol>\n<p>In cambio i lupi custodivano i passi e il villaggio portava al mastio pane e sale. Poi la Chiesa ha messo la Croce d’Ossa sulla chiesetta, i nipoti hanno dimenticato, e il patto è diventato una superstizione da vecchi. Solo Cerere ed Enrico sapevano ancora come stavano le cose.</p>\n<h2>Come è morta</h2>\n<p>A fine estate il sovrintendente @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius} ha mandato a Nochemburgo una denuncia per eresia contro Cerere. Il motivo era meschino: la vecchia possedeva il <em>Prato della Fontana</em>, l’unico pascolo d’acqua sotto il villaggio, e rifiutava di venderlo; sapeva anche che Iginius tratteneva una parte della decima del grano. Iginius sperava in una multa, un’abiura, al massimo un esilio.</p>\n<p>È arrivata invece Arianna. Ha interrogato Cerere per una sola notte, senza testimoni. All’alba l’ha fatta legare al palo con le zampe spezzate, così che non potesse inginocchiarsi per l’ultima preghiera, e ha acceso la pira con legna ancora umida. Cerere ha bruciato a lungo. Prima di tacere ha gridato due volte la stessa domanda, in dialetto: <em>«Chi tiene la catena? Chi tiene la catena?»</em>. In piazza l’hanno presa per una maledizione. Era un avvertimento.</p>\n<p>Mancano cinque giorni al primo gelo quando i PG arrivano. La notte dell’avventura è quella.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ00Arianna0000",
+      "name": "Gli obiettivi di Arianna",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{Arianna «La Cercatora»}, felide @UUID[Compendium.historia-it.species-it.Item.Lyovp3LE7wRvCI4o]{Puma}, è un’inquisitrice della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa} con un mandato del Vicario di Nochemburgo. Al villaggio mostra solo zelo. Sotto c’è altro.</p>\n<h2>Il segreto</h2>\n<p>Trent’anni fa una cucciola di puma fu lasciata davanti alla stalla di Cerere, malata di febbre di neve, quella che uccide in tre notti. Cerere la portò alla Corona, la scaldò con le erbe, le cantò sopra il <em>Canto della Catena</em> finché la febbre non passò, e la chiamò <strong>Piccola Neve</strong>. A primavera un frate di passaggio prese la cucciola per l’orfanotrofio di Nochemburgo. La Chiesa l’ha cresciuta, istruita, armata.</p>\n<p>Arianna ricorda poco: un odore di sambuco, una voce vecchia, una melodia che a volte le torna in mente mentre prega. Quando ha letto il nome di Brunascio nella denuncia ha chiesto lei l’incarico. Nella notte dell’interrogatorio Cerere l’ha riconosciuta dalla macchia bianca sotto l’occhio sinistro e l’ha chiamata col vecchio nome. Arianna l’ha bruciata all’alba.</p>\n<h2>Cosa vuole</h2>\n<ol><li><strong>Cancellare ogni testimone.</strong> Se a Nochemburgo si sapesse che una Cercatora è stata guarita da un rito eretico, per lei sarebbe il rogo. Enrico sa la verità: il registro d’ossa dei De Fredier annota ogni bambino portato alla Corona.</li><li><strong>Distruggere il teschio.</strong> Lo ha lasciato sul palo come monito, ma ha capito che serve al rito. Vuole che i PG glielo portino, o che lo portino via dalla vetta. Le interessa più della testa di Enrico.</li><li><strong>Una valle «purificata».</strong> Un rapporto pulito, un eretico nobile ucciso, un villaggio in ginocchio: è il prezzo di un posto da priora a Nochemburgo.</li></ol>\n<div class=\"advice\"><h4>Come interpretarla</h4><p>Fredda, scarna, non alza mai la voce. Le domande le fa lei. Se qualcuno nomina la febbre di neve, il sambuco o la parola «Neve», si ferma per un respiro di troppo: è l’unica crepa. Se viene messa con le spalle al muro con prove (il Mandato, il registro d’ossa, il canto), non crolla subito: prima minaccia, poi tratta, e solo alla fine, sulla vetta, può scegliere di cantare.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ00Rituale0000",
+      "name": "Il vero scopo del rituale",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>@UUID[Compendium.historia-dipire.actors.Actor.DipireEnrico0001]{Enrico De Fredier}, lupo (@UUID[Compendium.historia-it.species-it.Item.tkb9Rogryvwlk3sc]{Lupi}), è l’ultimo della casata. Non sta preparando una vendetta: sta cercando di impedire una strage. Ma è disposto a commetterne una piccola per evitarne una grande.</p>\n<h2>Il problema di Enrico</h2>\n<ul><li>Senza il teschio di Cerere il rito non vede la Fame. I suoi fedeli hanno già provato due volte a rubarlo dal palo; la seconda volta la milizia ha impiccato il ladro.</li><li>Senza una comare nessuno conosce più il <em>Canto della Catena</em> per intero. Enrico ne ricorda la melodia, ma un lupo non può cantarlo: il canto deve venire da chi è stato cullato con esso.</li><li>Il registro d’ossa della sua casata dice che, quando la voce manca, la Corona accetta «una vita per una voce». Enrico ha deciso che quella vita sarà di chi ha spento la comare: <strong>Arianna</strong>.</li></ul>\n<p>I fedeli che si radunano sulla vetta sono pastori, carbonai, vecchie che portavano il pane al mastio, e qualche giovane esaltato che vuole far pagare al villaggio il silenzio davanti alla pira. Enrico li tiene a bada a fatica. Se il rito fallisce, o se lui muore, i più esaltati scenderanno a Brunascio con le torce.</p>\n<h2>Cosa succede se nessuno interviene</h2>\n<table><thead><tr><th>Ora</th><th>Evento</th></tr></thead><tbody><tr><td>Tramonto</td><td>Enrico sale alla Corona con i fedeli. Cultisti fanno la guardia alla Scala dei Corvi.</td></tr><tr><td>Prima notte</td><td>Due fedeli scendono in paese per rubare il teschio dal palo (journal 01).</td></tr><tr><td>21:00</td><td>Arianna parte dall’accampamento con Yrmengard e la milizia per «chiudere il cerchio» sulla vetta.</td></tr><tr><td>23:30</td><td>La milizia raggiunge la Corona. Si combatte nella neve.</td></tr><tr><td>Mezzanotte</td><td>Se il rito non è compiuto, la Fame Bianca si libera.</td></tr><tr><td>Alba</td><td>La Fame scende a Brunascio. Il primo gelo dura tre giorni. Il villaggio conta i morti.</td></tr></tbody></table>\n<div class=\"notable\"><h4>La verità che nessuno conosce</h4><p>Arianna è stata cullata col Canto della Catena. Lei può essere la <em>voce</em>, e il rito non ha bisogno di nessuna vita. Questa è la porta verso il finale migliore. Anche un PG può imparare il canto dal teschio, ma pagherà un prezzo (journal 04).</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ00Orologio000",
+      "name": "L’orologio della Fame Bianca",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Per tutta l’avventura tenete un orologio di <strong>6 segmenti</strong>: la <em>Fame Bianca</em>. Misura quanto la creatura è già sveglia quando scocca la mezzanotte. La macro <em>Strumenti del GM</em> lo tiene per voi.</p>\n<h3>Avanza di 1 quando</h3>\n<ul><li>i PG perdono tempo in paese dopo il tramonto (una volta sola);</li><li>il teschio viene rubato e portato via dal villaggio senza che i PG lo seguano;</li><li>il gruppo fallisce una tappa della salita;</li><li>qualcuno segue la campana nella nebbia (tabella degli orrori, risultato 2);</li><li>si versa sangue dentro la Corona prima della mezzanotte;</li><li>il rito fallisce una prova del Canto.</li></ul>\n<h3>Effetti</h3>\n<table><thead><tr><th>Segmenti</th><th>Effetto</th></tr></thead><tbody><tr><td>0-1</td><td>Il rito è teso ma tranquillo.</td></tr><tr><td>2-3</td><td>Durante il rito, uno @UUID[Compendium.historia-dipire.actors.Actor.DipireCorvi00001]{Sciame di Corvi della Fame} si alza dalla neve.</td></tr><tr><td>4-5</td><td>Due sciami; la CD di ogni prova del Canto aumenta di 2.</td></tr><tr><td>6</td><td>La Fame si mostra. Ogni creatura nella Corona fa un [[/save ability=con dc=13]] o subisce 2d6 danni da freddo all’inizio di ogni round del rito.</td></tr></tbody></table>\n<p>Se la Fame si libera (finali «La Croce» e «La Fame»), i segmenti pieni dicono quanto pagherà Brunascio: un morto o una stalla svuotata per ogni segmento.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ00Note0000000",
+      "name": "Note di conversione e crediti",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Versione 2.0</h2>\n<p>Questa versione riscrive la trama originale (in cui il rito era una veglia funebre al mastio dei De Fredier) per farla salire sui picchi innevati e aggiungere una minaccia sovrannaturale, oggetti e tabelle casuali. Il testo della prima stesura resta in <code>dipire.md</code> nel repository del modulo.</p>\n<h2>Statistiche</h2>\n<ul><li>dnd5e calcola tiro per colpire, danni e Percezione passiva dalle caratteristiche: dove il valore stampato nella prima stesura era diverso, la scheda lo cita nella descrizione dell’oggetto.</li><li>Arianna mantiene PF 27 (formula 5d6+5) ed Enrico CA 16, come stampati.</li><li>Iginius, i Corvi della Fame e il nuovo profilo del Cultista della Montagna sono <strong>aggiunte di questa versione</strong>, non dati della prima stesura.</li><li>Le armi da fuoco usano le regole di Historia (proprietà <em>Impatto Letale</em>, <em>Malfunzionamento</em>, <em>Polveri Bagnate</em>, <em>Ricarica Laboriosa</em>): nella tormenta della vetta le polveri sono bagnate.</li><li>La «Reputazione con la Chiesa delle Ossa» è un indicatore narrativo: convertitela in Fama o gradi di fazione secondo @UUID[Compendium.historia-it.rules-it.JournalEntry.RicchezzaRegola1]{Ricchezza & Influenza}.</li><li>Indebolimento: dove il testo dice «livello di indebolimento» usate la regola di Historia in @UUID[Compendium.historia-it.rules-it.JournalEntry.FeriteRegola0001]{Ferite, Combattimento e Morte} (in dnd5e corrisponde ai livelli di <em>Indebolimento/Exhaustion</em> della scheda).</li></ul>\n<h2>Crediti</h2>\n<p>Avventura e conversione: Tiziano Di Gennaro. <strong>Historia</strong> è un’ambientazione di Mana Project Studio; il modulo non ridistribuisce testo né immagini del manuale e rimanda ai compendi di <em>Historia (Italiano)</em>. Icone di oggetti e tabelle: libreria inclusa in Foundry VTT.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,1116 @@
+{
+  "_id": "DipireScVetta001",
+  "name": "Vetta del Rituale",
+  "navName": "Vetta",
+  "navigation": true,
+  "navOrder": 3,
+  "width": 2400,
+  "height": 1600,
+  "padding": 0.25,
+  "thumb": null,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "initialLevel": "defaultLevel0000",
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 1.5,
+    "units": "m"
+  },
+  "tokenVision": true,
+  "fog": {
+    "mode": 0
+  },
+  "environment": {
+    "darknessLevel": 0.9,
+    "globalLight": {
+      "enabled": false
+    }
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Livello 1",
+      "elevation": {
+        "bottom": 0,
+        "top": null
+      },
+      "background": {
+        "color": "#1f2630",
+        "src": null
+      },
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "tokens": [
+    {
+      "_id": "DpTk001400000000",
+      "name": "Enrico De Fredier",
+      "actorId": "DipireEnrico0001",
+      "actorLink": true,
+      "x": 1200,
+      "y": 350,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": false,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/enrico.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001500000000",
+      "name": "Cultista della Montagna 1",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 1000,
+      "y": 450,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": false,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001600000000",
+      "name": "Cultista della Montagna 2",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 1400,
+      "y": 450,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": false,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001700000000",
+      "name": "Cultista della Montagna 3",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 800,
+      "y": 700,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": false,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001800000000",
+      "name": "Cultista della Montagna 4",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 1600,
+      "y": 700,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": false,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk001900000000",
+      "name": "Cultista della Montagna 5",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 1000,
+      "y": 1150,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk002000000000",
+      "name": "Cultista della Montagna 6",
+      "actorId": "DipireGuardia001",
+      "actorLink": false,
+      "x": 1400,
+      "y": 1150,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": 0,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "modules/historia-dipire/img/tokens/guardia.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": true,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk002100000000",
+      "name": "Sciame di Corvi della Fame 1",
+      "actorId": "DipireCorvi00001",
+      "actorLink": false,
+      "x": 900,
+      "y": 900,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": -1,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    },
+    {
+      "_id": "DpTk002200000000",
+      "name": "Sciame di Corvi della Fame 2",
+      "actorId": "DipireCorvi00001",
+      "actorLink": false,
+      "x": 1500,
+      "y": 900,
+      "elevation": 0,
+      "width": 1,
+      "height": 1,
+      "level": "defaultLevel0000",
+      "hidden": true,
+      "disposition": -1,
+      "displayName": 30,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "texture": {
+        "src": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+        "tint": "#ffffff",
+        "scaleX": 1,
+        "scaleY": 1,
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic"
+      },
+      "delta": {},
+      "flags": {},
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      }
+    }
+  ],
+  "notes": [
+    {
+      "_id": "DpNt000900000000",
+      "entryId": "DipireJ04Ritual1",
+      "pageId": "DpJ04Vetta000000",
+      "x": 1200,
+      "y": 150,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "La Corona dei Lupi",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    },
+    {
+      "_id": "DpNt001000000000",
+      "entryId": "DipireJ04Ritual1",
+      "pageId": "DpJ04Rito0000000",
+      "x": 1200,
+      "y": 800,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/skull.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "Il rito",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    },
+    {
+      "_id": "DpNt001100000000",
+      "entryId": "DipireJ04Ritual1",
+      "pageId": "DpJ04Arrivo00000",
+      "x": 1200,
+      "y": 1500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "Arrivo della milizia",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    },
+    {
+      "_id": "DpNt001200000000",
+      "entryId": "DipireJ05Scene01",
+      "pageId": "DpJ05Vetta000000",
+      "x": 2200,
+      "y": 800,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "texture": {
+        "src": "icons/svg/book.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "tint": "#ffffff"
+      },
+      "iconSize": 48,
+      "text": "Il dirupo",
+      "fontFamily": "Signika",
+      "fontSize": 24,
+      "textAnchor": 1,
+      "textColor": "#ffffff",
+      "global": true,
+      "flags": {}
+    }
+  ],
+  "drawings": [],
+  "lights": [
+    {
+      "_id": "DpLt001100000000",
+      "name": "Pira del fantoccio",
+      "x": 1200,
+      "y": 250,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "color": "#ff8c1a",
+        "coloration": 1,
+        "dim": 15,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "flame",
+          "speed": 4,
+          "intensity": 7,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001200000000",
+      "name": "Torcia sulla pietra",
+      "x": 1200,
+      "y": 300,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001300000000",
+      "name": "Torcia sulla pietra",
+      "x": 1521,
+      "y": 417,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001400000000",
+      "name": "Torcia sulla pietra",
+      "x": 1692,
+      "y": 713,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001500000000",
+      "name": "Torcia sulla pietra",
+      "x": 1633,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001600000000",
+      "name": "Torcia sulla pietra",
+      "x": 1371,
+      "y": 1270,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001700000000",
+      "name": "Torcia sulla pietra",
+      "x": 1029,
+      "y": 1270,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001800000000",
+      "name": "Torcia sulla pietra",
+      "x": 767,
+      "y": 1050,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt001900000000",
+      "name": "Torcia sulla pietra",
+      "x": 708,
+      "y": 713,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt002000000000",
+      "name": "Torcia sulla pietra",
+      "x": 879,
+      "y": 417,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": false,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 1.5,
+        "color": "#ff9a3c",
+        "coloration": 1,
+        "dim": 4.5,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt002100000000",
+      "name": "Il lago gelato (inizio del rito)",
+      "x": 1200,
+      "y": 800,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": true,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": "#9fd8ff",
+        "coloration": 1,
+        "dim": 9,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": "ghost",
+          "speed": 2,
+          "intensity": 6,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    {
+      "_id": "DpLt002200000000",
+      "name": "La Fame Bianca (orologio a 6)",
+      "x": 1200,
+      "y": 800,
+      "elevation": 0,
+      "levels": [
+        "defaultLevel0000"
+      ],
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "hidden": true,
+      "locked": false,
+      "flags": {},
+      "config": {
+        "negative": true,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": "#ffffff",
+        "coloration": 1,
+        "dim": 12,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      }
+    }
+  ],
+  "sounds": [],
+  "regions": [],
+  "tiles": [],
+  "walls": [],
+  "journal": "DipireJ05Scene01",
+  "journalEntryPage": "DpJ05Vetta000000",
+  "playlist": null,
+  "playlistSound": null,
+  "weather": "snow",
+  "folder": "DipireFoldScene1",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

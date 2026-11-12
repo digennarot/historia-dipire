@@ -1,0 +1,93 @@
+{
+  "_id": "DipireJ01Arrivo1",
+  "name": "01 - Arrivo a Brunascio",
+  "folder": "DipireFoldJourn1",
+  "sort": 200000,
+  "pages": [
+    {
+      "_id": "DpJ01Nebbia00000",
+      "name": "La nebbia e il villaggio",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>La mulattiera sale per tutto il pomeriggio dentro una nebbia che non si alza mai. Si sentono campanacci lontani, poi più nulla. Brunascio compare all’improvviso: tetti di lose coperti di muschio, finestre chiuse con assi, un camino su tre che fuma.</p><p>Prima delle case arriva l’odore. Legna bagnata bruciata male, grasso, e sotto qualcosa di dolciastro che vi resta in gola.</p><p>In mezzo alla piazza c’è un cerchio di cenere grande come un’aia. Al centro, un palo annerito. In cima al palo, inchiodato per il becco, il teschio di una gallina vi guarda con le orbite vuote. Qualcuno gli ha legato attorno un filo di lana rossa.</p></div>\n<h2>Brunascio</h2>\n<p>Una quarantina di case di pietra strette attorno a una piazza in pendenza, una chiesetta con la Croce d’Ossa sul portale, l’<strong>Osteria del Ceppo</strong>, la casa del sovrintendente con le imposte verdi. Sopra il paese, i picchi chiamati <em>i Denti</em> spariscono nella nebbia. Dietro la chiesetta, sul prato della fiera, ci sono le tende dell’Inquisizione.</p>\n<ul><li>La gente cammina rasente i muri e non guarda la piazza. Se i PG portano simboli della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa}, le porte si chiudono; se ne sono privi, gli sguardi sono solo diffidenti.</li><li>Sulle architravi di molte porte c’è un mazzetto di sambuco secco. Qualcuno lo ha strappato di recente, lasciando il chiodo nudo: chi lo tiene ancora rischia la denuncia.</li><li>Due miliziani con la Croce d’Ossa sul farsetto stanno di guardia alla pira giorno e notte, appoggiati alle alabarde. Si annoiano e hanno freddo.</li></ul>\n<div class=\"advice\"><h4>Mood</h4><p>Fate parlare poco i paesani, e sottovoce. Ogni volta che qualcuno passa davanti al palo, fategli fare un piccolo gesto: toccarsi il petto, sputare per terra, girare la testa. Nessuno spiega mai perché.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ01Sovrint0000",
+      "name": "Il sovrintendente Iginius",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>L’unico che si avvicina ai PG è @UUID[Compendium.historia-dipire.actors.Actor.DipireIginius001]{Iginius}, istrice (@UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}) di mezza età, pelo brizzolato, vesti di buona lana e una collana di metallo brunito. Lo scortano quattro paesani armati di forconi e di un unico spadone arrugginito.</p>\n<div class=\"narrative\"><p>«Stranieri. Non so se vi ha portati la fortuna o il diavolo, ma a Brunascio servite tutti e due. Non qui. Seguitemi.»</p></div>\n<p>In strada non risponde a nessuna domanda. Li porta a casa sua, chiude le imposte e accende due candele in più del necessario.</p>\n<div class=\"narrative\"><p>«Ighinius. Con la g dura. Qui si dice così.»</p></div>\n<h2>Cosa dice</h2>\n<ul><li><strong>L’Inquisizione.</strong> Una Cercatora di Nochemburgo è arrivata dieci giorni fa con un mandato e una milizia. Ha messo sotto processo la vecchia Cerere, «una comare, un’erborista, roba di superstizione», e l’ha bruciata dopo una notte.</li><li><strong>Il lupo.</strong> Sui Denti si radunano gli «eretici» della valle attorno a Enrico De Fredier, nobile lupo decaduto. Si dice che a mezzanotte del primo gelo faranno un rito sulla vetta. Iginius teme che dopo il rito scendano a vendicare la vecchia.</li><li><strong>La richiesta.</strong> Salire, scoprire che cosa vuole Enrico e fermarlo: con le parole se si può, con le armi se serve. Prima che la Cercatora ci arrivi da sola e trasformi la valle in un cimitero.</li><li><strong>La paga.</strong> Tutto ciò che il villaggio ha da parte: <strong>1 Conio per ciascun personaggio</strong> (vedi @UUID[Compendium.historia-it.rules-it.JournalEntry.RicchezzaRegola1]{Ricchezza & Influenza}), metà subito e metà a lavoro finito.</li></ul>\n<h2>Cosa nasconde</h2>\n<p>È stato lui a denunciare Cerere, per il Prato della Fontana e per la decima del grano. Non voleva il rogo. Da quella mattina dorme con la candela accesa.</p>\n<ul><li>[[/check skill=ins dc=13]]: Iginius ha paura di Arianna più che di Enrico, e si tocca la collana ogni volta che si nomina Cerere.</li><li>[[/check skill=ins dc=16]] oppure pressione insistente: si lascia sfuggire «io volevo solo il prato». Se messo alle strette confessa e piange. Chiede ai PG di non dirlo ad Arianna, «perché lei bruciava anche me».</li><li>Il @UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Mandato dell’Inquisizione} cita la sua denuncia per nome: è la prova che può servire contro di lui, o per ricattarlo.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ01Pira0000000",
+      "name": "Indagine alla pira",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>I due miliziani lasciano avvicinare chiunque non tocchi il palo. Una moneta o un buon sorso di grappa li convince a guardare dall’altra parte ([[/check skill=per dc=12]] oppure [[/check skill=dec dc=12]]). Ogni PG può fare una prova; indizi diversi richiedono abilità diverse.</p>\n<table><thead><tr><th>Prova</th><th>Cosa trova</th></tr></thead><tbody><tr><td>[[/check skill=prc dc=12]]</td><td>Il teschio è di <strong>gallina</strong>, non di gallo: è di Cerere. Sul legno del palo, all’altezza di un uomo, ci sono graffi freschi di artigli: qualcuno ha provato ad arrampicarsi di notte. Per terra, un ciuffo di pelo grigio di lupo.</td></tr><tr><td>[[/check skill=inv dc=13]]</td><td>Nella cenere, un campanello di bronzo fuso a metà e i resti di un mazzetto d’erbe che Cerere portava al collo. La pira era fatta di legna verde e bagnata: chi l’ha costruita voleva che bruciasse piano.</td></tr><tr><td>[[/check skill=nat dc=13]]</td><td>Le erbe sono sambuco, artemisia e genziana di neve. Non sono veleni: sono il rimedio dei montanari contro la febbre di neve e i geloni.</td></tr><tr><td>[[/check skill=med dc=14]]</td><td>Le ossa delle zampe sono state spezzate <em>prima</em> del fuoco. La condannata non poteva inginocchiarsi.</td></tr><tr><td>[[/check skill=rel dc=12]]</td><td>Il rito della @UUID[Compendium.historia-it.factions-it.JournalEntry.UzfVBe1F2ZqZ8daV]{Chiesa delle Ossa} impone tre giorni di interrogatorio, una lettura pubblica delle accuse e la preghiera in ginocchio prima del rogo. Qui non c’è stato niente di tutto questo: è stata un’esecuzione, non un processo.</td></tr><tr><td>[[/check skill=his dc=15]]</td><td>Una filastrocca della valle parla di una <em>Fame Bianca</em> legata sui Denti «da un lupo e da una comare». Si cantava ai bambini per farli dormire, ora nessuno la ricorda per intero.</td></tr></tbody></table>\n<div class=\"advice\"><h4>Toccare il teschio</h4><p>Chi tocca il @UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{Teschio Bruciacchiato di Cerere} sente per un attimo un canto lontano, una vecchia voce stonata che dice due versi in dialetto. Poi più nulla. Il teschio è freddo come neve anche al sole. Se un PG lo stacca dal palo davanti ai miliziani, ci sarà un problema (journal 02).</p></div>\n<h2>La notte: il furto del teschio</h2>\n<p>Dopo mezzanotte due fedeli di Enrico scendono dai Denti: <strong>Bruno</strong>, giovane lupo carbonaio, e <strong>Tecla</strong>, vecchia cerva (@UUID[Compendium.historia-it.species-it.Item.6TpuxIQgQQjbykNu]{Cervi}) che portava il pane al mastio. Usate le statistiche del @UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Cultista della Montagna}. Stordiscono i due miliziani con un infuso nel vino e Bruno si arrampica sul palo.</p>\n<ul><li>Se i PG sono svegli e attenti ([[/check skill=prc dc=13]] per chi fa la guardia), li sorprendono sul fatto. Tecla non combatte; Bruno sì, ma si arrende a 4 PF.</li><li>Interrogati, dicono solo: «Senza di lei la montagna si mangia tutti. Chiedete al signore, sulla Corona». Tecla aggiunge, piano: «La comare ha cantato per la piccola puma. Glielo dica, a quella lì».</li><li>Se i PG li lasciano andare con il teschio, Enrico ha gli occhi della comare e l’orologio della Fame non avanza. Se li fermano e tengono il teschio, saranno i PG a decidere che fine fa. Se nessuno interviene, il teschio sparisce e Arianna all’alba accusa il villaggio.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ01Osteria0000",
+      "name": "L’Osteria del Ceppo",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>L’unico locale caldo del paese: travi basse, un camino dove brucia un ceppo intero, vino nero che sa di botte. L’oste, <strong>Mirto</strong>, è un tasso grasso e silenzioso che asciuga sempre lo stesso bicchiere. Quando i PG entrano, le voci si abbassano.</p>\n<div class=\"narrative\"><p>Sopra il camino è appeso un mazzetto di sambuco. Mirto vede che lo guardate. Lo stacca, lo butta nel fuoco, e torna al suo bicchiere senza dire una parola.</p></div>\n<p>Una consumazione offerta o una [[/check skill=per dc=11]] a un tavolo fa parlare qualcuno. Tirate sulla tabella @UUID[Compendium.historia-dipire.tables.RollTable.DipireTabDiceri1]{Dicerie alla Locanda di Brunascio} una volta per ogni avventore convinto (massimo tre).</p>\n<h2>Le tre anime del paese</h2>\n<ul><li><strong>I devoti</strong> (pochi): Cerere era un’eretica, la Cercatora ha fatto pulizia, e il lupo è il prossimo.</li><li><strong>I vecchi</strong> (pochi ma ostinati): Cerere ha fatto nascere mezzo paese. Arianna ha passato il segno. Qualcuno porta ancora il pane sui Denti, di nascosto.</li><li><strong>Tutti gli altri</strong>: non stanno con nessuno. Hanno paura dei lupi, dell’Inquisizione e del primo gelo, che quest’anno «ha un odore strano».</li></ul>\n<div class=\"advice\"><h4>Indizio chiave</h4><p>Se un PG chiede del canto o della filastrocca, un vecchio caprone mezzo sordo, <strong>nonno Basilio</strong>, canticchia due versi e poi si blocca: «Il resto lo sapeva solo lei. Lo cantava ai piccoli malati, su alla Corona. Anche a quella cucciola di puma, l’anno della febbre». È un indizio diretto sul passato di Arianna.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

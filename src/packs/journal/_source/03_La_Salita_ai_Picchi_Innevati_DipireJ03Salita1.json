@@ -1,0 +1,93 @@
+{
+  "_id": "DipireJ03Salita1",
+  "name": "03 - La Salita ai Picchi Innevati",
+  "folder": "DipireFoldJourn1",
+  "sort": 400000,
+  "pages": [
+    {
+      "_id": "DpJ03Viaggio0000",
+      "name": "Il viaggio",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>Sopra l’ultimo alpeggio la nebbia diventa neve. Non cade: sale, portata dal vento che risale la valle. I Denti non si vedono più. Si sente solo il proprio respiro, il cuoio delle cinghie che gela, e ogni tanto, lontanissimo, un ululato che non sembra mai venire dallo stesso posto.</p></div>\n<p>Dalla strada di Brunascio alla Corona dei Lupi ci sono <strong>tre tappe</strong>, circa un’ora e mezza ciascuna. Si parte al tramonto per arrivare prima di mezzanotte.</p>\n<h2>Ogni tappa</h2>\n<ol><li><strong>Orientarsi</strong>: prova di gruppo di Sopravvivenza <strong>CD 13</strong> ([[/check skill=sur dc=13]]). Chi ha un mantello pesante o conosce la montagna dà vantaggio a un compagno.</li><li><strong>Se la prova fallisce</strong>: l’orologio della Fame Bianca avanza di 1 e ogni PG fa un [[/save ability=con dc=12]]; chi fallisce prende <strong>1 livello di indebolimento</strong> per il freddo.</li><li><strong>Orrore</strong>: tirate sulla tabella @UUID[Compendium.historia-dipire.tables.RollTable.DipireTabOrrori1]{Effetti Ambientali Orrifici sulla Montagna}.</li><li><strong>Incontro</strong>: giocate l’incontro della tappa.</li></ol>\n<div class=\"advice\"><h4>Con il teschio</h4><p>Chi porta il @UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{Teschio Bruciacchiato di Cerere} ha vantaggio ai tiri salvezza contro il freddo della montagna. Ditegli che il teschio è sempre un po’ più freddo dell’aria, e che a volte, nel vento, gli sembra che conti i passi.</p></div>\n<h2>Il vantaggio dell’Inquisizione</h2>\n<p>Se i PG partono dopo le 21:00, la milizia è davanti a loro: lungo la salita trovano impronte di stivali chiodati, una borraccia persa, e alla terza tappa sentono gli spari degli archibugi che rimbombano nella neve.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ03Tappa100000",
+      "name": "Prima tappa: il Bosco dei Rami Legati",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>Un bosco di larici morti, senza aghi. A ogni ramo basso è legato qualcosa: un nastro, un osso di pollo, un sonaglio di legno, un dente da latte infilato in un filo. Il vento li fa battere tutti insieme. Sembra un applauso lento.</p></div>\n<p>Sono le offerte dei montanari alla Corona, lasciate da generazioni. Molte sono fresche.</p>\n<h2>Il Rovo Bianco</h2>\n<p>A metà bosco il sentiero attraversa una macchia di rovi coperti di brina. Le spine sono bianche come ossa e, dove si spezzano, colano una linfa rossa e tiepida. Il rovo si muove piano verso il calore.</p>\n<ul><li>Area di 9 m per 9 m, <strong>terreno difficile</strong>.</li><li>Chi la attraversa senza bruciarla fa un [[/save ability=dex dc=12]]: se fallisce subisce 1d6 danni perforanti e 1d4 danni da freddo ed è <strong>afferrato</strong> (CD 12 per liberarsi).</li><li>Il fuoco lo fa ritirare con un sibilo, ma fa anche fumo: chi lo brucia si fa vedere per chilometri (la milizia, se è sui Denti, sa dove sono i PG).</li><li>[[/check skill=nat dc=13]]: nessuna pianta conosciuta fa così. Le radici sono avvolte attorno a ossa di pecora. Il rovo si nutre.</li></ul>\n<div class=\"advice\"><h4>Folk horror</h4><p>Se qualcuno toglie un’offerta dai rami (un dente, un sonaglio), quella notte sogna il proprio nome cantato da una vecchia. Non succede altro. Lasciatelo a disagio.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ03Tappa200000",
+      "name": "Seconda tappa: l’Alpeggio del Pastore",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>Una conca bianca, la baita del pastore con la porta spalancata, il recinto. Dentro il recinto ci sono le pecore. Sono tutte in piedi. Non si muovono.</p><p>Avvicinandovi vedete che sono gelate, il vello duro come pietra. Hanno gli occhi bianchi. E il ventre aperto, dal basso, come se qualcosa le avesse svuotate da sotto senza farle cadere.</p></div>\n<p>È il gregge di Bastiano, morto due notti fa. Bastiano non c’è. Nella baita c’è il suo bastone, un fuoco spento e, sul tavolo, una pagnotta morsa una volta sola.</p>\n<h2>I Corvi della Fame</h2>\n<p>Quando un PG entra nel recinto (o tocca una pecora), dalle pance aperte esce un fruscio. Poi i corvi: neri, magri, con il becco sporco di brina. Sono <strong>due</strong> @UUID[Compendium.historia-dipire.actors.Actor.DipireCorvi00001]{Sciami di Corvi della Fame} (uno solo se il gruppo ha tre PG o meno).</p>\n<ul><li>Gli sciami gracchiano con voci di paese: chiamano i PG per nome, imitano Iginius, ripetono «chi tiene la catena?».</li><li>Fuggono se uno sciame scende sotto la metà dei PF, oppure se qualcuno alza il teschio di Cerere e grida contro di loro (azione, [[/check skill=itm dc=12]]).</li><li>Il fuoco li tiene a distanza: un PG con una torcia accesa non può essere bersaglio di uno sciame che non sia già nel suo spazio.</li></ul>\n<h2>Bastiano</h2>\n<p>Dietro la baita, una scia nella neve porta verso il dirupo. Bastiano, vecchio montone, è seduto contro una roccia, morto, gli occhi bianchi di brina, la bocca piena di neve. Nella mano stringe un mazzetto di sambuco. [[/check skill=med dc=12]]: è morto di freddo, non di ferite. Ma la neve in bocca non ci è finita da sola.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ03Tappa300000",
+      "name": "Terza tappa: la Scala dei Corvi",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>Il sentiero diventa una cengia scavata nella roccia, larga quanto un mulo, con il vuoto a destra. Qualcuno ha piantato pioli di ferro e una catena arrugginita per tenersi. In cima, contro il cielo nero, si vede un bagliore arancione. Il fuoco della Corona.</p></div>\n<h2>La cengia</h2>\n<ul><li>Ogni PG fa una prova di [[/check skill=ath dc=12]] o di Acrobazia CD 12 (vantaggio se si tiene alla catena e non ha nulla in mano).</li><li>Chi fallisce scivola: 1d6 danni contundenti e resta appeso alla catena. Un compagno vicino lo tira su con una prova di Atletica CD 10.</li><li>Chi fallisce di 5 o più cade per 6 metri su un ripiano di neve: 2d6 danni contundenti, e deve risalire.</li></ul>\n<h2>Le sentinelle del branco</h2>\n<p>In cima alla scala, dietro un muretto di pietre a secco, vegliano tre @UUID[Compendium.historia-dipire.actors.Actor.DipireGuardia001]{Cultisti della Montagna} e una vecchia lupa, <strong>Nonna Ghita</strong>, la madrina di Enrico, appoggiata a un bastone.</p>\n<table><thead><tr><th>Se i PG…</th><th>Le sentinelle…</th></tr></thead><tbody><tr><td>portano il teschio di Cerere</td><td>si inginocchiano. Ghita piange. Li lasciano passare e li accompagnano da Enrico.</td></tr><tr><td>hanno salvato Bruno o Tecla, o hanno con sé Ilario e Liù</td><td>li lasciano passare dopo un breve colloquio ([[/check skill=per dc=10]]).</td></tr><tr><td>si presentano come inviati di Iginius</td><td>prova di gruppo di Persuasione o Intimidire <strong>CD 15</strong>; con svantaggio se portano simboli della Chiesa. Se fallisce in modo diplomatico, Ghita fa cenno di aspettare: Enrico verrà a vederli.</td></tr><tr><td>arrivano con le armi in pugno</td><td>combattono. Ghita suona un corno: dalla Corona scendono altri due cultisti dopo 2 round.</td></tr></tbody></table>\n<div class=\"advice\"><h4>Se l’Inquisizione è già qui</h4><p>Se la milizia è salita prima dei PG, le sentinelle stanno già combattendo contro quattro guardie sulla cengia. Il fumo degli archibugi resta sospeso nella neve. Da che parte stare, qui, è la prima vera scelta della notte.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

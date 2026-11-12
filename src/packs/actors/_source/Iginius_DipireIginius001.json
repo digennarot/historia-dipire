@@ -10,38 +10,38 @@
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "con": {
-        "value": 10,
+        "value": 11,
         "proficient": 0
       },
       "int": {
-        "value": 10,
+        "value": 13,
         "proficient": 0
       },
       "wis": {
-        "value": 10,
+        "value": 11,
         "proficient": 0
       },
       "cha": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 10,
+        "flat": 11,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 4,
-        "max": 4,
+        "value": 9,
+        "max": 9,
         "temp": 0,
         "tempmax": 0,
-        "formula": "1d8"
+        "formula": "2d8"
       },
       "movement": {
         "walk": 9,
@@ -64,7 +64,7 @@
     },
     "details": {
       "biography": {
-        "value": "\n<p><strong>Sovrintendente di Brunascio.</strong> Istrice di mezza età dal pelo brizzolato, vesti di buona qualità e una collana di metallo brunito dal tempo. Pragmatico ma visibilmente fuori dalla sua portata: opportunista e terrorizzato dalla situazione, cerca di mantenere un contegno autoritario che la sua scorta sgangherata tradisce.</p>\n<p><strong>Suggerimento di ruolo:</strong> parlate in modo frettoloso e guardatevi spesso alle spalle. Siate puntigliosi sulle piccole cose, come la pronuncia del nome (<em>\"Ighinius, con la 'g' dura. Qui si dice così\"</em>), per mascherare il terrore per quelle grandi.</p>\n<p>Specie: @UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}. Scheda completa: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngIginius0000]{Iginius}.</p>\n<p><em>Nota per il GM:</em> il testo originale non dà a Iginius alcun blocco statistiche. Questo attore esiste solo per avere un token in scena: caratteristiche 10, CA 10, 4 PF sono <strong>valori neutri segnaposto</strong>, non dati dell'avventura.</p>",
+        "value": "<p><strong>Sovrintendente di Brunascio, istrice (@UUID[Compendium.historia-it.species-it.Item.Mzqp3uc2ta0ehP7o]{Istrici}).</strong> Mezza età, pelo brizzolato, vesti di buona lana, una collana di metallo brunito. Ingaggia i PG per fermare Enrico prima che la Cercatora trasformi la valle in un cimitero.</p>\n<p><strong>Segreto:</strong> è stato lui a denunciare Cerere, per avere il Prato della Fontana e per coprire la decima del grano che tratteneva. Voleva una multa, non un rogo. Da allora dorme con la candela accesa.</p>\n<p><strong>Suggerimento di ruolo:</strong> parlate in fretta, guardatevi alle spalle, correggete la pronuncia del nome («Ighinius, con la g dura. Qui si dice così»). Toccatevi la collana ogni volta che qualcuno nomina Cerere.</p>\n<p>Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngIginius0000]{Iginius, il sovrintendente}. Le statistiche sono un’aggiunta della versione 2.0 (@UUID[Compendium.historia-dipire.journal.JournalEntry.DipireJ00Intro01.JournalEntryPage.DpJ00Note0000000]{Note di conversione e crediti}).</p>",
         "public": ""
       },
       "alignment": "",
@@ -74,7 +74,7 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 0,
+      "cr": 0.125,
       "spellLevel": 0,
       "source": {
         "custom": "",
@@ -105,13 +105,13 @@
         "value": 0
       },
       "dec": {
-        "value": 0
+        "value": 1
       },
       "his": {
         "value": 0
       },
       "ins": {
-        "value": 0
+        "value": 1
       },
       "itm": {
         "value": 0
@@ -132,7 +132,7 @@
         "value": 0
       },
       "per": {
-        "value": 0
+        "value": 1
       },
       "rel": {
         "value": 0
@@ -199,7 +199,175 @@
       }
     }
   },
-  "items": [],
+  "items": [
+    {
+      "_id": "DpIt004100000000",
+      "name": "Aculei",
+      "type": "feat",
+      "img": "icons/commodities/bones/bone-spine-white.webp",
+      "system": {
+        "description": {
+          "value": "<p>Una creatura che afferra Iginius o lo colpisce con un attacco naturale in mischia subisce 1d4 danni perforanti.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt004000000000",
+      "name": "Pugnale",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-straight-cracked.webp",
+      "system": {
+        "description": {
+          "value": "<p>Un pugnale da cintura con l’impugnatura d’osso, più da tavola che da guerra.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "simpleM",
+          "baseItem": "dagger"
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "thr"
+        ],
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": 6,
+          "long": 18,
+          "units": "m",
+          "reach": null
+        },
+        "activities": {
+          "DpAc004000000000": {
+            "_id": "DpAc004000000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    }
+  ],
   "effects": [],
   "folder": "DipireFoldActor1",
   "sort": 0,

@@ -46,11 +46,14 @@ async function main() {
   if (!manifest.relationships?.requires?.some(r => r.id === "historia-it")) err("module.json: manca la dipendenza historia-it");
 
   const src = await loadSources();
-  const { actors, journal, automation, scenes, adventure } = src;
+  const { actors, journal, automation, items, tables, scenes, adventure } = src;
   if (!actors.length) err("nessun attore in src/packs/actors/_source");
   if (!journal.length) err("nessun journal in src/packs/journal/_source");
   if (!automation.length) err("nessuna macro in src/packs/automation/_source");
-  for (const id of ["DipireScCasa0001", "DipireScOsteria1", "DipireScStanze01"]) {
+  if (items.length !== 3) err(`attesi 3 oggetti in src/packs/items/_source, trovati ${items.length}`);
+  if (tables.length !== 2) err(`attese 2 tabelle in src/packs/tables/_source, trovate ${tables.length}`);
+  for (const p of ["items", "tables"]) if (!manifest.packs.some(pack => pack.name === p)) err(`module.json: manca il compendio ${p}`);
+  for (const id of ["DipireScPiazza01", "DipireScAccamp01", "DipireScVetta001"]) {
     if (!scenes.some(scene => scene._id === id)) err(`scena richiesta mancante: ${id}`);
   }
   for (const macro of automation) {
@@ -100,6 +103,23 @@ async function main() {
     }
   }
   for (const s of scenes) seen(s._id, `scena ${s.name}`);
+  for (const it of items) {
+    seen(it._id, `oggetto ${it.name}`);
+    if (!it.system?.description?.value?.trim()) err(`oggetto ${it.name}: descrizione vuota`);
+    for (const [aid, act] of Object.entries(it.system?.activities ?? {})) if (aid !== act._id || !ID_RE.test(aid)) err(`oggetto ${it.name}: activity id non valido ${aid}`);
+  }
+  for (const t of tables) {
+    seen(t._id, `tabella ${t.name}`);
+    const covered = new Set();
+    for (const r of t.results ?? []) {
+      seen(r._id, `tabella ${t.name} / risultato ${r.name}`);
+      if (r.type !== "text") err(`tabella ${t.name}: risultato ${r.name} di tipo ${r.type}`);
+      for (let k = r.range[0]; k <= r.range[1]; k++) { if (covered.has(k)) err(`tabella ${t.name}: valore ${k} coperto due volte`); covered.add(k); }
+    }
+    const faces = Number(/^1d(\d+)$/.exec(t.formula ?? "")?.[1]);
+    if (!faces) err(`tabella ${t.name}: formula ${t.formula} inattesa`);
+    else for (let k = 1; k <= faces; k++) if (!covered.has(k)) err(`tabella ${t.name}: valore ${k} senza risultato`);
+  }
   seen(adventure._id, "adventure");
   const folderIds = new Set();
   for (const f of adventure.folders ?? []) { seen(f._id, `cartella ${f.name}`); folderIds.add(f._id); }
@@ -163,7 +183,7 @@ async function main() {
     } else err(`${where}: percorso immagine inatteso ${val}`);
   };
 
-  const docsToScan = [...actors.map(a => ["attore " + a.name, a]), ...journal.map(j => ["journal " + j.name, j]), ...scenes.map(s => ["scena " + s.name, s]), ["adventure", adventure]];
+  const docsToScan = [...actors.map(a => ["attore " + a.name, a]), ...journal.map(j => ["journal " + j.name, j]), ...items.map(i => ["oggetto " + i.name, i]), ...tables.map(t => ["tabella " + t.name, t]), ...scenes.map(s => ["scena " + s.name, s]), ["adventure", adventure]];
   const UUID_RE = /@UUID\[([^\]]+)\](\{[^}]*\})?/g;
   const ENRICH_RE = /\[\[\/(\w+)([^\]]*)\]\]/g;
   for (const [where, doc] of docsToScan) {
@@ -183,6 +203,8 @@ async function main() {
               if (sub === "JournalEntryPage" && pageIds.get(subId) !== id) err(`${where} ${trail}: pagina ${subId} inesistente in ${uuid}`);
             }
             if (type === "Macro" && !automation.some(m => m._id === id)) err(`${where} ${trail}: macro ${id} inesistente in ${uuid}`);
+            if (type === "Item" && !items.some(i => i._id === id)) err(`${where} ${trail}: oggetto ${id} inesistente in ${uuid}`);
+            if (type === "RollTable" && !tables.some(t => t._id === id)) err(`${where} ${trail}: tabella ${id} inesistente in ${uuid}`);
           } else if (pkg === "historia-it") {
             if (!historiaIndex) continue;
             const key = `${pack}/${id}`;
@@ -209,7 +231,7 @@ async function main() {
 
   for (const w of warnings) console.log(`AVVISO  ${w}`);
   for (const e of errors) console.log(`ERRORE  ${e}`);
-  console.log(`\n${actors.length} attori, ${journal.length} journal (${pageIds.size} pagine), ${automation.length} macro, ${scenes.length} scene; ${errors.length} errori, ${warnings.length} avvisi`);
+  console.log(`\n${actors.length} attori, ${journal.length} journal (${pageIds.size} pagine), ${items.length} oggetti, ${tables.length} tabelle, ${automation.length} macro, ${scenes.length} scene; ${errors.length} errori, ${warnings.length} avvisi`);
   process.exit(errors.length ? 1 : 0);
 }
 

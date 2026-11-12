@@ -3,7 +3,7 @@
   "name": "Di Pire, Artigli e Zanne",
   "img": "modules/historia-it/media/Factions/Church%20of%20Bones.webp",
   "caption": "<p>One shot a tema folk horror, perfetta per la serata di Halloween, ambientata nell’oscura cornice rinascimentale di Historia.</p>",
-  "description": "<p>I vostri personaggi giungeranno nel nebbioso e isolato villaggio montano di <strong>Brunascio</strong>, un luogo soffocato dal terrore dell’Inquisizione. Al centro della piazza svetta ancora il palo di una pira con il teschio bruciacchiato della vecchia erborista <strong>Cerere</strong>, arsa viva per eresia. Mentre la spietata inquisitrice <strong>Arianna “La Cercatora”</strong> stringe la sua morsa sul paese, tra i picchi innevati si vocifera che il nobile lupo <strong>Enrico De Fredier</strong> stia radunando i suoi fedeli per un oscuro e solenne rituale di mezzanotte. Il sovrintendente del villaggio vi ingaggerà per scoprire la verità e impedire che la situazione degeneri in un massacro.</p>\n<p>L’importazione crea una cartella per attori, journal e scene. Le sette scene sono <strong>segnaposto senza mappa</strong>. Iniziate dal journal <em>Guida del GM</em> e usate il compendio <em>Di Pire - Automazioni</em> per gli strumenti del GM.</p>\n<p>Richiede il modulo <strong>Historia (Italiano)</strong> per specie, fazioni e regole. Sistema dnd5e, regole 2014.</p>",
+  "description": "<p>I vostri personaggi giungeranno nel nebbioso e isolato villaggio montano di <strong>Brunascio</strong>, un luogo soffocato dal terrore dell’Inquisizione. Al centro della piazza svetta ancora il palo di una pira con il teschio bruciacchiato della vecchia erborista <strong>Cerere</strong>, arsa viva per eresia. Mentre la spietata inquisitrice <strong>Arianna “La Cercatora”</strong> stringe la sua morsa sul paese, tra i picchi innevati si vocifera che il nobile lupo <strong>Enrico De Fredier</strong> stia radunando i suoi fedeli per un oscuro e solenne rituale di mezzanotte. Il sovrintendente del villaggio vi ingaggerà per scoprire la verità e impedire che la situazione degeneri in un massacro.</p>\n<p>L’importazione crea una cartella per attori, journal, oggetti, tabelle e scene. Le tre scene (Piazza della Pira, Accampamento dell’Inquisizione, Vetta del Rituale) hanno luci, meteo e note già pronti ma <strong>nessuna mappa</strong>: caricate la vostra come sfondo. Iniziate dal journal <em>00 - Introduzione &amp; Background</em> e usate il compendio <em>Di Pire - Automazioni</em> per gli strumenti del GM.</p>\n<p>Richiede il modulo <strong>Historia (Italiano)</strong> per specie, fazioni e regole. Sistema dnd5e, regole 2014.</p>",
   "folders": [
     {
       "_id": "DipireFoldActor1",
@@ -37,6 +37,28 @@
       "color": "#6d3b2f",
       "description": "",
       "flags": {}
+    },
+    {
+      "_id": "DipireFoldItem01",
+      "name": "Di Pire, Artigli e Zanne",
+      "type": "Item",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": "#6d3b2f",
+      "description": "",
+      "flags": {}
+    },
+    {
+      "_id": "DipireFoldTable1",
+      "name": "Di Pire, Artigli e Zanne",
+      "type": "RollTable",
+      "folder": null,
+      "sorting": "m",
+      "sort": 0,
+      "color": "#6d3b2f",
+      "description": "",
+      "flags": {}
     }
   ],
   "_stats": {
@@ -46,5 +68,7 @@
     "createdTime": 1794000000000,
     "modifiedTime": 1794000000000,
     "lastModifiedBy": null
-  }
+  },
+  "itemFolder": "DipireFoldItem01",
+  "tableFolder": "DipireFoldTable1"
 }

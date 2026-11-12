@@ -1,0 +1,93 @@
+{
+  "_id": "DipireJ05Scene01",
+  "name": "05 - Allestimento delle scene",
+  "folder": "DipireFoldJourn1",
+  "sort": 600000,
+  "pages": [
+    {
+      "_id": "DpJ05Generale000",
+      "name": "Indicazioni generali",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Le tre scene del modulo non hanno un’immagine di sfondo: sono già configurate con oscurità, meteo, luci e note che aprono il journal giusto. Caricate la vostra mappa come sfondo del livello, poi spostate luci e note dove servono. Le indicazioni qui sotto dicono che cosa mettere e perché.</p>\n<ul><li><strong>Visione dei token</strong>: attivata in tutte le scene. Molte specie di Historia hanno scurovisione: la nebbia e la tormenta sono il modo per toglierle il vantaggio senza cancellarla.</li><li><strong>Suoni</strong>: Foundry non include suoni d’ambiente. Le scene non hanno suoni preimpostati: usate la vostra libreria e create un <em>Suono d’ambiente</em> nei punti indicati.</li><li><strong>Muri</strong>: tracciate i muri sulla vostra mappa. Per tende, siepi e pietre ritte usate muri con vista <em>limitata</em> (chi è dietro si vede solo se si è vicini) e suono normale.</li><li><strong>Regioni</strong>: per il terreno difficile usate una Regione con il comportamento di modifica del movimento; per i dislivelli, il campo di elevazione dei token o un secondo livello.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ05Piazza00000",
+      "name": "La Piazza della Pira",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScPiazza01]{Piazza della Pira}. Si usa per tutto il journal 01, di giorno e di notte.</p>\n<h2>Mood e illuminazione</h2>\n<ul><li><strong>Oscurità</strong>: 0,6 (crepuscolo). Per il furto notturno portatela a 0,85.</li><li><strong>Meteo</strong>: nebbia.</li><li><strong>Brace della pira</strong>: luce rosso cupo (#8a2a0a), raggio debole 3 m, animazione <em>fiamma</em> a intensità bassa. Deve sembrare che sotto la cenere qualcosa respiri ancora.</li><li><strong>Lanterna dell’Osteria del Ceppo</strong>: arancione caldo (#ffb347), 3 m luminosa, 6 m debole, animazione <em>torcia</em>.</li><li><strong>Candele della chiesetta</strong>: bianco giallastro, 1,5 m, animazione <em>torcia</em> lenta.</li><li><strong>Casa di Iginius</strong>: una finestra illuminata, l’unica del lato nord.</li></ul>\n<h2>Suoni d’ambiente</h2>\n<ul><li>Vento che passa tra i vicoli (tutta la scena, volume basso).</li><li>Corvi sul tetto della chiesetta (raggio 15 m).</li><li>Catena che cigola sul palo (raggio 6 m attorno alla pira). Quando un PG tocca il teschio, fate partire per un istante un canto femminile lontano, quasi coperto dal vento.</li><li>Campanacci lontani, che si interrompono di colpo.</li></ul>\n<h2>Muri e linea di vista</h2>\n<ul><li>Le case attorno alla piazza: muri pieni con porte (chiuse a chiave, tranne osteria, chiesetta e casa di Iginius).</li><li>Vicoli stretti: 1,5 m. Perfetti per far sparire i ladri del teschio.</li><li>La pira: piattaforma di cenere rialzata di 1 m, <strong>terreno difficile</strong> (cenere e tizzoni). Il palo blocca la vista di un singolo quadretto.</li><li>Il campanile della chiesetta: un secondo livello a 9 m da cui si vede tutta la piazza (utile ai miliziani di guardia).</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ05Accamp00000",
+      "name": "L’Accampamento dell’Inquisizione",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScAccamp01]{Accampamento dell’Inquisizione}. Si usa per il journal 02.</p>\n<h2>Mood e illuminazione</h2>\n<ul><li><strong>Oscurità</strong>: 0,7 (sera piovosa). Con la scena usata di giorno, 0,3.</li><li><strong>Meteo</strong>: pioggia leggera. Le polveri sono bagnate.</li><li><strong>Bracieri</strong> agli angoli della palizzata: arancione (#ff7a1a), 4,5 m luminosa, 9 m debole, animazione <em>fiamma</em>.</li><li><strong>Forgia</strong>: rosso arancio (#ff4500), 3 m luminosa, 6 m debole, animazione <em>pulsazione</em>: ogni colpo di mantice.</li><li><strong>Padiglione di Arianna</strong>: una sola lanterna bianca e fredda (#d8e4ff), 3 m, nessuna animazione. Deve sembrare l’unica luce che non scalda.</li></ul>\n<h2>Suoni d’ambiente</h2>\n<ul><li>Pioggia su tela (tutta la scena).</li><li>Martello sull’incudine, irregolare (raggio 9 m attorno alla forgia).</li><li>Preghiere salmodiate a bassa voce (raggio 6 m attorno al padiglione).</li><li>Catene e un pianto sommesso dal carro-gabbia (raggio 4,5 m).</li><li>Cani della milizia che abbaiano a niente, verso i Denti.</li></ul>\n<h2>Muri e linea di vista</h2>\n<ul><li><strong>Palizzata</strong>: muro pieno alto 3 m, con un solo cancello (porta) a sud e una breccia nascosta a nord-est ([[/check skill=prc dc=14]] per trovarla).</li><li><strong>Tende</strong>: muri con vista <em>limitata</em> e suono normale. Si sente tutto, si vede poco.</li><li><strong>Carro-gabbia</strong>: le sbarre non bloccano vista né suono, bloccano il movimento.</li><li><strong>Fango</strong>: tutto il prato è terreno difficile tranne le passerelle di assi tra le tende.</li><li><strong>Polvere nera</strong>: la cassa vicino alla forgia esplode se colpita da fuoco (3 m, [[/save ability=dex dc=13]], 3d6 danni da fuoco). Segnatela con un disegno.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ05Vetta000000",
+      "name": "La Vetta del Rituale",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Scena: @UUID[Scene.DipireScVetta001]{Vetta del Rituale}. Si usa per il journal 04 e per lo scontro finale.</p>\n<h2>Mood e illuminazione</h2>\n<ul><li><strong>Oscurità</strong>: 0,9 (mezzanotte).</li><li><strong>Meteo</strong>: neve fitta; passate a <em>bufera</em> quando l’orologio della Fame arriva a 4.</li><li><strong>Pira del fantoccio</strong>: arancione (#ff8c1a), 6 m luminosa, 15 m debole, animazione <em>fiamma</em> a intensità alta. È la luce che tutti guardano.</li><li><strong>Torce sulle pietre</strong>: nove luci arancioni, 1,5 m luminosa, 4,5 m debole, animazione <em>torcia</em>.</li><li><strong>Il lago gelato</strong>: una luce nascosta azzurro spettrale (#9fd8ff), animazione <em>fantasma</em>, 9 m debole. Mostratela quando inizia il rito.</li><li><strong>La Fame</strong>: una seconda luce nascosta bianca a <em>luce negativa</em> (oscurità) larga 12 m al centro del lago, da accendere solo con l’orologio a 6.</li></ul>\n<h2>Suoni d’ambiente</h2>\n<ul><li>Vento ululante (tutta la scena, volume alto).</li><li>Coro di lupi a bocca chiusa (raggio 15 m attorno alla pira); quando inizia il rito diventa un ululato.</li><li>Scoppiettio del fuoco (raggio 9 m).</li><li>Ghiaccio che scricchiola (raggio 6 m sul lago).</li><li>Sussurri incomprensibili, in dialetto, da far partire quando l’orologio arriva a 4.</li></ul>\n<h2>Muri e linea di vista</h2>\n<ul><li><strong>Nove pietre ritte</strong>: piccoli muri pieni (bloccano vista e movimento), 1,5 m di larghezza ciascuna. Danno copertura totale a chi ci sta dietro.</li><li><strong>Il lago</strong>: terreno difficile (ghiaccio); chi corre o viene spinto fa una prova di Acrobazia CD 10 o cade prono.</li><li><strong>La pietra alta</strong>: rialzata di 1,5 m. Chi ci sta sopra ha vantaggio agli attacchi a distanza contro chi è sul ghiaccio.</li><li><strong>Il dirupo</strong>: il lato est della vetta. Un muro che blocca solo il movimento (non la vista) segna il bordo; chi viene spinto oltre cade per 9 m.</li><li><strong>Cengia</strong>: l’accesso della milizia, a sud, largo 1,5 m. Un punto ideale da tenere con poche lance.</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

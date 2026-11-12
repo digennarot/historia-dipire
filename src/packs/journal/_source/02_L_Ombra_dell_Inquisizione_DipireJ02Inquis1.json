@@ -1,0 +1,93 @@
+{
+  "_id": "DipireJ02Inquis1",
+  "name": "02 - L'Ombra dell'Inquisizione",
+  "folder": "DipireFoldJourn1",
+  "sort": 300000,
+  "pages": [
+    {
+      "_id": "DpJ02Milizia0000",
+      "name": "La milizia di Yrmengard",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Se i PG non vanno da Arianna, è lei a mandarli a prendere la mattina dopo il loro arrivo, o subito se hanno toccato il teschio. Arriva @UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{Yrmengard da Nochemburgo}, levriera (@UUID[Compendium.historia-it.species-it.Item.T3rkr05nJyh4MBJ3]{Levri}) capitano della milizia, con quattro @UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Guardie dell’Inquisizione}: due con alabarda, due con archibugio.</p>\n<div class=\"narrative\"><p>«La Cercatora desidera conoscervi. È un invito. Vi prego di trattarlo come tale, così anche io potrò farlo.»</p></div>\n<h2>Se i PG resistono</h2>\n<p>Prova di gruppo <strong>CD 15</strong>. L’abilità dipende da come i PG descrivono la resistenza (Atletica per divincolarsi, Persuasione per guadagnare tempo, Inganno per fingere un malore…): è un buon momento per assegnare @UUID[Compendium.historia-it.rules-it.JournalEntry.IspirazioneReg01]{Ispirazione} a chi descrive bene.</p>\n<ul><li>A prescindere dal risultato, ogni PG perde <strong>2 PF</strong> e finisce comunque all’accampamento.</li><li>Se la prova riesce, i PG hanno <strong>vantaggio</strong> alle future prove di Persuasione e Intimidire verso l’Inquisizione: hanno dimostrato di valere qualcosa.</li><li>Se un PG estrae un’arma, Yrmengard lo ferma con una frase: «Non qui. Non davanti ai bambini». Se si insiste, si combatte (vedi «Se si arriva alle armi»).</li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ02Accamp00000",
+      "name": "L’accampamento dell’Inquisizione",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"narrative\"><p>Il prato della fiera è diventato fango. Una palizzata di pali appuntiti, ancora con la corteccia, chiude sei tende bianche segnate con la Croce d’Ossa. Al centro c’è un padiglione più grande, nero, con lo stendardo che pende fradicio.</p><p>Accanto all’ingresso, un carro con una gabbia di ferro. Dentro, due prigionieri si stringono sotto una coperta: un vecchio caprone carbonaio e una lepre giovanissima. Più in là un fabbro arroventa marchi a forma di croce. E in fondo, già piantato, c’è un secondo palo. Nuovo. Senza cenere attorno.</p></div>\n<h2>Cosa c’è</h2>\n<ul><li><strong>Il carro-gabbia</strong>: <em>Ilario</em>, caprone carbonaio, accusato di portare carbone al mastio; <em>Liù</em>, lepre di dodici anni, sorpresa con un pane nello zaino sulla strada dei Denti. Saranno arsi dopo Enrico. La serratura cede a una prova di arnesi da scasso CD 14 o a [[/check skill=ath dc=16]].</li><li><strong>La forgia</strong>: marchi di ferro, una cassa di polvere nera (vedi le armi da fuoco in @UUID[Compendium.historia-it.rules-it.JournalEntry.AvversariRegol01]{Avversari}), venti palle di piombo.</li><li><strong>Il padiglione di Arianna</strong>: un tavolo da campo, un leggio con il libro delle confessioni, un braciere, un inginocchiatoio. Sul tavolo, sotto un peso d’ossa, il @UUID[Compendium.historia-dipire.items.Item.DipireItMandato1]{Mandato dell’Inquisizione}.</li><li><strong>Il secondo palo</strong>: è per Enrico. Arianna lo ha fatto piantare il giorno dopo il rogo.</li></ul>\n<div class=\"advice\"><h4>Cosa sa la milizia</h4><p>I soldati di Yrmengard sono doghi e levrieri di città. Hanno freddo, mangiano male, odiano la montagna. Due di loro hanno visto «qualcosa di bianco» muoversi sui Denti di notte e non ne parlano più. Una [[/check skill=per dc=12]] davanti a un fuoco basta per sentirlo raccontare.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ02Udienza0000",
+      "name": "L’udienza con la Cercatora",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Arianna riceve i PG nel padiglione, seduta, senza alzarsi. Sa già tutto del loro colloquio con Iginius.</p>\n<div class=\"narrative\"><p>«Il sovrintendente vi ha pagati per fare il mio lavoro. È la prima cosa sensata che fa da quando sono qui. Sedete. Non bevete il vino, è dei paesani.»</p></div>\n<h2>Cosa dice</h2>\n<ul><li>Brunascio è stata ripulita: «la vecchia ha confessato prima dell’alba». (È falso: Cerere non ha confessato niente. [[/check skill=ins dc=14]] lo capisce.)</li><li>Enrico è l’ultimo nodo di un male antico che rifiuta la Croce d’Ossa. «Il cerchio va chiuso».</li><li><strong>L’offerta</strong>: la gratitudine del Tempio, una lettera di raccomandazione per Nochemburgo e +2 alla reputazione con la Chiesa se i PG le portano la testa di Enrico <em>e</em> il teschio della vecchia.</li><li>Se i PG chiedono del teschio: «È una reliquia di stregoneria. Va macinata e dispersa nel fiume». [[/check skill=ins dc=15]]: lo vuole più della testa del lupo, e lo vuole <em>distrutto</em>, non esposto.</li></ul>\n<h2>Spingerla</h2>\n<p>Arianna non risponde mai a domande sul suo passato. Ogni domanda diretta le fa lampeggiare gli occhi; alla seconda, chiude l’udienza.</p>\n<table><thead><tr><th>Se i PG…</th><th>Arianna…</th></tr></thead><tbody><tr><td>nominano la febbre di neve, il sambuco o «Piccola Neve»</td><td>tace per un respiro di troppo. [[/check skill=ins dc=12]] vede la paura. Poi li minaccia: «State attenti alle parole. A Brunascio bruciano bene».</td></tr><tr><td>mostrano di sapere della denuncia di Iginius</td><td>sorride: «Lo so. L’ho letta. Il vostro committente ha venduto la vecchia per un prato». Usa la cosa per screditarlo.</td></tr><tr><td>chiedono dei prigionieri</td><td>«Il pane è una scusa. Portavano messaggi».</td></tr><tr><td>rifiutano l’offerta</td><td>li lascia andare, ma assegna loro due guardie che li seguono fino al tramonto.</td></tr></tbody></table>\n<h2>Il Mandato</h2>\n<p>Leggere il mandato richiede di distrarre Arianna e di avvicinarsi al tavolo ([[/check skill=slt dc=15]] per sfilarlo, oppure una lettura veloce con [[/check skill=inv dc=13]] mentre qualcuno la tiene occupata). Gli indizi sono nella descrizione dell’oggetto.</p>\n<div class=\"advice\"><h4>Le 21:00</h4><p>Qualunque cosa succeda, alle 21:00 Arianna parte con Yrmengard e otto guardie per la vetta. Solo un’argomentazione molto forte la fa restare (prova di Persuasione CD 20 con le prove del suo passato in mano): in quel caso manda Yrmengard da sola, e sulla vetta arriverà la milizia senza la Cercatora.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DpJ02Scontro0000",
+      "name": "Se si arriva alle armi",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Lo scontro può nascere per tre motivi: i PG liberano i prigionieri, rubano il mandato e vengono scoperti, o rispondono male ad Arianna.</p>\n<h2>Le forze</h2>\n<ul><li>Arianna (@UUID[Compendium.historia-dipire.actors.Actor.DipireArianna001]{scheda}), Yrmengard (@UUID[Compendium.historia-dipire.actors.Actor.DipireYrmengard1]{scheda}) e da 4 a 6 @UUID[Compendium.historia-dipire.actors.Actor.DipireMiliziano1]{Guardie dell’Inquisizione}.</li><li>Arianna non combatte in prima linea: lancia <em>Raggio di gelo</em> da dietro le guardie e usa <em>Combatti per me</em> per spostare i colpi sui suoi soldati.</li><li>Gli archibugieri sparano un solo colpo e poi impugnano il pugnale: ricaricare nel fango e sotto la pioggerella è uno stress (rischio di <em>Malfunzionamento</em>).</li></ul>\n<h2>Yrmengard, l’ago della bilancia</h2>\n<p>Yrmengard combatte solo se costretta. Se i PG non hanno ferito nessun civile, una [[/check skill=per dc=13]] rivolta a lei («non è questo il vostro onore») la convince a dare l’ordine di abbassare le armi. Arianna non la perdonerà, ma i soldati obbediscono a Yrmengard, non alla Cercatora.</p>\n<div class=\"advice\"><h4>Uscite</h4><p>Fate capire presto che uno scontro all’accampamento non si vince: ci sono altre dieci guardie nel villaggio. L’obiettivo realistico è la fuga, con o senza prigionieri, verso i Denti. Se i PG vengono catturati, finiscono nel carro-gabbia; due ore dopo Tecla (o Bruno, se libero) apre il lucchetto con una chiave rubata alla forgia: Enrico li vuole sulla vetta.</p></div>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}

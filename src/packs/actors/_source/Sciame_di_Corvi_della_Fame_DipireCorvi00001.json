@@ -1,0 +1,461 @@
+{
+  "_id": "DipireCorvi00001",
+  "name": "Sciame di Corvi della Fame",
+  "type": "npc",
+  "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0
+      },
+      "con": {
+        "value": 8,
+        "proficient": 0
+      },
+      "int": {
+        "value": 3,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 6,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 24,
+        "max": 24,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "7d8 - 7"
+      },
+      "movement": {
+        "walk": 3,
+        "units": "m",
+        "burrow": 0,
+        "climb": 0,
+        "fly": 15,
+        "swim": 0,
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "m",
+        "special": ""
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Fauna corrotta dei Denti.</strong> Corvi magri con il becco sporco di brina, che hanno mangiato carne toccata dalla Fame Bianca. Nidificano dentro le pecore gelate dell’alpeggio (journal 03) e si alzano dalla neve durante il rito se l’orologio della Fame è a 2 o più (journal 04). Gracchiano con le voci dei morti.</p>\n<p>Fuggono se scendono sotto metà PF, o davanti al @UUID[Compendium.historia-dipire.items.Item.DipireItTeschio1]{Teschio di Cerere} alzato (Intimidire CD 12). Il fuoco li tiene lontani.</p>\n<p><strong>Sfida 1/4 (50 PE).</strong> Aggiunta della versione 2.0. Scheda riassunta: @UUID[Compendium.historia-dipire.journal.JournalEntry.DipirePNG0000001.JournalEntryPage.DpPngCorvi000000]{Sciame di Corvi della Fame}.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
+      "cr": 0.25,
+      "spellLevel": 0,
+      "source": {
+        "custom": "",
+        "book": "DiPire",
+        "page": "",
+        "license": "",
+        "rules": "2014"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "languages": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing",
+          "cold"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "prone",
+          "restrained",
+          "stunned"
+        ],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0
+      },
+      "ani": {
+        "value": 0
+      },
+      "arc": {
+        "value": 0
+      },
+      "ath": {
+        "value": 0
+      },
+      "dec": {
+        "value": 0
+      },
+      "his": {
+        "value": 0
+      },
+      "ins": {
+        "value": 0
+      },
+      "itm": {
+        "value": 0
+      },
+      "inv": {
+        "value": 0
+      },
+      "med": {
+        "value": 0
+      },
+      "nat": {
+        "value": 0
+      },
+      "prc": {
+        "value": 2
+      },
+      "prf": {
+        "value": 0
+      },
+      "per": {
+        "value": 0
+      },
+      "rel": {
+        "value": 0
+      },
+      "slt": {
+        "value": 0
+      },
+      "ste": {
+        "value": 0
+      },
+      "sur": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "",
+      "book": "DiPire",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Sciame di Corvi della Fame",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+      "tint": "#ffffff",
+      "scaleX": 1,
+      "scaleY": 1,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic"
+    },
+    "flags": {},
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "DpIt005100000000",
+      "name": "Sciame",
+      "type": "feat",
+      "img": "icons/creatures/birds/birds-flock-fly-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Lo sciame può occupare lo spazio di un’altra creatura e viceversa, e può muoversi in qualsiasi apertura abbastanza grande per un corvo Minuscolo. Non può recuperare punti ferita né ottenere punti ferita temporanei.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt005200000000",
+      "name": "Voci dei morti",
+      "type": "feat",
+      "img": "icons/creatures/birds/corvid-call-sound-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>Lo sciame imita le voci di chi ha sentito parlare, anche di chi è morto. Una creatura che lo ascolta capisce che è un’imitazione con una prova di Saggezza (Intuizione) CD 12.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [
+          "trait"
+        ],
+        "requirements": "",
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    },
+    {
+      "_id": "DpIt005000000000",
+      "name": "Becchi gelati",
+      "type": "weapon",
+      "img": "icons/commodities/bones/beak-grey-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Un bersaglio nello spazio dello sciame. 2d6 perforanti più 1d4 da freddo; <strong>1d6</strong> perforanti più 1d4 da freddo se lo sciame ha metà PF o meno (tirate il dado ridotto a mano).</p><p><em>dnd5e aggiunge il modificatore di Destrezza (+2) ai danni perforanti.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "DiPire",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "quantity": 1,
+        "equipped": true,
+        "identified": true,
+        "proficient": null,
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "properties": [
+          "fin"
+        ],
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "m",
+          "reach": 1.5
+        },
+        "activities": {
+          "DpAc005000000000": {
+            "_id": "DpAc005000000000",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "m"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "sort": 0,
+            "img": "",
+            "flags": {}
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": "DipireFoldActor1",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6",
+    "createdTime": 1794000000000,
+    "modifiedTime": 1794000000000,
+    "lastModifiedBy": null
+  }
+}
