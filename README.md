@@ -21,7 +21,12 @@ Dalla versione 2.0 l’avventura è divisa in cinque journal (00-04: introduzion
 | **Di Pire - Tabelle** | Dicerie alla Locanda di Brunascio (1d6, metà vere e metà false) ed Effetti Ambientali Orrifici sulla Montagna (1d6). |
 | **Di Pire - Automazioni** | Macro **Strumenti del GM**: indagine alla pira, resistenza alla milizia, tappe della salita con indebolimento, Scala dei Corvi, Canto della Catena, orologio della Fame Bianca, tabelle, registrazione del finale. |
 
-Le scene non hanno un’immagine di sfondo: caricate la vostra mappa e spostate luci e note. I suoni d’ambiente non sono inclusi (Foundry non ne fornisce): il journal 05 dice dove metterli.
+Dalla 2.1 le scene hanno una mappa disegnata per l’avventura, con muri e porte già tracciati. I suoni d’ambiente e le regioni di terreno difficile non sono inclusi: il journal 05 dice dove metterli, e nell’ultima pagina elenca mappe gratuite di terzi per chi preferisce mappe dipinte a mano.
+
+## Crediti delle immagini
+
+- **Mappe** (`img/maps/`): generate con [tools/maps](tools/maps/README.md) a partire da texture CC0 di [Poly Haven](https://polyhaven.com) ([licenza](https://polyhaven.com/license)).
+- **Illustrazioni dei journal** (`img/scenery/`): dipinti in pubblico dominio da Wikimedia Commons: Caspar David Friedrich, [*Paesaggio invernale con chiesa*](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Winterlandschaft_mit_Kirche_(Dortmund).jpg), [*Il Watzmann*](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_The_Watzmann_(1824-25).jpg), [*Tomba megalitica nella neve*](https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Cairn_in_Snow_-_Google_Art_Project.jpg); Giovanni Segantini, [*Ritorno al paese natio*](https://commons.wikimedia.org/wiki/File:Giovanni_Segantini_-_Ruckkehr_zur_Heimat_(Returning_Home)_-_1895.jpg); Francisco Goya, [*Scena d’Inquisizione*](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya_-_Escena_de_Inquisici%C3%B3n_-_Google_Art_Project.jpg).
 
 La macro chiede conferma prima di modificare PF o indebolimento e registra la reputazione con la Chiesa delle Ossa come indicatore narrativo, senza convertirla in Fama o assegnare valuta.
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0
+
+- Mappe per le tre scene (`img/maps/`, 24 × 16 quadretti): Piazza della Pira, Accampamento dell’Inquisizione, Vetta del Rituale. Disegnate per il modulo con texture CC0 di Poly Haven; il generatore è in `tools/maps/`.
+- Muri e porte già tracciati in tutte le scene: case con porte chiuse a chiave, palizzata con cancello e breccia segreta, tende a vista limitata, sbarre del carro-gabbia, pietre ritte, bordo del dirupo, speroni della cengia. Miniature delle scene.
+- Corretto lo sfasamento fra sfondo e oggetti delle scene: il `padding` è ora 0, così luci, note e token cadono dove indicato dal journal 05. Spostati il carro-gabbia (accanto al cancello), la finestra di Iginius e i due cultisti del furto notturno (sulla mulattiera).
+- Illustrazioni in pubblico dominio (Friedrich, Segantini, Goya, da Wikimedia Commons) all’inizio dei journal 00-04.
+- Journal 05 aggiornato, con la nuova pagina *Mappe alternative e crediti*: crediti e link a mappe di terzi scaricabili gratis per uso personale.
+
 ## 2.0.0
 
 Riscrittura dell’avventura secondo la nuova struttura in cinque journal. **Non compatibile** con i documenti importati dalla 1.x: reimportate l’Adventure in un mondo pulito.

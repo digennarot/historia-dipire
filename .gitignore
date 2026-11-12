@@ -14,3 +14,7 @@ zip-output/
 .vscode/
 Thumbs.db
 *.log
+
+# Cache delle texture di Poly Haven per tools/maps
+tools/maps/.cache/
+__pycache__/
