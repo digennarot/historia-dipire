@@ -44,7 +44,7 @@ Scarica `historia-dipire.zip` dall'ultima release ed estrailo in `Data/modules/h
 ## Build e sviluppo
 
 ```bash
-npm install
+npm install         # richiede Node.js 26 (vedi .nvmrc)
 npm run validate   # controlli statici su id, link @UUID, enricher, scene (vedi opzioni in scripts/validate.mjs)
 npm run build      # compila i pack in historia-dipire/
 ```
