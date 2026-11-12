@@ -1,6 +1,10 @@
 # Di Pire, Artigli e Zanne - Modulo per Foundry VTT
 
-Avventura in cinque atti per **Historia** (sistema D&D 5e, regole 2014), convertita in un modulo d'avventura per Foundry VTT. Il testo originale è in [dipire.md](dipire.md).
+One shot a tema **folk horror**, perfetta per la serata di Halloween, ambientata nell’oscura cornice rinascimentale di **Historia** (sistema D&D 5e, regole 2014).
+
+> I vostri personaggi giungeranno nel nebbioso e isolato villaggio montano di Brunascio, un luogo soffocato dal terrore dell’Inquisizione. Al centro della piazza svetta ancora il palo di una pira con il teschio bruciacchiato della vecchia erborista Cerere, arsa viva per eresia. Mentre la spietata inquisitrice Arianna “La Cercatora” stringe la sua morsa sul paese, tra i picchi innevati si vocifera che il nobile lupo Enrico De Fredier stia radunando i suoi fedeli per un oscuro e solenne rituale di mezzanotte. Il sovrintendente del villaggio vi ingaggerà per scoprire la verità e impedire che la situazione degeneri in un massacro.
+
+L’avventura è in cinque atti, convertita in un modulo per Foundry VTT. Il testo originale è in [dipire.md](dipire.md).
 
 - **Foundry VTT** 14 o superiore (verificato su 14.369)
 - **Sistema** dnd5e 6.0.6 o superiore (verificato su 6.0.6); contenuti per le regole 2014

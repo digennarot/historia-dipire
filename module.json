@@ -2,8 +2,8 @@
   "type": "module",
   "id": "historia-dipire",
   "title": "Di Pire, Artigli e Zanne",
-  "description": "Avventura in cinque atti per Historia (D&D 5e 2014): un rogo a Brunascio, l'inquisitrice Arianna la Cercatora e il branco di Enrico De Fredier. Include compendi per avventura, PNG, journal e strumenti GM. Richiede Historia (Italiano).",
-  "version": "1.1.0",
+  "description": "One shot folk horror per Historia (D&D 5e 2014), perfetta per Halloween. Nel nebbioso villaggio montano di Brunascio, soffocato dall’Inquisizione, il palo della pira di Cerere svetta ancora sulla piazza, l’inquisitrice Arianna “La Cercatora” stringe la sua morsa e il nobile lupo Enrico De Fredier raduna i suoi fedeli per un rituale di mezzanotte. Richiede Historia (Italiano).",
+  "version": "1.1.1",
   "authors": [
     {
       "name": "Tiziano Di Gennaro"

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+- Nuova presentazione dell’avventura (one shot folk horror per Halloween) nel documento Avventura, nel manifesto e nel README.
+
 ## 1.1.0
 
 - Compatibilità dichiarata con Foundry VTT 14 e dnd5e 6.0.6; regole D&D 5e 2014.
